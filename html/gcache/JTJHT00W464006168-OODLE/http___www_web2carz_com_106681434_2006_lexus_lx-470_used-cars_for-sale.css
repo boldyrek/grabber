@@ -1,0 +1,1688 @@
+
+
+<!doctype html>
+<html>
+<head>
+<title>Used Lexus LX 470 2006 Bryan, TX | JTJHT00W464006168</title>
+<meta charset="utf-8">
+<meta content="Used Lexus LX 470 2006 For Sale | JTJHT00W464006168" name="description">
+<meta name="robots" content="noindex, follow">
+<meta name="author" content="">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="/images/rd/favicon.ico"   type="image/x-icon"/>
+<link rel="canonical" href="http://www.web2carz.com/106681434/2006/lexus/lx-470/used-cars/for-sale" />
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/style.css">
+<link rel="stylesheet" href="/common/css/used_cars.css">
+<link rel="stylesheet" href="/common/css/colorbox.css">
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="/common/css/ie.css">
+<![endif]-->
+<script src="/common/js/rd/libs/modernizr-2.0.6.min.js"></script>
+<script type="text/javascript" src="/common/mm_used.js"></script>
+<script type="text/javascript" src="/common/utils.js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDFfSIyGq0dnKr9P0-KQ5kUh-lgb5wDJmc&sensor=false"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<script type="text/javascript">
+    function loadMap() {
+        var latitude = '30.667036';
+        var longitude = '-96.331209';
+        var addressDisplay = '<div style=\"font-size:13px;color: #000000\">Atkinson Toyota - Bryan<br>728 N. Earl Rudder Freeway<br>Bryan, TX 77802</div>';
+
+        var point  = new google.maps.LatLng(latitude, longitude);
+
+        var map = new google.maps.Map(
+            document.getElementById('map'), {
+            center: point,
+            zoom: 13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+                position: google.maps.ControlPosition.RIGHT_BOTTOM
+            }
+        });
+        var marker = new google.maps.Marker({
+            position: point,
+            map: map,
+            icon: '/images/car_google.gif'
+        });
+
+        /*
+        var infoWindow = new google.maps.InfoWindow({
+            content: addressDisplay
+        });
+        infoWindow.open(map, marker);
+        */
+    }
+    google.maps.event.addDomListener(window, 'load', loadMap);
+</script>
+
+<script language="javascript">
+    
+		var sajax_debug_mode = false;
+		var sajax_request_type = "GET";
+
+		function sajax_debug(text) {
+			if (sajax_debug_mode)
+				alert("RSD: " + text)
+		}
+ 		function sajax_init_object() {
+ 			sajax_debug("sajax_init_object() called..")
+
+ 			var A;
+			try {
+				A=new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e) {
+				try {
+					A=new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (oc) {
+					A=null;
+				}
+			}
+			if(!A && typeof XMLHttpRequest != "undefined")
+				A = new XMLHttpRequest();
+			if (!A)
+				sajax_debug("Could not create connection object.");
+			return A;
+		}
+		function sajax_do_call(func_name, args) {
+			var i, x, n;
+			var uri;
+			var post_data;
+
+			uri = "";
+			if (sajax_request_type == "GET") {
+				if (uri.indexOf("?") == -1)
+					uri = uri + "?rs=" + escape(func_name);
+				else
+					uri = uri + "&rs=" + escape(func_name);
+				for (i = 0; i < args.length-1; i++)
+					uri = uri + "&rsargs[]=" + escape(args[i]);
+				uri = uri + "&rsrnd=" + new Date().getTime();
+				post_data = null;
+			} else {
+				post_data = "rs=" + escape(func_name);
+				for (i = 0; i < args.length-1; i++)
+					post_data = post_data + "&rsargs[]=" + escape(args[i]);
+			}
+
+			x = sajax_init_object();
+			x.open(sajax_request_type, uri, true);
+			if (sajax_request_type == "POST") {
+				x.setRequestHeader("Method", "POST " + uri + " HTTP/1.1");
+				x.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+			}
+			x.onreadystatechange = function() {
+				if (x.readyState != 4)
+					return;
+				sajax_debug("received " + x.responseText);
+
+				var status;
+				var data;
+				status = x.responseText.charAt(0);
+				data = x.responseText.substring(2);
+				if (status == "-")
+					alert("Error: " + data);
+				else
+					args[args.length-1](data);
+			}
+			x.send(post_data);
+			sajax_debug(func_name + " uri = " + uri + "/post = " + post_data);
+			sajax_debug(func_name + " waiting..");
+			delete x;
+		}
+
+		
+		// wrapper for postInventoryLead
+		function x_postInventoryLead() {
+			sajax_do_call("postInventoryLead",
+				x_postInventoryLead.arguments);
+		}
+
+		
+		// wrapper for postInventoryLeadOthers
+		function x_postInventoryLeadOthers() {
+			sajax_do_call("postInventoryLeadOthers",
+				x_postInventoryLeadOthers.arguments);
+		}
+
+		
+		// wrapper for postInventoryLeadsAlternate
+		function x_postInventoryLeadsAlternate() {
+			sajax_do_call("postInventoryLeadsAlternate",
+				x_postInventoryLeadsAlternate.arguments);
+		}
+
+		
+		// wrapper for w2cTrackEvent
+		function x_w2cTrackEvent() {
+			sajax_do_call("w2cTrackEvent",
+				x_w2cTrackEvent.arguments);
+		}
+
+		
+    function showContactSeller() {
+        jQuery('#contactModal').overlay({
+            fixed: false,
+            load: true,
+            top: '15%',
+            mask: {
+                color: '#121212',
+                loadSpeed: 200,
+                opacity: 0.35
+            }
+        });
+    }
+
+    function showContactSellerAlternate() {
+        jQuery('#contactModalAlternate').overlay({
+            fixed: false,
+            load: true,
+            top: '15%',
+            mask: {
+                color: '#121212',
+                loadSpeed: 200,
+                opacity: 0.35
+            }
+        });
+    }
+
+    function inquirePrice() {
+       jQuery('#comments').val("What is the current price for this 2006 Lexus LX 470?").show();
+    }
+
+    function postInventoryLeadInline() {
+
+        var vehicleId = document.getElementById('vehicleId').value;
+        _gaq.push(['_trackEvent', 'Used-Form-Inline', 'Submit', vehicleId]);
+
+        document.getElementById('usedFirstName').value = document.getElementById('inlineFirstName').value;
+        document.getElementById('usedLastName').value = document.getElementById('inlineLastName').value;
+        document.getElementById('usedEmail').value = document.getElementById('inlineEmail').value;
+        document.getElementById('usedZip').value = document.getElementById('inlineZip').value;
+        document.getElementById('usedPhone1').value = document.getElementById('inlinePhone').value;
+        document.getElementById('comments').value = document.getElementById('inlineComments').value;
+        postInventoryLead();
+    }
+
+    var firstName = "";
+    var lastName = "";
+    var email = "";
+    var zip = "";
+    var phone1 = "";
+    function postInventoryLead() {
+        // js validation
+        firstName = document.getElementById('usedFirstName').value;
+        lastName = document.getElementById('usedLastName').value;
+        email = document.getElementById('usedEmail').value;
+        zip = document.getElementById('usedZip').value;
+        phone1 = document.getElementById('usedPhone1').value;
+        var comments = document.getElementById('comments').value;
+        var vehicleId = document.getElementById('vehicleId').value;
+        var offers = 0;
+        if (document.getElementById('usedOffers').checked) {
+            offers = 1;
+        }
+        var newCar = 0;
+        //if (document.getElementById('newCar').checked) {
+        //    newCar = 1;
+        //}
+
+        var problem = false;
+        var message = "";
+        if (Trim(firstName) == "" || Trim(firstName) == "First Name") {
+            problem = true;
+            message += "Missing First Name\n";
+        }
+        if (Trim(lastName) == "" || Trim(lastName) == "Last Name") {
+            problem = true;
+            message += "Missing Last Name\n";
+        }
+        if (Trim(zip) == "" || Trim(zip) == "Zip Code") {
+            problem = true;
+            message += "Missing Zip Code\n";
+        }
+        if (Trim(phone1) == "" || Trim(phone1) == "Phone Number") {
+            problem = true;
+            message += "Missing Phone Number\n";
+        }
+        if (Trim(email) == "" || Trim(email) == "My Email Address") {
+            problem = true;
+            message += "Missing Email Address\n";
+        }
+        if (problem) {
+            alert(message);
+            return;
+        }
+
+        // fire up "loading" image
+        var errors = document.getElementById('errors');
+        errors.innerHTML = "<img src=/images/loading_alt.gif>";
+        errors.style.display = 'block';
+
+        // submit
+        x_postInventoryLead(vehicleId, firstName, lastName, email, zip, phone1, comments, offers, newCar, responseHandler);
+    }
+    function responseHandler(encodedData) {
+        var status = eval(encodedData)[0];
+        if (status == "false") {
+            var error = eval(encodedData)[1];
+            var errors = document.getElementById('errors');
+            errors.innerHTML = error;
+            errors.style.display = 'block';
+        } else {
+            var leadUsedId = eval(encodedData)[1];
+            var upsellCars = eval(encodedData)[2];
+            var random = eval(encodedData)[3];
+
+            var sid = false;
+var cdcv = false;
+var searchResults = false;
+
+
+            if (upsellCars.length == 0) {
+                var ctUrl = "https://www.gofreecredit.com/r/5166e79b75/?subid=u-d1&fname=" + firstName + "&lname=" + lastName + "&email=" + email + "&zip=" + zip + "&phone1=" + phone1;
+                var confirmationMessage = "<span style='color:#000000;font-size:16px;'><br><br><h2>Thank you for submitting your request.</h2> The seller of this car will be in ";
+                confirmationMessage += "touch with you shortly to assist you with your car purchase decision and answer any of your questions.<p>";
+                confirmationMessage += "<a style='font-size:18px;color:#28ACE5;' title='Check Your Credit Score' href='" + ctUrl + "' target=_win2>";
+                confirmationMessage += "<img border=0 src=/images/ct_1.jpg alt='Get My Free Score'></a></span><br><br><br><br>";
+
+            } else if (cdcv && !sid) {
+                var viewMoreCarsLink = "/used/lexus/lx-470/bryan/tx";
+                if (searchResults) {
+                    var confirmationMessage = "<span style='color:#000000;font-size:16px;'><br><br><h2>Thank you for submitting your request.</h2> The seller of this car will be in ";
+                    confirmationMessage += "touch with you shortly to assist you with your car purchase decision and answer any of your questions.<p>";
+                    confirmationMessage += "<center><a title='Back To My Search Results' href='" + searchResultsLink + "'><img border=0 src=/images/rd/back_results.jpg></a>";
+                    confirmationMessage += "&nbsp;&nbsp;&nbsp;&nbsp;";
+                    confirmationMessage += "<a title='View More Cars' href='" + viewMoreCarsLink + "'><img border=0 src=/images/rd/view_more.jpg></a></center>";
+                    confirmationMessage += "</span><br><br><br><br>";
+                } else {
+                    var confirmationMessage = "<span style='color:#000000;font-size:16px;'><br><br><h2>Thank you for submitting your request.</h2> The seller of this car will be in ";
+                    confirmationMessage += "touch with you shortly to assist you with your car purchase decision and answer any of your questions.<p>";
+                    confirmationMessage += "<center><a title='View More Cars' href='" + viewMoreCarsLink + "'><img border=0 src=/images/rd/view_more.jpg></a></center>";
+                    confirmationMessage += "</span><br><br><br><br>";
+                }
+
+            } else {
+                var confirmationMessage = "<div class=\"postSubmit\">";
+                confirmationMessage += "<br />";
+                confirmationMessage += "<h2>Thank you for submitting your request.</h2>";
+                if (upsellCars.length == 1) {
+                    if (random == 0) {
+                        confirmationMessage += "<p>Our system has found a similar vehicle in your area that may be of interest to you.</p><p>Click the 'submit' button below to get more information on this vehicle.</p>";
+                    } else {
+                        confirmationMessage += "<p>Our system has found a similarly priced vehicle in your area that may be of interest to you.</p><p>Click the 'submit' button below to get more information on this vehicle.</p>";
+                    }
+                } else {
+                    if (random == 0) {
+                        confirmationMessage += "<p>Our system has found some similar vehicles in your area that may be of interest to you.</p><p> Click the 'submit' button below to get more information on these.</p>";
+                    } else {
+                        confirmationMessage += "<p>Our system has found some similarly priced vehicles in your area that may be of interest to you.</p><p>Click the 'submit' button below to get more information on these.</p>";
+                    }
+                }
+                confirmationMessage += "<img class=\"bbb\" src=\"/images/rd/bbb_alt.png\" />";
+                confirmationMessage += "<form>";
+                confirmationMessage += "<div class=\"row\">";
+                confirmationMessage += "<div class=\"span12\">";
+                confirmationMessage += "<ul>";
+
+                for (i=0; i<upsellCars.length; i++) {
+                    var displayText = upsellCars[i].makeName + " " + upsellCars[i].modelName;
+                    if (upsellCars[i].trimName != "") {
+                        displayText +=  " " + upsellCars[i].trimName;
+                    }
+                    var checkboxName = "contactSeller" + (i + 1);
+                    confirmationMessage += "<li>";
+
+                    if (sid) {
+                        confirmationMessage += "<input type=checkbox id=\"" + checkboxName + "\" name=\"" + checkboxName + "\" value=\"" + upsellCars[i].vehicleId + "\" checked>";
+                    } else {
+                        confirmationMessage += "<input type=checkbox id=\"" + checkboxName + "\" name=\"" + checkboxName + "\" value=\"" + upsellCars[i].vehicleId + "\">";
+                    }
+
+                    confirmationMessage += "<label>Contact Seller</label>";
+                    confirmationMessage += "<br />";
+                    if (upsellCars[i].thumbnailUrl != "") {
+                        confirmationMessage += "<img src=\"" + upsellCars[i].thumbnailUrl + "\" width=\"133\" height=\"100\">";
+                    } else {
+                        confirmationMessage += "<img src=\"/images/rd/no_car_photo_small.jpg\" width=\"133\" height=\"100\" />";
+                    }
+                    confirmationMessage += "<p>";
+                      confirmationMessage += "<b>" + upsellCars[i].year + "</b>";
+                      confirmationMessage += "<br />";
+                      confirmationMessage += displayText;
+                      confirmationMessage += "<br />";
+                      confirmationMessage += "<b>$" + upsellCars[i].price + "</b>";
+                      confirmationMessage += "<br />";
+                      confirmationMessage += "<b>" + upsellCars[i].miles + " miles</b>";
+                    confirmationMessage += "</p>";
+                    confirmationMessage += "</li>";
+                }
+                confirmationMessage += "</ul>";
+                confirmationMessage += "</div>";
+                confirmationMessage += "</div>";
+                confirmationMessage += "<button class=\"submit\" onclick=\"postInventoryLeadOthers();return false;\">Submit</button>";
+                confirmationMessage += "<input type=hidden name=\"leadId\" id=\"leadId\" value=\"" + leadUsedId + "\">";
+                confirmationMessage += "</form>";
+                confirmationMessage += "<br />";
+                confirmationMessage += "</div>";
+            }
+            document.getElementById('contactSellerThanks').innerHTML = confirmationMessage;
+            trackConversion(leadUsedId);
+        }
+    }
+
+    function trackConversion(leadUsedId) {
+        var iframe = document.createElement('iframe');
+        iframe.style.width = '0px';
+        iframe.style.height = '0px';
+        document.body.appendChild(iframe);
+        iframe.src = 'http://www.web2carz.com/used/conversion_tracking.php?vehicleId=106681434' + '&leadUsedId=' + leadUsedId;
+    }
+
+    function postInventoryLeadOthers() {
+        var vehicleId1 = 0;
+        var vehicleId2 = 0;
+        var vehicleId3 = 0;
+        var vehicleId4 = 0;
+
+        if (document.getElementById('contactSeller1') && document.getElementById('contactSeller1').checked) {
+            vehicleId1 = document.getElementById('contactSeller1').value;
+        }
+        if (document.getElementById('contactSeller2') && document.getElementById('contactSeller2').checked) {
+            vehicleId2 = document.getElementById('contactSeller2').value;
+        }
+        if (document.getElementById('contactSeller3') && document.getElementById('contactSeller3').checked) {
+            vehicleId3 = document.getElementById('contactSeller3').value;
+        }
+        if (document.getElementById('contactSeller4') && document.getElementById('contactSeller4').checked) {
+            vehicleId4 = document.getElementById('contactSeller4').value;
+        }
+
+        if (vehicleId1 == 0 && vehicleId2 == 0 && vehicleId3 == 0 && vehicleId4 == 0) {
+            alert("Please select one or more vehicles");
+            return;
+        }
+
+        var leadId = document.getElementById('leadId').value;
+
+        // submit
+        x_postInventoryLeadOthers(leadId, vehicleId1, vehicleId2, vehicleId3, vehicleId4,  responseHandler2);
+    }
+
+    function responseHandler2(encodedData) {
+        var ctUrl = "https://www.gofreecredit.com/r/5166e79b75/?subid=u-d2&fname=" + firstName + "&lname=" + lastName + "&email=" + email + "&zip=" + zip + "&phone1=" + phone1;
+        var confirmationMessage = "<span style='color:#000000;font-size:16px;'><br><br><h1>Thank you for submitting your request.</h1>";
+        confirmationMessage += "<p>";
+        confirmationMessage += "<a style='font-size:18px;color:#28ACE5;' title='Check Your Credit Score' href='" + ctUrl + "' target=_win2>";
+        confirmationMessage += "<img border=0 src=/images/ct_1.jpg alt='Get My Free Score'></a></span><br><br><br><br>";
+        document.getElementById('contactSellerThanks').innerHTML = confirmationMessage;
+    }
+
+    function postInventoryLeadsAlternate() {
+        // js validation
+        firstName = document.getElementById('alternateFirstName').value;
+        lastName = document.getElementById('alternateLastName').value;
+        email = document.getElementById('alternateEmail').value;
+        zip = document.getElementById('alternateZip').value;
+        phone1 = document.getElementById('alternatePhone1').value;
+        var vehicleId1 = 0;
+        var vehicleId2 = 0;
+        var vehicleId3 = 0;
+        var vehicleId4 = 0;
+
+        if (document.getElementById('checkboxId-1') && document.getElementById('checkboxId-1').checked) {
+            vehicleId1 = document.getElementById('checkboxId-1').value;
+        }
+        if (document.getElementById('checkboxId-2') && document.getElementById('checkboxId-2').checked) {
+            vehicleId2 = document.getElementById('checkboxId-2').value;
+        }
+        if (document.getElementById('checkboxId-3') && document.getElementById('checkboxId-3').checked) {
+            vehicleId3 = document.getElementById('checkboxId-3').value;
+        }
+        if (document.getElementById('checkboxId-4') && document.getElementById('checkboxId-4').checked) {
+            vehicleId4 = document.getElementById('checkboxId-4').value;
+        }
+
+        var problem = false;
+        var message = "";
+        if (Trim(firstName) == "" || Trim(firstName) == "First Name") {
+            problem = true;
+            message += "Missing First Name\n";
+        }
+        if (Trim(lastName) == "" || Trim(lastName) == "Last Name") {
+            problem = true;
+            message += "Missing Last Name\n";
+        }
+        if (Trim(zip) == "" || Trim(zip) == "Zip Code") {
+            problem = true;
+            message += "Missing Zip Code\n";
+        }
+        if (Trim(phone1) == "" || Trim(phone1) == "Phone Number") {
+            problem = true;
+            message += "Missing Phone Number\n";
+        }
+        if (Trim(email) == "" || Trim(email) == "My Email Address") {
+            problem = true;
+            message += "Missing Email Address\n";
+        }
+
+        if (vehicleId1 == 0 && vehicleId2 == 0 && vehicleId3 == 0 && vehicleId4 == 0) {
+            problem = true;
+            message += "Please select one or more vehicles\n";
+        }
+
+        if (problem) {
+            alert(message);
+            return;
+        }
+
+        // fire up "loading" image
+        var errors = document.getElementById('errorsAlternate');
+        errors.innerHTML = "<center><img src=/images/loading_alt.gif></center>";
+        errors.style.display = 'block';
+
+        // submit
+        x_postInventoryLeadsAlternate(vehicleId1, vehicleId2, vehicleId3, vehicleId4, firstName, lastName, email, zip, phone1, responseHandler4);
+    }
+
+    function responseHandler4(encodedData) {
+        var status = eval(encodedData)[0];
+        if (status == "false") {
+            var error = eval(encodedData)[1];
+            var errors = document.getElementById('errorsAlternate');
+            errors.innerHTML = error;
+            errors.style.display = 'block';
+        } else {
+            var ctUrl = "https://www.gofreecredit.com/r/5166e79b75/?subid=u-d2&fname=" + firstName + "&lname=" + lastName + "&email=" + email + "&zip=" + zip + "&phone1=" + phone1;
+            var confirmationMessage = "<span style='color:#000000;font-size:16px;'><br><br><h1>Thank you for submitting your request.</h1>";
+            confirmationMessage += "<p>";
+            confirmationMessage += "<a style='font-size:18px;color:#28ACE5;' title='Check Your Credit Score' href='" + ctUrl + "' target=_win2>";
+            confirmationMessage += "<img border=0 src=/images/ct_1.jpg alt='Get My Free Score'></a></span><br><br><br><br>";
+            document.getElementById('contactSellerThanksAlternate').innerHTML = confirmationMessage;
+        }
+    }
+
+    function w2cTrackEvent(action) {
+        x_w2cTrackEvent('VDP',
+                        action,
+                        '9',
+                        '106681434',
+                        '114294',
+                        responseHandler3);
+    }
+    function responseHandler3(encodedData) {}
+
+</script>
+
+</head>
+<body id="used_detail">
+
+
+<!-- ##### ALT MENU ##### -->
+<ul class="altMenu">
+  <img class="icon" src="/images/rd/altMenu_icon.png" />
+    <li><a title="Get a Free Price Quote" href="http://www.web2carz.com/new-car-prices" class="first">New Cars</a></li>
+<li><a title="Choose From Over 2 Million Listings Nationwide" href="http://www.web2carz.com/used-cars">Used Cars</a></li>
+<li><a title="Get an Auto Loan" href="http://www.web2carz.com/car-loans">Car Loans</a></li>
+<li><a title="List Your Car on Web2Carz.com for Free" href="http://www.web2carz.com/sell-my-car">Sell My Car</a></li>
+<li><a title="Browse Thousands of Expert Car Reviews" href="http://www.web2carz.com/car-reviews">Car Reviews</a></li>
+<li><a title="Compare Free Car Insurance Quotes" href="http://www.web2carz.com/auto-insurance">Car Insurance</a></li>
+<li><a title="Free Auto Warranty Quote" href="http://www.web2carz.com/auto-warranty">Car Warranty</a></li>
+<li><a title="View Used Car Photos" href="http://www.web2carz.com/photo-lot">Photo-Lot</a></li>
+<li><a title="Find & Watch Car Videos" href="http://www.web2carz.com/car-videos" class="last">Car Videos</a></li>
+
+</ul>
+<!-- ##### ALT MENU ##### -->
+
+
+            
+          
+<div id="container" itemscope itemtype="http://schema.org/Product">
+<div class="waveTop"></div>
+
+<script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+
+<script type='text/javascript'>
+
+googletag.cmd.push(function() {
+
+
+googletag.defineSlot('/1052698/V2_Used_Car_Shopping_728x90', [728, 90], 'V2_Used_Car_Shopping_728x90').addService(googletag.pubads());
+googletag.defineSlot('/1052698/V2_Used_Car_Shopping_300x250', [300, 250], 'V2_Used_Car_Shopping_300x250').addService(googletag.pubads());
+googletag.defineSlot('/1052698/V2_Used_Car_Shopping_Bottom_300x250', [300, 250], 'V2_Used_Car_Shopping_Bottom_300x250').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+
+
+<!--=============================
+	Header
+=================================-->
+<header>
+    <div class="row">
+        <ul id="headNav">
+            <li class="first"><img src="/images/rd/header_icon.png" /></li>
+            <li class="first"><a title="Home" href="http://www.web2carz.com/">Home</a></li>
+<li><a title="Get a Free Price Quote" href="http://www.web2carz.com/new-car-prices">New Cars</a></li>
+<li><a title="Choose From Over 2 Million Listings Nationwide" href="http://www.web2carz.com/used-cars">Used Cars</a></li>
+<li><a title="Get an Auto Loan" href="http://www.web2carz.com/car-loans">Car Loans</a></li>
+<li><a title="List Your Car on Web2Carz.com for Free" href="http://www.web2carz.com/sell-my-car">Sell My Car</a></li>
+<li><a title="Browse Thousands of Expert Car Reviews" href="http://www.web2carz.com/car-reviews">Car Reviews</a></li>
+<li><a title="Compare Free Car Insurance Quotes" href="http://www.web2carz.com/auto-insurance">Car Insurance</a></li>
+<li><a title="Free Auto Warranty Quote" href="http://www.web2carz.com/auto-warranty">Car Warranty</a></li>
+<li><a title="View Used Car Photos" href="http://www.web2carz.com/photo-lot">Photo-Lot</a></li>
+<li><a title="Find & Watch Car Videos" href="http://www.web2carz.com/car-videos">Car Videos</a></li>
+          
+        </ul>
+    </div>
+</header>
+
+<!--=============================
+	/Header
+=================================-->
+<!-- Web2Caz Logo + Ad -->
+    <div id="headWrap">
+    	<a href="http://www.web2carz.com/"><img class="logo" src="/images/rd/article/logo.png" /></a>
+        <div class="banner">
+            
+<div id='V2_Used_Car_Shopping_728x90'>
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('V2_Used_Car_Shopping_728x90'); });
+</script>
+</div>
+
+
+                
+
+        </div>
+    </div>
+
+<!--=============================
+	Stage
+=================================-->
+
+<!-- Begin Nav Area -->
+<div class="row">
+    <section id="stageNav">
+    	<nav>
+        	<ul id="mainNav">
+                <li><a href=http://www.web2carz.com/autos class=autos></a></li><li><a href=http://www.web2carz.com/lifestyle class=lifestyles></a><ul class=mainDrop><li><a href=http://www.web2carz.com/lifestyle/music>Music</a></li><li><a href=http://www.web2carz.com/lifestyle/food>Food</a></li><li><a href=http://www.web2carz.com/lifestyle/travel>Travel</a></li><li><a href=http://www.web2carz.com/lifestyle/shopping>Shopping</a></li><li><a href=http://www.web2carz.com/lifestyle/everything-else>Everything Else</a></li></ul></li><li><a href=http://www.web2carz.com/people class=people></a><ul class=mainDrop><li><a href=http://www.web2carz.com/people/who-you-know>Who You Know</a></li><li><a href=http://www.web2carz.com/people/who-you-should-know>Who You Should Know</a></li><li><a href=http://www.web2carz.com/people/everyone-else>Everyone Else</a></li></ul></li><li><a href=http://www.web2carz.com/tech class=tech></a><ul class=mainDrop><li><a href=http://www.web2carz.com/tech/business>Business</a></li><li><a href=http://www.web2carz.com/tech/pleasure>Pleasure</a></li><li><a href=http://www.web2carz.com/tech/everything-else>Everything Else</a></li></ul></li><li><a href=http://www.web2carz.com/trends class=trends></a><ul class=mainDrop><li><a href=http://www.web2carz.com/trends/online>Online</a></li><li><a href=http://www.web2carz.com/trends/offline>Offline</a></li><li><a href=http://www.web2carz.com/trends/everything-else>Everything Else</a></li></ul></li>
+            </ul>
+            <form method="get" action="http://www.web2carz.com/site_search.php" id="cse-search-box">
+                <input type="hidden" name="cx" value="partner-pub-7000698801807856:2954703055" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="hidden" name="cof" value="FORID:10" />
+                <input name="q" type="text" size="40" />
+            </form>
+            <script type="text/javascript" src="/common/js/google_search.js"></script>
+            <!--<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>-->
+
+        </nav><!-- /Main Nav -->
+    </section><!-- /stageNav -->
+</div><!-- /row -->
+
+<div class="row">
+	<div class="headline">
+        <h1>Used <span itemprop="name">2006 <span itemprop="brand" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Lexus</span></span> <span itemprop="model">LX 470</span> Base</span><img src="/images/rd/divider_v_46px.png" />Bryan, TX</h1>
+    </div>
+</div><!-- .row -->
+
+
+
+<div class="row">
+	<section id="content">
+        <div class="bgFix">
+        </div><!-- .bgFix -->
+
+
+    	<!-- Left Column -->
+        <div class="leftCol">
+
+            
+          <div class="carDetail">
+
+            <div class="sticker">
+<span>
+<a class="contactSeller nofollow-href" rel="#contactModal" onclick="inquirePrice();" title="Get Latest Price Reductions">
+<span itemprop="offers" itemscope itemtype="http//schema.org/Offers">
+<span itemprop="price">$26,888</span>
+</span>
+</a>
+</span>
+<p><a class="contactSeller nofollow-href" rel="#contactModal" onclick="inquirePrice();" title="Get Latest Price Reductions" ><span>Click here</span> to inquire about latest price reductions</a></p>
+</div>
+
+            <ul class="paginate">
+                        </ul>
+            <div class="inner">
+              <div class="row">
+                <div class="span4">
+                  <div class="youSave">
+<p>
+Web2Carz<br />
+National Average<br />
+<b>$27,617</b>
+</p>
+<a rel="#contactModal" title="More Details" class="saved nofollow-href">
+You Save At Least <b>$729</b>
+</a>
+</div>
+                  <div class="details">
+                    <ul>
+                        <li class="bg">
+<h3>Color Ext:</h3><p>crystal white</p>
+</li>
+<li class="">
+<h3>Mileage:</h3><p>119,670</p>
+</li>
+<li class="bg">
+<h3>VIN:</h3><p itemprop="productID"><a title="Free CARFAX Record Check" target=_win2 href=http://www.carfax.com/cfm/check_order.cfm?partner=WCZ_2&VIN=JTJHT00W464006168>JTJHT00W464006168</a></p>
+</li>
+<li class="">
+<h3>Stock #:</h3><p>132051a</p>
+</li>
+<li class="bg">
+<h3>Transmission:</h3><p>automatic</p>
+</li>
+<li class="">
+<h3>Body:</h3><p>suv 4x4</p>
+</li>
+<li class="bg">
+<h3>Engine:</h3><p>4.7 8 cyl.</p>
+</li>
+<li class="">
+<h3>Fuel:</h3><p>gasoline</p>
+</li>
+<li class="bg">
+<h3>Doors:</h3><p>4</p>
+</li>
+                    </ul>
+
+                    <a id="showOptions" class="showOptions nofollow-href" onClick="return false" title="">Show Vehicle Options
+<div class="tooltip">
+<span class="close">X</span>
+<div class="options">
+<ul>
+<li>power door locks</li>
+<li>power windows</li>
+<li>power drivers seat</li>
+<li>power passenger seat</li>
+<li>steering wheel audio controls</li>
+<li>navigation system</li>
+<li>entertainment package</li>
+<li>backup sensors</li>
+<li>back up camera</li>
+<li>tachometer</li>
+<li>air conditioning</li>
+<li>tilt steering wheel</li>
+<li>cruise control</li>
+<li>dual climate control</li>
+<li>compact disc player</li>
+<li>front bucket seats</li>
+<li>reclining seats</li>
+<li>leather upholstery</li>
+<li>power sunroof</li>
+<li>telescoping steering wheel</li>
+</ul>
+</div>
+</div>
+</a>
+                  </div><!-- .details -->
+                </div><!-- .span4 -->
+                <div class="span8">
+                  <div class="carPhoto">
+                    <img src=http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8xYy9KVEpIVDAwVzQ2NDAwNjE2OC0xYy5qcGc width=340 height=217 alt="2006 Lexus LX 470 Base Master Photo">                  </div><!-- .carPhoto -->
+                  <div class="carPhotoWell">
+                    <div class="row">
+                      <ul>
+                        <li><a class="group1" href="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8xYy9KVEpIVDAwVzQ2NDAwNjE2OC0xYy5qcGc"><img src="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8xYy9KVEpIVDAwVzQ2NDAwNjE2OC0xYy5qcGc" width=80 height=60 /></a></li><li><a class="group1" href="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8yYy9KVEpIVDAwVzQ2NDAwNjE2OC0yYy5qcGc"><img src="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8yYy9KVEpIVDAwVzQ2NDAwNjE2OC0yYy5qcGc" width=80 height=60 /></a></li><li><a class="group1" href="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8zYy9KVEpIVDAwVzQ2NDAwNjE2OC0zYy5qcGc"><img src="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8zYy9KVEpIVDAwVzQ2NDAwNjE2OC0zYy5qcGc" width=80 height=60 /></a></li><li><a class="group1" href="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS80Yy9KVEpIVDAwVzQ2NDAwNjE2OC00Yy5qcGc"><img src="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS80Yy9KVEpIVDAwVzQ2NDAwNjE2OC00Yy5qcGc" width=80 height=60 /></a></li><li><a class="group1" href="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS81Yy9KVEpIVDAwVzQ2NDAwNjE2OC01Yy5qcGc"><img src="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS81Yy9KVEpIVDAwVzQ2NDAwNjE2OC01Yy5qcGc" width=80 height=60 /></a></li><li><a class="group1" href="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS82Yy9KVEpIVDAwVzQ2NDAwNjE2OC02Yy5qcGc"><img src="http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS82Yy9KVEpIVDAwVzQ2NDAwNjE2OC02Yy5qcGc" width=80 height=60 /></a></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li><li><img src="/images/rd/no_car_photo_small.jpg" width=80 height=60 /></li>                      </ul>
+                    </div>
+                  </div><!-- .carPhotoWell -->
+                </div><!-- .span8 -->
+              </div><!-- .row -->
+              <div class="row">
+
+
+                                <div class="social">
+                    <a style="position:relative; top:-8px;" title="Email Vehicle Details" href="mailto:?subject=2006 Lexus LX 470 Base&body=Hi, I found this car on Web2Carz.com and thought you might like it: http%3A%2F%2Fwww.web2carz.com%2F106681434%2F2006%2Flexus%2Flx-470%2Fused-cars%2Ffor-sale"><img src="/images/rd/icon_email.png"/></a>
+                    &nbsp;&nbsp;
+                    <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.web2carz.com/106681434/2006/lexus/lx-470/used-cars/for-sale&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+                    <!--<div style="display:inline-block;position:relative;top:-8px;right:7px;">-->
+                        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.web2carz.com%2F106681434%2F2006%2Flexus%2Flx-470%2Fused-cars%2Ffor-sale&media=http%3A%2F%2Feimg.web2carz.com%2Feimg.php%3Fei%3DaHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8xYy9KVEpIVDAwVzQ2NDAwNjE2OC0xYy5qcGc&description=2006+Lexus+LX+470+Base" class="pin-it-button"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a><script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+                    <!--</div>-->
+                    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-text="2006 Lexus LX 470 Base" data-url="http://www.web2carz.com/106681434/2006/lexus/lx-470/used-cars/for-sale" data-counturl="http://www.web2carz.com/106681434/2006/lexus/lx-470/used-cars/for-sale">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                    <span style="position:relative; top:-3px;">
+                        <g:plusone size="small"></g:plusone>
+                    </span>
+                    <a style="position:relative; top:-8px;" target="_win2" href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.web2carz.com%2F106681434%2F2006%2Flexus%2Flx-470%2Fused-cars%2Ffor-sale&title=2006+Lexus+LX+470+Base"><img src="http://www.reddit.com/static/spreddit6.gif" alt="submit to reddit" border="0"/></a>
+                </div>
+
+                
+                <a class="contactSeller nofollow-href" rel="#contactModal" title="Contact Seller"></a>
+                <div class="moreInfo">
+                  <span>Get More Information</span>
+                  <ul>
+                    <li><a class="toggle nofollow-href" rel="#contactModal" title="Get trade-in information">Get trade-in information</a></li>
+                    <li><a class="toggle nofollow-href" rel="#contactModal" title="Inquire about financing">Inquire about financing</a></li>
+                    <li><a class="toggle nofollow-href" rel="#contactModal" title="Ask questions about this car">Ask questions about this car</a></li>
+                    <li><a class="toggle nofollow-href" rel="#contactModal" title="Set up a test drive">Set up a test drive</a></li>
+                  </ul>
+                </div><!-- .moreInfo -->
+              </div><!-- .row -->
+
+              
+                
+                            <span class="disclaimer">&bull; Pricing information may not be current, please <a class="toggle nofollow-href" rel="#contactModal" title="contact seller">contact seller</a> for up-to-date price and fee information</span>
+            </div><!-- .inner -->
+            </div><!-- .carDetail -->
+
+          <br />
+
+          <div class="container noBorder resources">
+            <div class="head">
+              <h2>Car Shopper's Resources</h2>
+            </div>
+            <div class="insurance">
+              <div class="icon"></div>
+              <h3>Save on Auto Insurance Cost:</h3><br>&nbsp;&nbsp;&nbsp;<a href="/auto-insurance/lexus/lx-470/2006" title="2006 Lexus LX 470 Insurance Quotes">2006 Lexus LX 470 Insurance Quotes</a>
+            </div>
+            <div class="warranty">
+              <div class="icon"></div>
+              <h3>Save On Extended Warranty Price:</h3><br>&nbsp;&nbsp;&nbsp;<a href="/auto-warranty/lexus/lx-470/2006" title="2006 Lexus LX 470 Auto Warranty Quote">2006 Lexus LX 470 Auto Warranty Quote</a>
+            </div>
+            <div class="finance">
+              <div class="icon"></div>
+              <h3>Look Into Finance Options:</h3>
+              <ul>
+                <li><a class="toggle nofollow-href" rel="#contactModal" title="Check Into Dealer Financing">Check Into Dealer Financing</a></li>
+                <li><a href="/car-loans/lexus/lx-470/2006" title ="2006 Lexus LX 470 Car Loan Quote">Get A 2006 Lexus LX 470 Car Loan Quote</a></li>
+                <li><a href="https://www.freescore360.com/EnterCampaign.aspx?id=2423&ord=1&append=1&firstname=&lastname=&email=&zipcode=&address=&city=&state=&edata=UD" title="Get Credit Report & FREE Credit Score">Get Credit Report &amp; FREE Credit Score </a></li>
+              </ul>
+            </div>
+          </div><!-- .container .resources -->
+
+            <div class="container carfaxAlt noBorder">
+<div class="head">
+<h2>Free CARFAX Record Check</h2>
+<a title="Free CARFAX Record Check" target=_win2 href=http://www.carfax.com/cfm/check_order.cfm?partner=WCZ_2&VIN=JTJHT00W464006168><img class="carfax" src="/images/rd/carfax_lg.png" alt="Free CARFAX Record Check"></a>
+</div>
+</div>
+
+          <br />
+
+            <div class="container data">
+<div class="head">
+<h2><img src="/images/rd/icon_data.png" /> Manufacturer Data</h2>
+<h2 class="review"><img src="/images/rd/icon_review.png" /> <a href="/3345/2006/lexus/lx-470/reviews/overview" title="2006 Lexus LX 470 Review">Read Professional Review</a></h2>
+</div>
+<img src="http://imageonthefly.autodatadirect.com/images/?IMG=USB60LES071A0101.jpg&HEIGHT=60" width=100 height=60>
+<img src="http://imageonthefly.autodatadirect.com/images/?IMG=08LEGLA1.JPG&HEIGHT=50" width=67 height=50>
+<h3><a title="2006 Lexus LX 470 4dr All-wheel Drive Base Research" href=/lexus/lx-470/2006/4dr-all-wheel-drive-base/USB60LES071A0>2006 Lexus LX 470<br>4dr All-wheel Drive Base<br><span style="font-weight:normal;">(full specs)</span></a></h3>
+<br />
+<br />
+<table cellpadding="5">
+<tr class="">
+<td class="border">
+<h4>Overview:</h4>
+</td>
+<td>
+<p>The Lexus LX 470 is Lexus' full time sports utility vehicle that offers comfort, luxury, and off road capabilities.</p>
+</td>
+</tr>
+<tr class="dark">
+<td class="border">
+<h4>Engine:</h4>
+</td>
+<td>
+<p>Type: Premium unleaded..Cylinders: 8..Horse Power: 275 hp..Variable Valve Timing..Max RPM: 5,400 RPM..Torque: 332 lb.-ft...Max Torque RPM: 3,400 RPM..Compression Ratio: 9.60 : 1..Size: 4.7 L..Valve Gear: DOHC..Total Valves: 32..Engine Configuration: V..Displacement: 285 cu.in...Vehicle Emissions: LEV II</p>
+</td>
+</tr>
+<tr class="">
+<td class="border">
+<h4>Transmission:</h4>
+</td>
+<td>
+<p>Number of speeds: 5..Manual / automatic: Automatic..Automatic type: Automatic</p>
+</td>
+</tr>
+<tr class="dark">
+<td class="border">
+<h4>Fuel Econ:</h4>
+</td>
+<td>
+<p>13/17</p>
+</td>
+</tr>
+<tr class="">
+<td class="border">
+<h4>Seating:</h4>
+</td>
+<td>
+<p>8</p>
+</td>
+</tr>
+<tr class="dark">
+<td class="border">
+<h4>Safety:</h4>
+</td>
+<td>
+<p>Head airbags: Curtain 1st and 2nd row..Driver Airbag: Yes..Passenger Airbag: Yes..Traction control: ABS and driveline..Stability control: Yes..Child safety locks: Yes..Rear center seatbelt: 3-point belt..Seatbelt pretensioners: Front</p>
+</td>
+</tr>
+<tr class="">
+<td class="border">
+<h4>Convenience:</h4>
+</td>
+<td>
+<p>Cruise control..Power steering: Speed-proportional power steering..Steering wheel: Tilt and telescopic..Audio controls on steering wheel: Audio controls..Cruise controls on steering wheel: Cruise controls..Cupholders: Front and rear..Door pockets: Driver, passenger and rear..Seatback storage: 2..Cargo net..12V DC power outlet: 4..Retained accessory power..Overhead console: Mini with storage</p>
+</td>
+</tr>
+<tr><td>&nbsp;</td><td>&bull; information provided for <a title="2006 Lexus LX 470 4dr All-wheel Drive Base Research" href=/lexus/lx-470/2006/4dr-all-wheel-drive-base/USB60LES071A0>4dr All-wheel Drive Base</a> style</td></tr>
+</table>
+<div class="shadow"></div>
+</div>
+
+        </div><!-- .leftCol -->
+
+        <!-- Right Column -->
+        <aside class="rightCol">
+
+          <div class="contactSeller">
+          <div class="head">
+            <h2>Get More Information About This Car</h2>
+          </div><!-- .head -->
+          <form>
+              <p><b>From</b> <input class="email" type="text" name="email" id="inlineEmail" placeholder="My Email Address" value="" /></p>
+              <h3>Your Message</h3>
+              <!--
+              <p>Hello, I'm inquiring about the . What are the latest price reductions? What's your best price?</p>
+              -->
+              <p>
+              <span style="font-weight:bold;">Hello, I'm inquiring about the 2006 Lexus LX 470.</span>
+              <br />
+                <table style="font-size:12px;">
+                    <tr><td><input type="checkbox" checked></td><td>Is this vehicle still available?</td></tr>
+                    <tr><td><input type="checkbox"></td><td> Would you be willing to take $<input type="text" style="width:50px;height:11px;"></td></tr>
+                    <tr><td>&nbsp;</td><td>for this vehicle?</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Does this vehicle have a warranty?</td></tr>
+                    <tr><td><input type="checkbox"></td><td>Are there any incentives for financing available?</td></tr>
+                    <tr><td><input type="checkbox"></td><td>I am trading in my vehicle.</td></tr>
+                </table>
+              </p>
+              <p><span style="font-weight:bold;">I can be reached at</span> <input type="text" class="phone" name="phone" id="inlinePhone" placeholder="Phone Number" value="" /></p>
+              <p><span style="font-weight:bold;">I live in the <input type="text" class="zip" name="zip" id="inlineZip" placeholder="Zip Code" value="77802" /> area</span></p>
+              <p>
+                <span style="font-weight:bold;">Thank You,</span>
+                <br>
+                <input type="text" class="firstName" name="firstName" id="inlineFirstName" placeholder="First Name" value="" />
+                <input type="text" class="lastName" name="lastName" id="inlineLastName" placeholder="Last Name" value="" />
+              </p>
+              <div class="comments">
+                <a class="toggle">
+                  <img src="/images/rd/icon_plus.png" />
+                  Add Additional Comments <small>( optional )</small>
+                </a>
+                <br />
+                <textarea rows="8" title="comments" name="inlineComments" id="inlineComments"></textarea>
+              </div><!-- .comments -->
+
+             <a class="contactSeller nofollow-href" rel="#contactModal" onclick="postInventoryLeadInline();" title="Submit"></a>
+            <div class="submissionDisclaimer">
+                <p>
+                    By submitting this form, you are providing express written
+                    consent to Web2Carz.com and its third party associates to
+                    contact you at the phone number provided via live, prerecorded
+                    or autodialed calls for the purpose of providing you with
+                    additional information on this vehicle and understand that
+                    consent is not a condition of purchase.
+                </p>
+            </div>
+          </form>
+        </div><!-- .contactSeller -->
+        <br>
+        <br>
+
+          <!-- Car Shopping -->
+          <div class="photoSearch">
+            <div class="fold">
+              <img src="/images/rd/icon_camera.png" />
+              <p><a href="/32/449/77802/25/lexus/lx-470/photos-used-cars" title="Used Lexus LX 470 77802 Photo Search">Click here to search by photo</a></p>
+            </div>
+            <div class="head">
+              <h2>Find More Used Cars</h2>
+            </div><!-- .head -->
+            <form method=get name="used_search" action="/used/used_results.php" onsubmit="return urlRewrite(document.used_search);">
+               <label>Make</label>
+               <select name=make id=make onchange="populateModels(this.value);">
+               </select>
+               <br />
+               <label>Model</label>
+               <select name="model" id="model">
+                   <option value="0">Select A Model</option>
+               </select>
+               <br />
+               <label>Zip</label>
+               <input type="text" name="zip" id="zip" size="12" maxlength="5" value="">
+               <br />
+               <label>Radius</label>
+               <select name=radius>
+               <option value=10>10</option><option value=25>25</option><option value=50 selected>50</option><option value=75>75</option><option value=100>100</option>           </select>
+               <br />
+               <button class="submitBu" type="submit" value="Submit">Search</button>
+            </form>
+          </div><!-- .review -->
+          <br />
+
+        	<a href="#" class="colHead">Resources</a>
+            <ul id="carShopping" class="carShopping">
+                <li class="photoLot"><span></span><a href="/32/449/77802/25/lexus/lx-470/photos-used-cars" title="Used Lexus LX 470 77802 Photo Search">Photo-Lot <small>for Lexus LX 470 77802</small></a></li>
+<li class="carLoans"><span></span><a href="/car-loans/lexus/lx-470" title="Lexus LX 470 Car Loan Quote">Car Loans <small>for Lexus LX 470</small></a></li>
+<li class="carInsurance"><span></span><a href="/auto-insurance/lexus/lx-470" title="Lexus LX 470 Insurance Quotes">Car Insurance <small>for Lexus LX 470</small></a></li>
+<li class="carWarranty"><span></span><a href="/auto-warranty/lexus/lx-470" title="Lexus LX 470 Auto Warranty Quote">Car Warranty <small>for Lexus LX 470</small></a></li>
+<li class="carResearch"><span></span><a href="/lexus/lx-470/2006" title="2006 Lexus LX 470 Research">Car Research <small>for 2006 Lexus LX 470</small></a></li>
+<li class="rssFeed"><span></span><a href="/32/449/25/77802/lexus/lx-470/rss" title="Subscribe to our 77802 Lexus LX 470 RSS feed">RSS Feed <small>for Lexus LX 470 77802</small></a></li>
+<li class="carTradeup"><span></span><a title="Get the Trade in Value of your Vehicle" href="http://www.web2carz.com/trade-in">Trade-In Value</a></li>
+            </ul>
+
+            
+<div id='V2_Used_Car_Shopping_300x250'>
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('V2_Used_Car_Shopping_300x250'); });
+</script>
+</div>
+
+
+                
+
+
+            
+            <div class="viewInventory">
+<h4><a href="/10727/dealers/atkinson-toyota---bryan" title="View All of This Dealer's Inventory">View All of This Dealer's Inventory</a></h4>
+</div>
+
+            <br />
+
+            <div id="map" style="width: 300px; height: 300px"></div>
+
+            <br />
+
+            <!--
+            <a target="_blank" title="Online Auto Show" href="http://a.pgtb.me/ddfT">
+                <img src="/images/rd/promos/online_auto_show_ad_300X345.jpg" border="0">
+            </a><br><br>
+            -->
+
+            <div class="fbLikeBox">
+                <img src="/images/rd/fb_like_box.jpg" />
+                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fweb2carz&amp;send=false&amp;layout=standard&amp;width=225&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=40&amp;appId=193752820678600" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:225px; height:45px;" allowTransparency="true"></iframe>
+                <div class="shadow"></div>
+            </div>
+
+            <br />
+
+            <h4 class="relatedArticlesHead">Related Articles</h4><table class="relatedArticles" width="300" cols="5" cellpadding="5"><tr class="spacer"></tr>
+<tr>
+<td colspan="3" class="light">
+<a title="These dealer employees exist to solve new-tech crises." href="/autos/everything-else/2083/lexus-technical-specialists-alleviate-smartphone-concerns" class="title">Lexus Technical Specialists Alleviate Smartphone Concerns</a>
+<p>These dealer employees exist to solve new-tech crises.</p>
+</td>
+<td class="spacer"></td>
+<td colspan="2" class="light">
+<a title="These dealer employees exist to solve new-tech crises." href="/autos/everything-else/2083/lexus-technical-specialists-alleviate-smartphone-concerns"><img src="/images/articles/201305/lexusdealers_1369066961_120x80.jpg" width="100" height="67" /></a>
+</td>
+</tr>
+<tr class="spacer"></tr>
+<tr>
+<td colspan="3" class="dark">
+<a title="St. Nick's next ride isn't real, much as we wish it might be." href="/autos/everything-else/1695/lexus-builds-new-sleigh-for-santa-claus" class="title">Lexus Builds New Sleigh for Santa Claus</a>
+<p>St. Nick's next ride isn't real, much as we wish it might be.</p>
+</td>
+<td class="spacer"></td>
+<td colspan="2" class="dark">
+<a title="St. Nick's next ride isn't real, much as we wish it might be." href="/autos/everything-else/1695/lexus-builds-new-sleigh-for-santa-claus"><img src="/images/articles/201212/lflc_1356041938_120x80.jpg" width="100" height="67" /></a>
+</td>
+</tr>
+<tr class="spacer"></tr>
+<tr>
+<td colspan="3" class="light">
+<a title="We're reporting live from the 2012 Detroit Auto Show." href="/autos/news/358/dispatches-from-detroit-4" class="title">Dispatches From Detroit #4</a>
+<p>We're reporting live from the 2012 Detroit Auto Show.</p>
+</td>
+<td class="spacer"></td>
+<td colspan="2" class="light">
+<a title="We're reporting live from the 2012 Detroit Auto Show." href="/autos/news/358/dispatches-from-detroit-4"><img src="/images/articles/201201/lexus_lflc_concept_1326139470_120x80.jpg" width="100" height="67" /></a>
+</td>
+</tr>
+<tr class="spacer"></tr>
+<tr>
+<td colspan="3" class="dark">
+<a title="Lexus coupe concept will be unveiled next week." href="/autos/news/334/lexus-lf-lc-concept-leaked" class="title">Lexus LF-LC Concept Leaked</a>
+<p>Lexus coupe concept will be unveiled next week.</p>
+</td>
+<td class="spacer"></td>
+<td colspan="2" class="dark">
+<a title="Lexus coupe concept will be unveiled next week." href="/autos/news/334/lexus-lf-lc-concept-leaked"><img src="/images/articles/201201/lexus_lflc_concept_1325698959_300x200.jpg" width="100" height="67" /></a>
+</td>
+</tr>
+<tr class="spacer"></tr></table>
+            <br />
+
+            <div class="well browseBy">
+<div class="head">
+<H2>Used Lexus LX 470 by City</H2>
+</div>
+<ul class="used">
+<li><a href="/used/lexus/lx-470/bryan/tx" title="Used Lexus LX 470 in Bryan, TX">Used Lexus LX 470 in Bryan, TX</a></li>
+<li><a href="/used/lexus/lx-470/college-station/tx" title="Used Lexus LX 470 in College Station, TX">Used Lexus LX 470 in College Station, TX</a></li>
+<li><a href="/used/lexus/lx-470/kurten/tx" title="Used Lexus LX 470 in Kurten, TX">Used Lexus LX 470 in Kurten, TX</a></li>
+<li><a href="/used/lexus/lx-470/wellborn/tx" title="Used Lexus LX 470 in Wellborn, TX">Used Lexus LX 470 in Wellborn, TX</a></li>
+</ul>
+</div>
+            <br />
+
+        </aside><!-- .rightCol -->
+    </section><!-- #content -->
+	</div><!-- .row -->
+</div><!-- .container -->
+
+
+<!-- #### CONTACT SELLER MODAL #### -->
+<div class="contactModal" id="contactModal">
+  <img class="cornerIcon" src="/images/rd/contact_seller_modal_icon_lg.png" />
+  <div class="modalInner">
+    <div class="modelInfo">
+      <p>2006 Lexus</p>
+      <p>LX 470 Base</p>
+    </div><!-- .modelInfo -->
+    <div class="price">
+      <p>
+        <span>Price</span>
+        <br />
+        $26,888      </p>
+    </div><!-- .price -->
+    <div class="innerShadow"></div>
+    <br />
+    <br />
+
+    <div id="contactSellerThanks">
+    <div id="errors">
+    </div><!-- #errors -->
+
+    <div class="savings">
+      <div class="case-2">
+<div class="inner">
+<img src="/images/rd/check_mark_green.png" />
+<span>You save at least $729</span>
+</div>
+<span class="avg">Web2Carz National Average $27,617&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+</div>
+    </div><!-- .savings -->
+
+    <br />
+
+    <form id="contactSeller">
+      <input type=hidden name=vehicleId id=vehicleId value="106681434">
+
+      <p class="from">
+        <label>From</label>
+        <input type="text" name="email" id="usedEmail" placeholder="My Email Address" value="">
+      </p>
+      <div class="message">
+        <h3>Your Message</h3>
+        <img class="bbb" src="/images/rd/bbb_alt.png" />
+
+        <!--
+        <p>Hello, I'm inquiring about the .
+        What are the latest price reductions? What's your <b>best price</b>?</p>
+        <br />
+        -->
+
+        <p>
+        Hello, I'm inquiring about the 2006 Lexus LX 470.
+        <br />
+        <span style="font-size:12px;">
+        <input type="checkbox" checked> Is this vehicle still available?
+        <br />
+        <input type="checkbox"> Would you be willing to take $<input type="text" style="width:50px;"> for this vehicle?
+        <br />
+        <input type="checkbox"> Does this vehicle have a warranty?
+        <br />
+        <input type="checkbox"> Are there any incentives for financing available?
+        <br />
+        <input type="checkbox"> I am trading in my vehicle.
+        </span>
+        </p>
+
+        <p>
+          <label>I can be reached at:</label>
+          <input type="num" name="phone1" id="usedPhone1" class="phone" placeholder="Phone Number" value="">
+        </p>
+
+        <img class="carPic" src=http://eimg.web2carz.com/eimg.php?ei=aHR0cDovL2Nkbi5nZXRhdXRvLmNvbS9waG90b3MvNS8xNzgxNS8xYy9KVEpIVDAwVzQ2NDAwNjE2OC0xYy5qcGc width=209 height=157 alt="2006 Lexus LX 470 Base Master Photo">
+        <p>
+          <label>I live in the </label>
+          <input type="num" name="zip" id="usedZip"  placeholder="Zip Code" value="77802" style="width:80px;" maxlength="5">
+          <label> area.</label>
+        </p>
+        <p class="thankYou">
+          <label>Thank You,</label>
+          <input type="text" name="firstName" id="usedFirstName"  placeholder="First Name" value="">
+          <input type="text" name="lastName" id="usedLastName" placeholder="Last Name" value="">
+        </p>
+      </div><!-- .message -->
+      <br />
+      <div class="comments">
+        <br />
+          <a class="toggle">
+          <img src="/images/rd/icon_plus.png" />
+          Add Additional Comments <small>( optional )</small>
+        </a>
+        <br />
+        <textarea rows="3" name="comments" id="comments" placeholder="Questions or Comments?"></textarea>
+      </div><!-- .comments -->
+      <div class="clearfix"></div>
+
+      <!--
+      <p>
+        <input type="checkbox" name="newCar" id=newCar value="1"/>
+        <label class="select">
+        Yes, I would also like to receive pricing &amp; availability information on a new  in my area.</label>
+      </p>
+      -->
+
+      <!--<br />-->
+
+      <input type="hidden" name="offers" id=usedOffers value="0"/>
+
+      <a id="button" onclick="postInventoryLead();" class="submit nofollow-href"></a>
+    <div class="submissionDisclaimer">
+        <p>
+            By submitting this form, you are providing express written
+            consent to Web2Carz.com and its third party associates to
+            contact you at the phone number provided via live, prerecorded
+            or autodialed calls for the purpose of providing you with
+            additional information on this vehicle and understand that
+            consent is not a condition of purchase.
+        </p>
+    </div>
+      <!--
+      <br>
+      &bull; What Happens Next?
+      <span style="font-size:12px;">
+      Web2Carz.com will forward your inquiry and contact information ONLY to the party responsible for listing this vehicle with us. Once your inquiry is received, the seller will contact you with requested information and their contact information.  All future communication between you and the seller will be direct.
+      </span>
+      -->
+
+
+      <!--
+      <p>
+        <input type="checkbox" name="offers" id=usedOffers value="1" checked />
+        <label class="select">Yes, I want to receive information and offers from email-web2carz.com &amp; Web2Carz.</label>
+      </p>
+
+      <input type="hidden" name="offers" id=usedOffers value="1"/>
+      <p>
+        <input type="checkbox" name="newCar" id=newCar value="1" />
+        <label class="select">Yes, I would also like to receive pricing &amp; availability information on a new Lexus in my area.</label>
+      </p>
+      -->
+
+    </form>
+    </div>
+
+  </div><!-- .modalInner -->
+</div><!-- .modal -->
+<!-- #### CONTACT SELLER MODAL #### -->
+
+
+<!-- #### CONTACT SELLER MODAL ALTERNATE #### -->
+<!--
+<div class="contactModal alternate" id="contactModalAlternate">
+  <a class="close"></a>
+  <img class="cornerIcon" src="/images/rd/contact_seller_modal_icon_lg.png" />
+  <div class="modalInner">
+    <div class="innerShadow"></div>
+
+    <div id="contactSellerThanksAlternate">
+    <h3>Our IVF system has found some similarly priced vehicles in your area. Click 'More Details' to get more information on these.</h3>
+
+    <div id="errorsAlternate" style="color: #CC0000"></div>
+
+    <form id="contactSeller">
+
+        
+        <br class="clear" />
+        <div class="message">
+          <div>
+              <label>From</label>
+              <input type="text" name="email" id="alternateEmail" placeholder="My email address" value="">
+              <br class="clear" />
+          </div>
+          <div>
+              <label>I can be reached at:</label>
+              <input type="num" name="phone" id="alternatePhone1" class="phone" placeholder="Phone Number" value="">
+              <br class="clear" />
+          </div>
+          <div>
+              <label>I live in the
+              <input style="width:75px;" type="num" name="zip" id="alternateZip" placeholder="Zip" value=""> area.</label>
+              <br class="clear" />
+          </div>
+          <div>
+              <input type="text" name="firstName" id="alternateFirstName" placeholder="First Name" value="">
+              <input type="text" name="lastName" id="alternateLastName" placeholder="Last Name" value="">
+              <br class="clear" />
+          </div>
+           <img src="/images/rd/bbb_alt.png" class="bbb"  alt="Better Business Bureau Accredited Business">
+        </div>
+        <div class="buttons">
+            <a id="button" onclick="postInventoryLeadsAlternate();" class="submit button nofollow-href">More Details</a>
+            <a id="button-cancel" class="cancel button close">No Thanks</a>
+            <br class="clear" />
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
+-->
+<!-- #### CONTACT SELLER MODAL ALTERNATE #### -->
+
+<!--=============================
+	Footer
+=================================-->
+<footer>
+	<div id="wrapper">
+    	<!--
+        <a title="Web2Carz iPhone App" href=""><img class="iphone" src="/images/rd/iphone_app.png" /></a>
+        -->
+        <img class="iphone" src="/images/rd/mobile_site.png" />
+
+    	<!-- Site Map -->
+        <div class="col">
+            <ul class="footerNav">
+                <li><a title="New Cars, Used Cars, Car Reviews, Car Loans..." href="http://www.web2carz.com/">Home</a></li>
+                <li><a title="Compare Dealer Prices" href="http://www.web2carz.com/new-car-prices">New Cars</a></li>
+                <li><a title="Choose from over 2.5 Million listings nationwide" href="http://www.web2carz.com/used-cars">Used Cars</a></li>
+                <li><a title="Get an Auto Loan" href="http://www.web2carz.com/car-loans">Car Loans</a></li>
+                <li><a title="List Your Car for free on Web2Carz.com" href="http://www.web2carz.com/sell-my-car">Sell My Car</a></li>
+                <li><a title="Browse Thousands of Car Reviews, Specs, Photos, Prices.." href="http://www.web2carz.com/car-reviews">Car Reviews</a></li>
+                <!--<li><a title="Browse Car Reviews, Specs, Photos, Prices.." href="">Car Research</a></li>-->
+                <li><a title="Find & Watch YouTube Videos.." href="http://www.web2carz.com/car-videos">Car Videos</a></li>
+                <li><a title="Compare Free Car Insurance Quotes" href="http://www.web2carz.com/auto-insurance">Car Insurance</a></li>
+                <li><a title="Free Auto Warranty Quote" href="http://www.web2carz.com/auto-warranty">Car Warranty</a></li>
+                <li><a title="View Used Car Photos.." href="http://www.web2carz.com/photo-lot">Photo-Lot</a></li>
+                <!--<li><a title="Check Out Some of Our Useful Buying Tips" href="http://www.web2carz.com/car-buying-tips">Tips</a></li>-->
+                <li><a title="Frequently Asked Questions" href="http://www.web2carz.com/faq">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <ul id="accordion" class="footerNav">
+                <li class="topLevel">
+                	<a class="current" title="Auto Articles" href="#footer">Autos</a>
+                	<ul id="autos" class="pane">
+                    	<li><a title="Auto->News Articles" href="http://www.web2carz.com/autos/news">News</a></li>
+                    	<li><a title="Auto->Car Tech Articles" href="http://www.web2carz.com/autos/car-tech">Car Tech</a></li>
+                    	<li><a title="Auto->Fuel Economy Articles" href="http://www.web2carz.com/autos/fuel-economy-and-safety">Fuel Economy &amp; Safety</a></li>
+                    	<li><a title="Auto->Buying & Selling Articles" href="http://www.web2carz.com/autos/buying-and-selling">Buying &amp; Selling</a></li>
+                    	<li><a title="Auto->Everything Else Articles" href="http://www.web2carz.com/autos/everything-else">Everything Else</a></li>
+                    </ul>
+                </li>
+                <li class="topLevel">
+                	<a title="Lifestyle Articles" href="#footer">Lifestyle</a>
+                	<ul id="lifestyle" class="pane">
+                    	<li><a title="Lifestyle->Music Articles" href="http://www.web2carz.com/lifestyle/music">Music</a></li>
+                    	<li><a title="Lifestyle->Food Articles" href="http://www.web2carz.com/lifestyle/food">Food</a></li>
+                    	<li><a title="Lifestyle->Travel Articles" href="http://www.web2carz.com/lifestyle/travel">Travel</a></li>
+                    	<li><a title="Lifestyle->Shopping Articles" href="http://www.web2carz.com/lifestyle/shopping">Shopping</a></li>
+                    	<li><a title="Lifestyle->Everything Else Articles" href="http://www.web2carz.com/lifestyle/everything-else">Everything Else</a></li>
+                    </ul>
+                </li>
+                <li class="topLevel">
+                	<a title="People Articles" href="#footer">People</a>
+                	<ul id="people" class="pane">
+                    	<li><a title="People->Who You Know Articles" href="http://www.web2carz.com/people/who-you-know">Who You Know</a></li>
+                    	<li><a title="People->Who You Should Know Articles" href="http://www.web2carz.com/people/who-you-should-know">Who You Should Know</a></li>
+                    	<li><a title="People->Everyone Else Articles" href="http://www.web2carz.com/people/everyone-else">Everyone Else</a></li>
+                    </ul>
+                </li>
+                <li class="topLevel">
+                	<a title="Tech Articles" href="#footer">Tech</a>
+                	<ul id="tech" class="pane">
+                    	<li><a title="Tech->Business Articles" href="http://www.web2carz.com/tech/business">Business</a></li>
+                    	<li><a title="Tech->Pleasure Articles" href="http://www.web2carz.com/tech/pleasure">Pleasure</a></li>
+                    	<li><a title="Tech->Everything Else Articles" href="http://www.web2carz.com/tech/everything-else">Everything Else</a></li>
+                    </ul>
+                </li>
+                <li class="topLevel">
+                	<a title="Trends Articles" href="#footer">Trends</a>
+                	<ul id="trends" class="pane">
+                    	<li><a title="Trends->Online Articles" href="http://www.web2carz.com/trends/online">Online</a></li>
+                    	<li><a title="Trends->Offline Articles" href="http://www.web2carz.com/trends/offline">Offline</a></li>
+                    	<li><a title="Trends->Everything Else Articles" href="http://www.web2carz.com/trends/everything-else">Everything Else</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="col">
+            <ul class="footerNav">
+                <li><a title="Contact Us" href="http://www.web2carz.com/contact">Contact</a></li>
+                <li><a title="About Us" href="http://www.web2carz.com/about">About Us</a></li>
+                <li><a title="Editorial Team" href="http://www.web2carz.com/team">Editorial Team</a></li>
+                <li><a title="Press" href="http://www.web2carz.com/press">Press</a></li>
+                <li><a title="Tools" href="http://www.web2carz.com/tools">Tools</a></li>
+                <li><a title="Job Openings" href="http://www.web2carz.com/jobs">Jobs</a></li>
+                <li><a title="Privacy Policy" href="http://www.web2carz.com/privacy">Privacy</a></li>
+                <li><a title="Terms of Use" href="http://www.web2carz.com/terms">Terms</a></li>
+                <li><a title="Disclaimer" href="http://www.web2carz.com/terms#disclaimer">Disclaimer</a></li>
+                <li><a title="Affiliates" href="http://www.web2carz.com/affiliates/register">Affiliates</a></li>
+                <li><a title="Dealer Services" href="http://www.web2carz.com/dealer-services">Dealer Services</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- /Site Map -->
+            <ul class="social">
+                <li><a title="Visit us on Facebook" href="http://www.facebook.com/web2carz"><img src="/images/rd/fb.png" /></a></li>
+                <li><a title="Visit us on Twitter" href="http://www.twitter.com/web2carz"><img src="/images/rd/twitter.png" /></a></li>
+                <li><a title="Join us on Google+" href="https://plus.google.com/113719098388549859657?prsrc=3"><img src="/images/rd/gplus.png" /></a></li>
+                <li><a title="Follow us on Pinterest" href="http://pinterest.com/web2carz/"><img src="/images/rd/pinterest.png" /></a></li>
+            </ul>
+
+        <a target="_blank" href="http://www.bbb.org/chicago/business-reviews/auto-dealers-new-cars/web2carzcom-ltd-in-highland-park-il-88259141#bbblogo"><img alt="Click to verify BBB accreditation and to see a BBB report." title="Click to verify BBB accreditation and to see a BBB report." class="bbb" src="/images/rd/bbb.png" /></a>
+        <img class="autodata" src="/images/rd/autodata.png" />
+    	<span class="copy">&copy; 2013 Web2Carz.com, LTD - All Rights Reserved</span>
+    </div>
+</footer>
+<!--=============================
+	/Footer
+=================================-->
+
+<script>
+  window.jQuery || document.write('<script src="/common/js/rd/libs/jquery.1.7.1.min.js"><\/script>');
+</script>
+<script src="/common/js/rd/plugins.js"></script>
+<script>
+        jQuery.noConflict();
+
+    jQuery(document).ready(function() {
+        // Back To Top
+         jQuery().UItoTop({ easingType: 'easeInOutCubic' });
+    });
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-488378-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript"
+	    src="https://secure.quantserve.com/quant.js">
+</script>
+<script type="text/javascript">
+	_qacct="p-4dFTxCXgxXT_o";
+	quantserve();
+</script>
+<noscript>
+	<img src="https://secure.quantserve.com/pixel/p-4dFTxCXgxXT_o.gif"
+         style="display: none"
+         height="1" width="1" alt="Quantcast"/>
+</noscript>
+
+
+<script type="text/javascript">
+an_category = "Used Cars";
+an_keyword = "Used, Lexus, LX 470, 2006";
+</script>
+<script type="text/javascript" src="http://ads.pro-market.net/ads/scripts/site-112193.js"></script>
+
+<iframe name="__bkframe" height=0 width=0 frameborder=0 src="javascript:void(0)"></iframe>
+<script type="text/javascript" src="http://www.bkrtx.com/js/bk-static.js"></script>
+<script type="text/javascript">
+bk_addPageCtx("category", "Used Cars");
+bk_addPageCtx("year", "2006");
+bk_addPageCtx("make", "Lexus");
+bk_addPageCtx("model", "LX 470");
+bk_doJSTag(4073, 4);
+</script>
+
+
+<script type="text/javascript">
+var _oiqq = _oiqq || [];
+_oiqq.push(['oiq_addPageBrand', 'Lexus']);
+_oiqq.push(['oiq_addPageCat', 'Used Cars']);
+_oiqq.push(['oiq_addPageLifecycle', 'Intender']);
+_oiqq.push(['oiq_doTag']);
+(function() {
+var oiq = document.createElement('script');
+oiq.type = 'text/javascript';
+oiq.async = true;
+oiq.src = document.location.protocol + '//px.owneriq.net/stas/s/WEB2CA.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(oiq, s);
+})();
+</script>
+
+<img src="http://web2carz.t.domdex.com/search.gif?k=2006+Lexus+LX+470" width="0" height="0"/>
+
+<script type="text/javascript">
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "12350640" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=12350640&cv=2.0&cj=1" />
+</noscript>
+
+<script src="/common/js/rd/libs/jquery.tools.min.js"></script>
+<script src="/common/js/rd/imgPreview.js"></script>
+<script src="/common/js/rd/jquery.colorbox-min.js"></script>
+<script src="/common/js/rd/jquery.placeholder.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+
+        /*
+		// Car Options Modal
+		jQuery("#showOptions").tooltip({
+            effect: 'slide',
+            relative: true,
+            offset: [0, 1]
+        }).dynamic({ bottom: { direction: 'down', bounce: true } });
+        */
+        jQuery("#showOptions").on('click', function() {
+            var item = jQuery(this);
+            jQuery('.tooltip',item).fadeToggle();
+            //jQuery('.tooltip').fadeToggle();
+        });
+
+        // Scam Modal
+        jQuery("#showScam").tooltip({
+            effect: 'slide',
+            relative: true,
+            offset: [0, 50]
+        }).dynamic({ bottom: { direction: 'down', bounce: true } });
+
+
+        // Contact Seller Modal
+        jQuery(".contactSeller[rel], .toggle[rel], a.saved[rel], a.alternateModalOpen[rel]").overlay({
+          fixed: false,
+          top:'15%',
+          mask: {
+            color: '#121212',
+            loadSpeed: 200,
+            opacity: 0.35
+          }
+        });
+
+        // Add the Dark Backdrop to the Modal
+        jQuery(function() {
+            // assign a click event to the exposed element, using normal jQuery coding
+            jQuery(".contactSeller[rel], .moreInfo a[rel], a.alternateModalOpen[rel]").click(function() {
+                // perform exposing for the clicked element
+                jQuery(this).expose();
+            });
+        });
+
+        // Contact Form Input/Textarea Placeholder
+        jQuery('input[placeholder], textarea[placeholder]').placeholder();
+
+
+        /*
+        // Contact Seller Form Comments Toggle
+        jQuery('.contactModal .toggle').click(function() {
+            jQuery('#comments').toggle(function() {
+            // Animation complete.
+            });
+        });
+        */
+        // Contact Seller Form Comments Toggle
+        jQuery('.contactModal .toggle, .contactSeller .toggle').click(function() {
+            jQuery(this).parent().find('textarea').slideToggle();
+        });
+
+
+        // Colorbox Functionality
+        jQuery(".group1").colorbox({
+            rel:'group1',
+            transition:"elastic",
+            photo:"true",
+            initialWidth:300,
+            initialHeight:100,
+            width:745,
+            height:590,
+            innerWidth: 700,
+            innerHeight: 467
+        });
+
+/*
+        jQuery(".iframe").colorbox({
+            iframe:true,
+            rel:'iframe',
+            width:680,
+            height:550
+        });
+*/
+
+	});
+</script>
+
+<img height="1" width="1" src="http://www.rsptrack.com/impression.track?CID=30583&AFID=140802&SID=used-detail" alt="" />
+
+<script type="text/javascript">
+    w2cTrackEvent('IMP');
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1066802932;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "ztvNCNCCrwIQ9L3Y_AM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1066802932/?label=ztvNCNCCrwIQ9L3Y_AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<script language="javascript">
+	var makes = new Array();
+    loadUsedCars();
+    populateMakes();
+
+    
+</script>
+
+<!--OLD
+<script type="text/javascript" src="/common/js/rd/criteo_ld.js" async="true"></script>
+<script type="text/javascript">var CRITEO_CONF = [[{ pageType: 'product', 'Site Type': 'd', 'Vehicle ID': '' }], [9448,'pvx','us.','010',[[7727698, 7727699]],{'Site Type':['site_type',0], 'Vehicle ID':['i',0]}]]; if (typeof (CRITEO) != "undefined") { CRITEO.Load(false); }</script>
+-->
+<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+<script type="text/javascript">
+var criteo_q = window.criteo_q || [];
+criteo_q.push(
+    { event: "setAccount", account: 9448 },
+    { event: "setCustomerId", id: ""},
+    { event: "setSiteType", type: "d"},
+    { event: "viewItem", product: "106681434" }
+  );
+</script>
+
+
+<!-- LIVE -->
+<!--
+<script type="text/javascript">
+      var adiInit ="7498", adiRVO = true;
+      var adiFunc = null;
+      var adiZeroConfig = {
+          classes:['rTapSource']};
+        (function() {
+            var adiSrc = document.createElement("script"); adiSrc.type = "text/javascript";
+             adiSrc.async = true;
+            adiSrc.src = ("https:" == document.location.protocol ? "https://static-ssl" : "http://static")
+                + ".responsetap.com/static/scripts/rTapTrack.min.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(adiSrc, s);
+        })();
+</script>
+-->
+
+<!-- TEST
+<script type="text/javascript">
+   var adiInit = "95", adiRVO = true;
+   var adiFunc = null;
+   var adiZeroConfig = {classes:['rTapSource']};
+   (function() {
+      var adiSrc = document.createElement("script"); adiSrc.type = "text/javascript";
+      adiSrc.async = true;
+      adiSrc.src = ("https:" == document.location.protocol ? "https://" : "http://")
+      	+ "sandbox.responsetap.com/static/scripts/rTapTrack.min.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(adiSrc, s);
+   })();
+</script>
+-->
+
+</body>
+</html>
+

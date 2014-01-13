@@ -1,0 +1,305 @@
+/* this css file is for styling local offer related windows - this is to be assimilated into global.css or core.css after rebranding. */
+
+
+
+/* LOCAL OFFER STYLES FOR VDP */
+.local-offer-box {
+width: auto;
+background: #fff;
+padding: 0px 0px 10px;
+margin: 0px 0px 15px;
+border-bottom: 2px dotted #999;
+}
+
+.local-offer-box h2 {
+margin: 12px 0px;
+}
+
+.local-offer-box h2 a {
+/*font: 11px Verdana,sans-serif normal !important;
+font-weight:normal;*/
+}
+
+.local-offer-box .dataPoint {
+margin: 8px 0px 8px 0px;
+}
+
+.or {
+font-weight: bold; 
+font-style: italic; 
+margin:10px 0px;
+color: #666;
+}
+
+
+/* LOCAL OFFER STYLES FOR MODAL */
+
+#dialog-modal {
+margin:16px;
+height: auto !important;
+}
+
+.modal-content {
+border-radius:10px;
+background:#FFFFFF;
+border:1px solid #c0c0c0;
+max-width: 976px;
+min-width: 200px;
+min-height: 10px;
+-moz-box-shadow: 0 0 10px 5px #666;
+-webkit-box-shadow: 0 0 10px #666;
+box-shadow: 0 0 10px 5px #666;
+border-radius: 10px;
+padding:16px;
+}
+
+.close-button-image {
+vertical-align:-1px;
+}
+
+.dialog-modal-controls {
+float:right;
+}
+
+.dialog-modal-content {
+overflow-y:auto;
+overflow-x:hidden;
+max-height:300px;
+}
+
+.dialog-modal-left-col {
+width: 200px;
+float: left;
+text-align: left;
+padding: 12px 0px 0px 0px;
+margin: 0px 5px 0px 0px;
+}
+
+.dialog-modal-left-col img {
+border: 1px solid #e1e1e1;
+margin-bottom: 10px;
+}
+
+.dialog-modal-right-col {
+width: 350px;
+float: left;
+padding-bottom: 35px;
+text-align: left;
+line-height: 16px;
+}
+
+.disclaimer-textbox {
+margin-top:35px;
+resize:none;
+width: 99%;
+}
+
+.disclaimer-box {
+overflow-x:hidden;
+overflow-y:auto;
+height:75px;
+border: 1px solid #ECECEC;
+color:#767676;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+.local-offers-modal .exp-date {
+margin-top: 2px !important;
+}
+
+.dialog-modal-right-col .or {
+font-weight: bold; 
+font-style: italic; 
+margin:10px 0px;
+color: #666;
+}
+
+.closeWindow {
+background: none;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 9px;
+line-height: normal;
+color: 	#333;
+display: inline;
+float: right;
+border: none;
+}
+
+.closeWindow img {
+vertical-align: text-bottom;
+border: none;
+background: none;
+margin-left: 3px;
+}
+
+#dialog-modal h1 {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 21px;
+color: #7B2B84;
+margin: 6px 0px 6px 0px;
+}
+
+#dialog-modal h2 {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px;
+font-weight: bold !important;
+color: #7B2B84;
+margin-bottom: 5px;
+margin-top: 12px;
+line-height: 16px;
+}
+
+#dialog-modal div.dialog-modal-left-col {
+padding-top:12px;
+}
+
+.dialog-modal-footer {
+padding: 15px 0px 0px;
+border-top: 1px solid #efefef;
+}
+
+
+/* LOCAL OFFER STYLES FOR SRP */
+.dialog-modal-header h1 {
+font-weight: bold !important;
+margin: 0px 0px 10px;
+}
+
+.dialog-modal-right-col p.label {
+font-weight: bold !important;
+margin: 0px 0px 5px;
+}
+
+h1 span.vehiclePrice {
+color: #333333 !important;
+font-weight: bold !important;
+}
+
+.vehicleDescription {
+margin-top: 5px;
+width: 100%;
+float: none;
+clear: left;
+}
+
+.sellerName {
+clear: none;
+}
+
+.local-offer-column {
+float: right;
+text-align: right;
+width: 120px;
+margin: 0px 0px 0px 10px;
+padding: 0px 4px 0px 10px;
+border-left: 1px dotted #e3e3e3;
+}
+
+.local-offer-column p {
+margin-bottom: 0px;
+}
+
+/* LOCAL OFFER PRINT STYLES */
+
+#local-offer-print.disclaimer-box {
+overflow-x: auto;
+overflow-y: auto;
+height: auto;
+border-width: 0px;
+border-style: none;
+color: #666;
+}
+
+#local-offer-print p.label {
+font-weight: bold;
+margin: 5px 0px 5px;
+}
+
+.print-footer {
+margin: 20px 0px;
+}
+
+#local-offer-print .detail-print-disclaimer, #local-offer-print .disclaimer-lead {
+color: #767676;
+width: 95%;
+font-size: 13px;
+line-height: 16px;
+}
+
+.disclaimer-box p, .disclaimer-lead {
+color: #767676;
+font-size: 13px;
+line-height: 16px;
+}
+
+.directionslink {
+padding: 12px 0px 0px;
+}
+
+/*Base Style Rules*/
+
+
+/* BUTTON STYLES */
+.dialog-modal-footer a.button, .dialog-modal-footer a.button:link, .dialog-modal-footer a.button:visited {
+float: left;
+margin: 15px 0px 0px;
+padding-right: 6px;
+height: 27px;
+border: none !important;
+white-space: nowrap;
+width: auto;
+}
+
+.dialog-modal-footer a.tertiary, .dialog-modal-footer a.tertiary:visited {
+background: url("/images/2012.10.03/images/cars/button-sprite.png") no-repeat scroll right -283px transparent !important;
+color: #666666;
+display: block;
+font-family: arial,helvetica,sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+padding: 0px 10px 10px 0px;
+text-decoration: none;
+border: none !important;
+}
+
+.dialog-modal-footer a.tertiary span {
+background: url("/images/2012.10.03/images/cars/button-sprite.png") no-repeat scroll left -256px transparent !important;
+display: block;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 13px;
+font-weight: bold;
+color: #666666 !important;
+line-height: 15px;
+padding: 6px 10px 6px 15px;
+text-decoration: none;
+border: none !important;
+}
+
+.dialog-modal-footer a.tertiary:hover {
+color:#333;
+}
+
+/* STYLES FOR THE ALERT MESSAGE WARNINGS */
+.local-offers-modal .alert-message.warning {
+color: #8b7400;
+background: url("/images/warning.png") no-repeat 20px 20px #fffbe5;
+}
+
+.local-offers-modal .alert-message {
+border-radius: 5px;
+margin: 10px 0px 30px 0px;
+padding: 20px 20px 20px 60px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+.local-offers-modal .alert-message span {
+font-weight: bold;
+}
+
+.local-offers-modal .alert-message p {
+line-height: 20px;
+margin: 0px 0px 10px;
+}

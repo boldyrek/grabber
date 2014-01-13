@@ -1,0 +1,220 @@
+/* CSS Document */
+
+table.hardErrorBox, table.softErrorBox {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+   font-size: 100%;
+   line-height: 150%;
+	}
+	
+table.hardErrorBox {
+	background-color:  #ffffff;
+	border: 2px solid #cc0000;
+	}
+	
+table.softErrorBox {
+	background-color:  #fffff2;
+	border: 2px solid #D8D6AD;
+	}
+
+table.hardErrorBox .errorhdr, table.softErrorBox .errorhdr {
+	vertical-align: middle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+	padding-left: 18px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+
+.hardErrorBox .errorhdr {
+	color: #cc0000;
+	border-bottom: 1px solid #cc0000;
+	background-image: url(/images/icon_error.gif);
+	}
+	
+.softErrorBox .errorhdr {
+	color: #333333;
+	border-bottom: 1px solid #D8D6AD;
+	background-image: url(/images/softError_icon.gif);
+	background-position: 0px 200px; /* fixes new soft error icon spacing */
+	padding-left: 24px !important; /* fixes new soft error icon spacing */
+   padding-bottom: 20px;
+	}
+
+	
+	
+.hardErrorBox td, .softErrorBox td {
+	padding: 10px;
+	}
+
+.hardErrorBox p, .softErrorBox p {
+	margin: 0 0 0 0;
+	} 
+		
+
+.hardErrorBox .errorInstructions, .softErrorBox .errorInstructions {
+   font-weight: bold;
+   /*font-size: 120%;*/
+	}
+	
+.hardErrorBox ul, .softErrorBox ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	}
+	
+.hardErrorBox li, .softErrorBox li{
+	margin: 0px 0px 0px 0px;
+   padding: 0px 0px 2px 8px;
+	line-height: 165%;
+   font-size: 12px;
+	background: url(/images/bullet_rnd_blk.gif) 0px 8px no-repeat;
+	}
+.softErrorBox .warningText {
+   padding: 0px 0px 2px 18px;
+   background: url(/images/softError_icon.gif) 0px 0px no-repeat;
+}
+	
+/* New error styles using .fieldError */
+.fieldError {
+	display: block;
+	padding-left: 18px;
+	left: -18px;
+	position: relative;
+	background-image: url(/images/icon_error.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}
+
+.inlineError .fieldError {
+	display: inline;
+   position: static;
+	font-size: 13px;
+	}
+
+.fieldError select {
+	background-color: #F0B3B3;
+	}
+	
+.fieldError input {
+	background-color: #F0B3B3;
+	}
+
+
+
+.errorbox {
+	width: 450px !important;
+	/*background-color:  #ffffff;
+	background-color: yellow;*/
+	border: 2px solid #cc0000;
+	/*margin: 20px 30px 20px 30px;*/
+	margin: 10px 0px 0px 0px !important;
+	}
+
+.errorbox td {
+	width: 470px;
+	padding: 6px;
+	}
+
+.errorbox p {
+	width: 400px;
+	margin: 0 0 0 0;
+	}
+
+.errorbox .errorhdr {
+	vertical-align: middle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	color: #cc0000;
+	border-bottom: 1px solid #cc0000;}
+
+.errorInstructions {
+	font-weight: bold;
+	}
+
+.errorbox ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 300px;
+	}
+
+.errorbox li {
+	width: 300px;
+	margin: 0px 0px 0px 0px;
+	/*padding: 3px 8px 2px 9px;*/
+	line-height: 120%;
+	background: url(/images/bullet_rnd_blk.gif) 0px 8px no-repeat;
+	}
+	
+/* Displays and positions background graphic */
+
+.error {
+	display: block;
+	padding-left: 18px;
+	padding-right: 0px;
+	margin-right: 0px;
+   left: -18px;
+	position: relative;
+	background-image: url(../images/errorMrkr.gif);
+	background-repeat: no-repeat;
+	background-position: 1px 5px;
+	border: 1px solid white;
+}
+
+.error select {
+	margin-top: 1px;
+	background-color: #F0B3B3;
+
+}
+
+.error input {
+	background-color: #F0B3B3;
+	margin-right: 0px !important;
+
+}
+
+/* new Alert box style for Search 3.0 details pages */
+.alertBox .errorhdr {
+	border-bottom: none;
+	font-weight: normal !important;
+	padding-top: -5px;
+	font-size: 13px !important;
+	padding-bottom: 0px;
+
+	}
+	
+/* New error styles using .fieldError */
+.kbbsoftError {
+	display: block;
+	padding-left: 28px;
+	left: -18px;
+	position: relative;
+	background-image: url(/images/softAlert_white.gif);
+	background-repeat: no-repeat;
+	background-position: 4px -1px;
+	}
+
+
+.kbbsoftError {
+	display: inline;
+	position: static;
+	font-size: 13px;
+	}
+
+.kbbsoftError select {
+	background-color: #FCFCE0;
+	}
+
+.kbbsoftError input {
+	background-color: #FCFCE0 !important;
+	}
+
+.kbbNoError{
+
+}

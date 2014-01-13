@@ -1,0 +1,51 @@
+
+19-12-2013 14:21:34 --- INFO: start: 19-12-2013 14:21:34
+19-12-2013 14:21:34 --- INFO: ----------Source_Oodle (apache2handler)
+19-12-2013 14:21:46 --- INFO: Toyota Highlander - found: 26, pass primary filters: 22, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 22, new vincodes: 1
+19-12-2013 14:22:05 --- INFO: Lexus RX 330 - found: 229, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+19-12-2013 14:22:05 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:22:06 --- INFO: Lexus GX 470 - found: 14, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+19-12-2013 14:23:11 --- INFO: Lexus GX 470 - found: 197, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+19-12-2013 14:24:11 --- INFO: Lexus LX 470 - found: 74, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+19-12-2013 14:24:13 --- INFO: Toyota Sequoia - found: 75, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 0
+19-12-2013 14:24:14 --- INFO: Toyota Land Cruiser - found: 19, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 0
+19-12-2013 14:24:15 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:24:15 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:24:16 --- INFO: Toyota 4runner 2010 - found: 4, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+19-12-2013 14:24:35 --- INFO: Toyota 4RUNNER 4WD V6 - found: 456, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:25:35 --- INFO: Toyota RAV 4 - found: 3076, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:25:45 --- INFO: Toyota Highlander 4WD - found: 451, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:25:54 --- INFO: Toyota Highlander - found: 451, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:26:12 --- INFO: Lexus RX 350 - found: 619, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+19-12-2013 14:26:23 --- INFO: Toyota 4RUNNER Limited V6 - found: 531, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:26:24 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:26:25 --- INFO: Lexus RX 350 - found: 9, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+19-12-2013 14:26:27 --- INFO: Lexus GS300 - found: 91, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+19-12-2013 14:26:29 --- INFO: Toyota FJ cruiser - found: 81, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:26:32 --- INFO: Lexus RX 350 2013 - found: 64, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+19-12-2013 14:26:32 --- INFO: finish: 19-12-2013 14:26:32
+19-12-2013 14:26:32 --- INFO: elapsed time: ~297.86 sec., memory usage: ~5.97 Mb.
+19-12-2013 14:46:47 --- INFO: start: 19-12-2013 14:46:47
+19-12-2013 14:46:47 --- INFO: ----------Source_ExpOfCars (apache2handler)
+19-12-2013 14:48:03 --- INFO: Lexus RX 330 - found: 69, pass primary filters: 41, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 41, new vincodes: 5
+19-12-2013 14:48:18 --- INFO: Lexus RX 400H - found: 12, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 1
+19-12-2013 14:48:28 --- INFO: Lexus GX 470 - found: 6, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 1
+19-12-2013 14:50:18 --- INFO: Lexus GX 470 - found: 51, pass primary filters: 51, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 51, new vincodes: 9
+19-12-2013 14:51:01 --- INFO: Lexus LX 470 - found: 23, pass primary filters: 23, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 23, new vincodes: 2
+19-12-2013 14:52:34 --- INFO: Toyota Sequoia - found: 33, pass primary filters: 33, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 33, new vincodes: 5
+19-12-2013 14:52:39 --- INFO: Toyota Land Cruiser - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 2
+19-12-2013 14:53:03 --- INFO: Lexus LX 570 - found: 21, pass primary filters: 21, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 21, new vincodes: 3
+19-12-2013 14:53:14 --- INFO: Toyota Venza - found: 8, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 2
+19-12-2013 14:53:16 --- INFO: Toyota 4runner 2010 - found: 1, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+19-12-2013 14:53:38 --- INFO: Toyota 4RUNNER 4WD V6 - found: 64, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 1
+19-12-2013 14:53:45 --- INFO: Toyota RAV 4 - found: 200, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:53:48 --- INFO: Toyota Highlander 4WD - found: 61, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 14:54:15 --- INFO: Toyota Highlander - found: 61, pass primary filters: 19, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 19, new vincodes: 5
+19-12-2013 15:02:59 --- INFO: Lexus RX 350 - found: 158, pass primary filters: 116, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 116, new vincodes: 24
+19-12-2013 15:03:02 --- INFO: Toyota 4RUNNER Limited V6 - found: 76, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 1
+19-12-2013 15:03:03 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+19-12-2013 15:03:31 --- INFO: Lexus RX 350 - found: 15, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 1
+19-12-2013 15:03:55 --- INFO: Toyota Highlander - found: 10, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 2
+19-12-2013 15:04:17 --- INFO: Lexus GS300 - found: 18, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 3
+19-12-2013 15:04:17 --- INFO: finish: 19-12-2013 15:04:17
+19-12-2013 15:04:17 --- INFO: elapsed time: ~1050.25 sec., memory usage: ~8.87 Mb.

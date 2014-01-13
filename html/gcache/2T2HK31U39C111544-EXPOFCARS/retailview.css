@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+.info_messages		{ background: #FFF7B6 url("/images/general/icon-warning-simple.gif") no-repeat scroll 12px center; border: 1px solid #CCCC00; margin-bottom: 15px; padding: 5px 0; }
+.info_messages div	{ color: #996600; font-weight: normal; margin: 0; padding: 5px 10px 5px 50px; }
+
+table.simple td		{ border-bottom: 1px dotted #336699;color: #336699; }
+table.simple th		{ border-bottom: 1px dotted #336699; background: #CFE7FF; text-align: center; }
+table.complex		{ border-top: 1px dotted #336699; border-left: 1px dotted #336699; }
+table.complex th		{ border-bottom: 1px dotted #336699; border-right: 1px dotted #336699; font-style:italic; background: #CFE7FF; text-align: center; }
+table.complex td		{ border-bottom: 1px dotted #336699; border-right: 1px dotted #336699; }
+table.solid			{ border: 3px double #336699; }
+td.col_numbers		{ padding-right:5px; padding-left:5px; background-color:#E5E5E5; color:#222222; text-align:right; }
+td.tdpad				{ padding-left: 2px !important; padding-right: 2px !important; }
+td.tdpad5			{ padding-left: 5px !important; padding-right: 5px !important; }
+tr.roweven			{ background-color: #F2F2F2 !important; } /*#F5F5F5*/
+tr.row				{ background-color: #FFFFFF; }
+
+.button, .button_long, a.button, a.button:visited, a.button_long, a.button_long:visited  {
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none !important;
+    white-space: nowrap;
+	display: inline-block;
+	border: 2px solid #336699;
+	color: #FFFFFF;
+	background-color: #336699;
+	background-image: url("/images/general/button-overlay-new.png");
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+a.button, a.button:visited, a.button_long, a.button_long:visited {
+	height: 16px;
+	padding-bottom: 1px;
+    padding-top: 3px;
+}
+.button			{ padding: 2px 2px; }
+.button_long	{ padding: 2px 10px; }
+.button_yellow, a.button_yellow, a.button_yellow:visited {
+	background-color: #D17408;
+	border: 2px solid #D17408;
+}
+.button_red, a.button_red, a.button_red:visited {
+	background-color: #AA0000;
+	border: 2px solid #AA0000;
+}
+
+.button_grey, a.button_grey, a.button_grey:visited {
+	background-color: #CCCCCC;
+	border: 2px solid #CCCCCC;
+	color: #000000;
+}
+
+.select, .input, .textarea	{ border: 1px solid #336699; }
+.select     { /*border: 1px solid #7F9DB9;*/ font-size: 11px; padding: 0; vertical-align: middle; }
+.input			{ padding: 1px 5px; }
+.input_no		{ padding: 1px;}
+.input_yellow	{ border: 1px solid #D17408; padding: 1px 5px; }
+
+/* Monolits - This monolit will generate frame with smooth corners and shadow */
+.monolit_table 				{ background: #FFFFFF; }
+.monolit_table .square25x25	{ height: 25px; width: 25px; position: relative; display: block; }
+.monolit_table .topleft		{ background: url("/images/general/monolit-table-top-left.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_table .topcenter	{ background: url("/images/general/monolit-table-top-center.gif") repeat-x scroll 0 0 transparent; height: 25px; }
+.monolit_table .topright		{ background: url("/images/general/monolit-table-top-right.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_table .topleftlines		{ background: url("/images/general/monolit-table-top-left-lines.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_table .topcenterlines	{ background: url("/images/general/monolit-table-top-center-lines.gif") repeat-x scroll 0 0 transparent; height: 25px; }
+.monolit_table .toprightlines	{ background: url("/images/general/monolit-table-top-right-lines.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_table .middleleft	{ background: url("/images/general/monolit-table-middle-left.gif") repeat-y scroll 0 0 transparent; width: 25px; }
+.monolit_table .middleright	{ background: url("/images/general/monolit-table-middle-right.gif") repeat-y scroll 0 0 transparent; width: 25px; }
+.monolit_table .bottomleft	{ background: url("/images/general/monolit-table-bottom-left.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 30px; }
+.monolit_table .bottomcenter	{ background: url("/images/general/monolit-table-bottom-center.gif") repeat-x scroll 0 0 transparent; height: 30px; }
+.monolit_table .bottomright	{ background: url("/images/general/monolit-table-bottom-right.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 30px; }
+
+/* This monolit will generrate frame with double border and tiny shadow */
+.monolit_framed                         { background: #FFFFFF; }
+.monolit_framed .square25x25            { height: 25px; width: 25px; position: relative; display: block; }
+.monolit_framed .topleft		{ background: url("/images/general/monolit-framed-top-left.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_framed .topcenter		{ background: url("/images/general/monolit-framed-top-center.gif") repeat-x scroll 0 0 transparent; height: 25px; }
+.monolit_framed .topright		{ background: url("/images/general/monolit-framed-top-right.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_framed .middleleft		{ background: url("/images/general/monolit-framed-middle-left.gif") repeat-y scroll 0 0 transparent; width: 25px; }
+.monolit_framed .middleright		{ background: url("/images/general/monolit-framed-middle-right.gif") repeat-y scroll 0 0 transparent; width: 25px; }
+.monolit_framed .bottomleft		{ background: url("/images/general/monolit-framed-bottom-left.gif") no-repeat scroll 0 0 transparent;	width: 25px; height: 25px; }
+.monolit_framed .bottomcenter           { background: url("/images/general/monolit-framed-bottom-center.gif") repeat-x scroll 0 0 transparent; height: 25px;}
+.monolit_framed .bottomright		{ background: url("/images/general/monolit-framed-bottom-right.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_framed .bottomleftlines        { background: url("/images/general/monolit-framed-bottom-left-lines.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+.monolit_framed .bottomcenterlines	{ background: url("/images/general/monolit-framed-bottom-center-lines.gif") repeat-x scroll 0 0 transparent; height: 25px; }
+.monolit_framed .bottomrightlines	{ background: url("/images/general/monolit-framed-bottom-right-lines.gif") no-repeat scroll 0 0 transparent; width: 25px; height: 25px; }
+/* Extensions to framed & table monolits */
+.monolit_framed_big, .monolit_table_big			{ margin-bottom: 0; width: 927px; top: -5px; }
+.monolit_framed_auto, .monolit_table_auto		{ margin-bottom: 0; width: 100%; top: -5px; }
+.monolit_framed_half, .monolit_framed_half_theme, .monolit_table_half 	{ float: left; width: 461px; }
+.monolit_framed_short, .monolit_table_short		{ float: left; width: 300px; }
+.monolit_framed_half_theme	{ background: #336699; color: #FFFFFF; }
+.monolit_framed_half_header	{ height: 157px; }
+/* Position Related */
+.monolit_position_left   table	{ float:left; }
+.monolit_position_right table, .monolit_position_right img	{ float:right; }
+
+/* Tickets View */
+.monolit_tickets_view				{ }
+.monolit_tickets_view td				{ vertical-align: top; }
+.monolit_tickets_view_topleft 		{ background: url("../images/tickets/tickets_view_topleft.png") no-repeat scroll 0 0 transparent; }
+.monolit_tickets_view_topleftlines 	{ background: url("../images/tickets/tickets_view_topleft_lines.png") no-repeat scroll 0 0 transparent; }
+.monolit_tickets_view_topcenter 		{ background: url("../images/tickets/tickets_view_topcenter.png") repeat-x scroll 0 0 transparent; vertical-align: bottom !important; }
+.monolit_tickets_view_topright 		{ background: url("../images/tickets/tickets_view_topright.png") no-repeat scroll 0 0 transparent; }
+.monolit_tickets_view_toprightlines 	{ background: url("../images/tickets/tickets_view_topright_lines.png") no-repeat scroll 0 0 transparent; }
+.monolit_tickets_view_middleleft 	{ background: url("../images/tickets/tickets_view_middleleft.png") repeat-y scroll 0 0 transparent; }
+.monolit_tickets_view_middleright 	{ background: url("../images/tickets/tickets_view_middleright.png") repeat-y scroll 0 0 transparent; }
+.monolit_tickets_view_bottomleft 	{ background: url("../images/tickets/tickets_view_bottomleft.png") no-repeat scroll 0 0 transparent; }
+.monolit_tickets_view_bottomcenter 	{ background: url("../images/tickets/tickets_view_bottomcenter.png") repeat-x scroll 0 0 transparent; vertical-align: bottom !important; }
+.monolit_tickets_view_bottomright 	{ background: url("../images/tickets/tickets_view_bottomright.png") no-repeat scroll 0 0 transparent; }
+.monolit_tickets_view_square 		{ height: 16px; width: 16px; position: relative; display: block; }
+.monolit_tickets_view_body              { background-color: #FFFFFF; }
+
+/* Plain & Simple monolits */
+.monolit_plain 		{ background: url("/images/general/monolit-plain-top.gif") repeat-x scroll 0 0 #FFFFFF; margin-top: 12px; padding-bottom: 16px; }
+.monolit_plain .top 	{ padding: 20px; }
+.monolit_simple 		{ background: url("/images/general/monolit-plain-top.gif") repeat-x scroll 0 0 #FFFFFF; margin-top: 12px; padding-bottom: 0px; }
+.monolit_simple .top { padding: 2px; }
+
+/* Monolit tabs */
+.monolit_table_tabs_special	{ top: -12px; position: relative; z-index: 1000; }
+.monolit_tabs				{ width: 100%; display: block; float: left; margin: 0; padding: 0; clear: both; }
+ul.monolit_tabs_list			{ list-style: none; padding: 0; margin: 0 0 0 -1px; z-index: 1010; position: relative; }
+ul.monolit_tabs_list li		{ float: right; position: relative; text-align: left; margin: 0; }
+.monolit_tabs_left 			{ display: inline-block; float: left; padding: 5px; }
+.monolit_tabs_left_first	{ }
+a.monolit_tabs_right		{ padding: 5px; display: inline-block; overflow: hidden; text-decoration: none; cursor: pointer; *cursor: hand; white-space: nowrap; vertical-align: middle; position: relative; }
+a.monolit_tabs_right:hover, a.monolit_tabs_right:focus	{ }
+a.monolit_tabs_right:hover span.monolit_tabs_left, a.monolit_tabs_right:focus span.monolit_tabs_left	{ background-position: left -70px !important; }
+a.monolit_tabs_active		{ }
+span.monolit_tabs_active		{ }
+.monolit_tabs_title             	{ display: inline-block; overflow: hidden; padding: 23px 10px 0 27px; position: relative; text-decoration: none; vertical-align: middle; white-space: nowrap; }
+
+/* this is for images embeded into monolits */
+.monolit_image_plain 		{ margin: 0; }
+
+/* search engine adjustments */
+.search_monolit_tabs            { width: 100%; }
+.search_thumb_cell              { font-size: 0.8em; font-weight: bold; padding-top: 12px; padding-bottom: 12px; }
+.search_engine_cell, .search_sale_cell, .search_name_cell, .search_location_cell { font-size: 0.8em; }
+.search_small_image             { background-color: #CCCCCC; border: 1px solid #333333; display: block; height: auto; margin: 0 auto; max-width: 97%; width: 60px; height: 46px; }
+.search_list_container          { font-size: 11px; text-align: left; }
+.search_header_row td           { background-color: #DDDDDD; font-weight: bold; color: #666666; padding: 5px; font-size: 11px; }
+.search_vehicle_row             { margin-top: 12px; padding-bottom: 16px; }
+.search_vehicle_basic_row td    { padding: 5px; }
+.search_top_name_header         { height: 35px; clear: both; margin-bottom: 3px; padding: 15px 10px; }
+.search_workbook_add, .search_workbook_remove, .search_retailview { line-height: 2em; padding-left: 16px; margin-top: 0; }
+.search_workbook_add            { }
+.search_workbook_remove      { }
+.search_retailview               { }
+.search_retailview_legend  { padding: 0; margin: 0; }
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}

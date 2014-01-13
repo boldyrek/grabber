@@ -1,0 +1,191 @@
+#copart_auto_pic {
+	padding: 0px 7px;
+}
+
+#copart_button_search {
+	width:168px;
+	height:19px;
+	background: url('/img/copart/button.gif') center center;	
+}
+
+#copart_form_search {
+	border: 1px groove #369;
+	margin: 0px 5px;
+	padding: 5px 5px;
+}
+
+#copart_full_photo {
+	width: 640px;
+	margin-top: 10px;
+	border: 2px #d1d1d1 solid;
+}
+
+#cycle_full_photo {
+	width: 550px;
+	height: 410px;
+	margin-top: 6px;
+	border: 2px #d1d1d1 solid;
+	margin-left: 2px;
+	/* амка вокруг картинки но с глюком в хедлич
+        border-top: 1px #ffffff solid;
+        border-bottom: 1px #ffffff solid;
+        outline: 2px solid #d1d1d1;
+        margin-left: 4px;  */
+}
+
+.cycle_result_img {
+	border: 1px solid #d1d1d1;
+        padding: 2px 2px 2px 2px;
+}
+
+.copart_current_page {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.copart_h {
+	font-weight: bold;
+	font-size: 12pt;
+	margin-bottom: 5px;
+}
+
+.copart_hr {
+	background: url('/img/copart/copart_hr.gif') repeat-x center center;	
+	height: 15px;
+}
+
+.copart_hr_thin {
+	background: url('/img/copart/copart_hr_thin.gif') repeat-x center center;	
+	height: 10px;
+	width: 90%;
+}
+
+.copart_hr_thins {
+	background: url('/img/copart/copart_hr_thin.gif') repeat-x center center;	
+	height: 10px;
+	width: 100%;
+}
+
+.copart_info {
+	margin: 20px 20px 10px 5px;
+}
+
+.copart_preview_small {
+	border: 1px #d1d1d1 solid;
+}
+
+.copart_result_a {
+	color: #39f;
+	margin: 5px 5px 10px 15px;
+	font-weight: bold;
+}
+
+.copart_result_border {
+	border-bottom: 1px dashed #d1d1d1;
+}
+
+.copart_result_img {
+	border: 1px solid #d1d1d1;
+	float: left;
+	margin: 2px;
+}
+
+.copart_select {
+	font-size: 10px;
+}
+
+.copart_select_option {
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.copart_table_catalog {
+	padding: 1px 5px 1px 10px;
+}
+
+.copart_table_form_search {
+	padding: 1px 2px 1px 2px;
+}
+
+.copart_text_blue {
+	color: #369;
+}
+
+.copart_text_lot {
+color: #585D65;
+font-size: 11px;
+font-weight: 700;
+margin: -45px;
+padding: 0px 0px 80px 35px;
+ }
+.jQtooltip {
+   position: relative;
+   cursor: help;
+   border-bottom: 1px dotted;
+}
+.jQtooltip div {
+   display: none;
+   position: absolute;
+   bottom: -1px;
+   left: -1px;
+   z-index: 1000;
+   width: 200px;
+   padding: 8px 12px;
+   text-align: left;
+   font-size: 12px;
+   line-height: 16px;
+   color: #000;
+   box-shadow: 0 1px 3px #C4C4C4;
+   border: 1px solid #FF0000;
+   background: #FFFFFF;
+   border-radius: 2px;
+}
+.jQtooltip.mini {
+   display: inline-block;
+   vertical-align: bottom;
+   font-size: 11px;
+   width: 14px;
+   line-height: 13px;
+   text-align: center;
+   margin-left: 2px;
+   top: -2px;
+   color: #FF0000;
+   border: 1px solid #FF0000;
+   background: #FFFFFF;
+   border-radius: 2px;
+}
+.jQtooltip1 {
+   position: relative;
+   cursor: help;
+   border-bottom: 1px dotted;
+}
+.jQtooltip1 div {
+   display: none;
+   position: absolute;
+   bottom: -1px;
+   left: -1px;
+   z-index: 1000;
+   width: 200px;
+   padding: 8px 12px;
+   text-align: left;
+   font-size: 12px;
+   line-height: 16px;
+   color: #000;
+   box-shadow: 0 1px 3px #C4C4C4;
+   border: 1px solid #2146FF;
+   background: #FFFFFF;
+   border-radius: 2px;
+}
+.jQtooltip1.mini {
+   display: inline-block;
+   vertical-align: bottom;
+   font-size: 11px;
+   width: 14px;
+   line-height: 13px;
+   text-align: center;
+   margin-left: 2px;
+   top: -2px;
+   color: #2146FF;
+   border: 1px solid #2146FF;
+   background: #FFFFFF;
+   border-radius: 2px;
+}

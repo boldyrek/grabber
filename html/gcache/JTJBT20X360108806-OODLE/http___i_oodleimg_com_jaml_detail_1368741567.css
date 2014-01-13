@@ -1,0 +1,1006 @@
+odl.namespace('fbLikeTracking');
+
+//register call back functions for fb like
+odl.fbLikeTracking.registerFbLike = function(page, listingIDsForPage)
+{
+	var likedListingIds = {}; //as a hash for easy lookup, this is to allow like a listing once in a single page load
+	
+	for (k in listingIDsForPage)
+		likedListingIds[listingIDsForPage[k]] = false;
+	
+	//checks if this instance of odl.fbLikeTracking is the "correct instance"
+	//(e.g. on an idp, we might be tracking fb likes on the IDP listing and on featured listings)
+	//we need to ensure that we are tracking likes correctly
+	var isCorrectInstance = function(response) {
+		var matchResult = /\/(\d{10,})[^\/]*\/($|\?)/.exec(response);
+		if (!matchResult)
+			return false;
+		
+		var listingId = matchResult[1];
+		if (typeof likedListingIds[listingId] === 'undefined')
+			return false;
+		
+		return listingId;
+	};
+	
+	//subscribe to facebook like button click event
+	var registerFbLike = function()
+	{
+		FB.Event.subscribe('edge.create', function(response)
+		{
+			var listingId = isCorrectInstance(response);
+			if (listingId === false)
+				return;
+
+			var urlAppend = '';
+			if (likedListingIds[listingId])
+			{
+				//do not update listing social action table (only add a news feed item)
+				urlAppend = '&lsa=skip';
+			}
+			else
+			{
+				likedListingIds[listingId] = true;
+			}
+
+			//update social listing actions
+			//we should always ajax so that we can properly add/remove news feed items
+			var settings =
+			{
+				type: 'POST',
+				url : odl.info.base_path + 'comment/update_facebook_like/?id=' + listingId + '&sourceUrl=' + escape(response) + urlAppend,
+				dataType: 'json',
+				success: function(result){}
+			};
+			jQ.ajax(settings);
+			
+			//tracking
+			var params =
+			{
+				'event_name' : 'comment',
+				'event_type' : 'like',
+				'page' : page,
+				'listing_id' : listingId,
+				'partner' : odl.info.partner_tag,
+				'masquerade' :odl.info.partner_masquerade,
+				'oodle_id' : odl.info.user_id
+			};
+			jQ.ajax
+			({
+				'url' : odl.info.base_path + 'event/track-named/?' + jQ.param(params)
+			});
+		});
+		
+		FB.Event.subscribe('edge.remove', function(response) {
+			var listingId = isCorrectInstance(response);
+			if (listingId === false)
+				return;
+			
+			var settings =
+			{
+				type: 'POST',
+				url : odl.info.base_path + 'comment/facebook_unlike/?id=' + listingId,
+				dataType: 'json',
+				success: function(result){}
+			};
+			
+			jQ.ajax(settings);
+		});
+	};
+	
+	odl.fbready.add(registerFbLike);
+};
+
+
+
+odl.namespace('detail');
+
+/* FB Profile redirect */
+odl.detail.fbProfile = {};
+
+odl.detail.fbProfile.go = function(sellerID, userID) {
+	sellerURL = odl.info.base_path + 'seller/' + sellerID + '/';
+	redirectURL = sellerURL + 'fbrd/?tmid=' + odl.info.tmsid;
+
+	if (userID)
+		redirectURL += '&fbuid=' + userID;
+
+	jQ.ajax
+	({
+		'url': redirectURL,
+		'dataType': 'text',
+		'success': function(data) { top.location.href = data; },
+		'error': function() { top.location.href = sellerURL; }
+	});
+};
+
+odl.detail.fbProfile.visitProfile = function(sellerID, tmID, ele) {
+	odl.spam.addTM(odl.info.tmsid);
+
+	if (odl.info.fbjs_enabled && odl.info.partner_is_social)
+	{
+		if (odl.info.fb_uid)
+			odl.detail.fbProfile.go(sellerID, odl.info.fb_uid)
+		else
+			odl.detail.fbProfile.openDialog(sellerID, ele);
+	}
+	else
+		odl.detail.fbProfile.go(sellerID, null);
+};
+
+odl.detail.fbProfile.openDialog = function(sellerID, ele) {
+	odl.detail.tracking.seller.track({'event_type': 'connect_required', 'status': 'start'});
+
+	var close = function() {
+		odl.detail.tracking.seller.track({'event_type': 'connect_required', 'status': 'cancel'});
+		odl.detail.fbProfile.msgbox.close();
+	};
+
+	var params = {
+		url: odl.info.base_path + 'lightbox/listing-action-lightbox/visit_seller_profile/?sellerID=' + sellerID,
+		singleton: true,
+		model: true,
+		overlay: true,
+		anchor_y: ele,
+		width: 550,
+		close_x: close,
+		skin: 'fbperm_msgbox',
+		buttons: [{text: "No thanks ...", skin: 'plain-link', click : close},
+		          {text: 'Connect with Facebook', click: function() { odl.detail.fbProfile.fbConnect(sellerID); }}]
+	};
+
+	odl.detail.fbProfile.msgbox = new odl.msgbox(params);
+};
+
+odl.detail.fbProfile.fbConnect = function(sellerID) {
+	odl.detail.tracking.seller.track({'event_type': 'facebook', 'status': 'start'});
+
+	FB.login(function(response) {
+		if (response.authResponse)
+		{
+			odl.auth2.refresh({callback: function() {
+				odl.detail.tracking.seller.track({'event_type': 'facebook', 'status': 'success'});
+
+				//do a proxy email check
+				odl.fb.getUserInfo(function(userResponse) {
+					if (userResponse.email && userResponse.email.indexOf('proxymail.facebook.com') >= 0)
+						odl.detail.tracking.seller.track({'event_type': 'facebook', 'status': 'proxy_email'});
+
+					odl.detail.fbProfile.go(sellerID, userResponse.id);
+				});
+			}});
+		}
+		else
+		{
+			odl.detail.tracking.seller.track({'event_type': 'facebook', 'status': 'no_auth'});
+		}
+	}, {scope: 'email,publish_actions'});
+};
+
+/* event tracking */
+odl.detail.tracking = {};
+
+odl.detail.tracking.init = function() {
+
+	// add mongo tracking to preview pages to debug DEV-25740
+	if (window.location.toString().indexOf('cm_mmc=FB_PREVIEW') != -1)
+	{
+		odl.event.trackNamed({'event_name' : 'preview', 'event_type' : 'preview'});
+	}
+
+	var pageType = odl.detail.listingID ? 'idp' : 'seller';
+	odl.detail.tracking.idp = new odl.event.framework('idp', pageType);
+	odl.detail.tracking.seller = new odl.event.framework('seller', pageType);
+
+	if (odl.detail.listingID)
+	{
+		odl.detail.tracking.idp.addDefaultParams({'listing_id': odl.detail.listingID, 'is_mobile': 0});
+		odl.fbLikeTracking.registerFbLike('detail', ['' + odl.detail.listingID]);
+	}
+
+	if (odl.detail.sellerProfileType)
+	{
+		odl.detail.tracking.seller.addDefaultParams({'profile_type': odl.detail.sellerProfileType});
+	}
+	
+	if (odl.detail.sellerID)
+		odl.detail.tracking.seller.addDefaultParams({'seller_id': odl.detail.sellerID});
+
+	//add event listeners
+	odl.detail.trackClickOnSellerImg();
+	odl.detail.trackClickOnViewFBLink();
+	odl.detail.trackClickOnViewMyListings();
+	odl.detail.trackClickOnPhoto();
+	odl.detail.trackClickOnCarousel();
+
+	safecall(odl.detail.trackLikeButton, function() { if (typeof(FB) != 'undefined') return 'function'; });
+};
+
+odl.detail.trackLikeButton = function()
+{
+	FB.Event.subscribe('message.send', function(response) {
+		odl.detail.tracking.idp.track({'event_type': 'send', 'status': 'sent'});
+	});
+}
+
+odl.detail.trackClickOnSellerImg = function()
+{
+	jQ('#profileimg_container .profileimg').click(function()
+	{
+		odl.detail.tracking.seller.track({'event_type': 'view_details', 'status': 'photo'});
+	});
+};
+
+odl.detail.trackClickOnViewFBLink = function()
+{
+	jQ('#seller-rail .view-my-fb').click(function()
+	{
+		odl.detail.tracking.seller.track({'event_type': 'view_details', 'status': 'profile_link'});
+	});
+};
+
+odl.detail.trackClickOnViewMyListings = function()
+{
+	jQ('#all-listings a.seller-rail-active-listings').click(function()
+	{
+		odl.detail.tracking.seller.track({'event_type': 'view_details', 'status': 'active_listings'});
+	});
+
+	jQ('#all-listings a.seller-rail-closed-listings').click(function()
+	{
+		odl.detail.tracking.seller.track({'event_type': 'view_details', 'status': 'previous_listings'});
+	});
+};
+
+odl.detail.trackClickOnPhoto = function()
+{
+	jQ('#photo-view .largeImageWrap').click(function()
+	{
+		odl.detail.tracking.idp.track({'event_type': 'photo', 'status': 'click'});
+	});
+};
+
+odl.detail.trackClickOnCarousel = function()
+{
+	jQ('#toggle-left').click(function()
+	{
+		odl.detail.tracking.idp.track({'event_type': 'carousel', 'status': 'left'});
+	});
+
+	jQ('#dekko-controls div.panels li').click(function()
+	{
+		odl.detail.tracking.idp.track({'event_type': 'carousel', 'status': 'thumbnail'});
+	});
+
+	jQ('#toggle-right').click(function()
+	{
+		odl.detail.tracking.idp.track({'event_type': 'carousel', 'status': 'right'});
+	});
+};
+
+/* photo gallery */
+if (typeof(odl.detail.dekko) == 'undefined')
+	odl.detail.dekko = {};
+
+odl.detail.dekko.youtubePlayers = {};
+onYouTubePlayerAPIReady = function() {
+	
+};
+odl.detail.dekko.init = function()
+{
+	var counter = 0;
+	var imageCount = jQ('#imgbox .largeImageWrap').length;
+	odl.detail.dekko.imageCount = imageCount;
+	odl.detail.dekko.previousImage = 0;
+	odl.detail.dekko.currentImage = 0;
+	odl.detail.dekko.imagesPerPanel = jQ('#dekko-controls panel').length;
+	if (counter == 0)
+	{
+		if (odl.detail.dekko.imagesPerPanel == 0)
+		{
+			odl.detail.dekko.imagesPerPanel = 5;
+			counter++;
+		}	
+	}
+	odl.detail.dekko.panelCount = Math.ceil(imageCount/odl.detail.dekko.imagesPerPanel);
+	odl.detail.dekko.currentPanel = 0;
+	odl.detail.dekko.transitionLock = false;
+	var videos = jQ('.detailvideo');
+	if (videos.length)
+		odl.detail.dekko.hasVideo = true ;
+	else
+		odl.detail.dekko.hasVideo = false;
+	
+	var youtubeVideos = videos.filter('.youtube').find('.player');
+	if (youtubeVideos.length)
+	{
+		var tag = document.createElement('script');
+		tag.src = "//www.youtube.com/player_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		
+		onYouTubePlayerAPIReady = function() {
+			youtubeVideos.each(function() {
+				$this = jQ(this);
+				odl.detail.dekko.youtubePlayers[$this.attr('id')] = new YT.Player($this.attr('id'), {
+					'videoId': $this.attr('data-videoid'),
+					'height': $this.attr('data-height'),
+					'width': $this.attr('data-width'),
+					'playerVars': { 'wmode': 'transparent' }
+				});
+			});
+		};
+			
+	}
+
+	setTimeout(function(){
+		if (odl.detail.dekko.imageCount <= odl.detail.dekko.imagesPerPanel)
+		{
+			jQ('#toggle-right').css('visibility', 'hidden');
+			jQ("#toggle-left").css('visibility', 'hidden');
+		}
+		else
+		{
+			if (odl.detail.dekko.panelCount > 1)
+			{
+				jQ('#right-button').removeClass().addClass('imgcrousl-blueright');
+				jQ('#toggle-right').bind('click', function(){ odl.detail.dekko.toggleright();});
+				jQ("#toggle-left").bind('click', function(){ odl.detail.dekko.toggleleft();});
+			}
+		}
+	}, 1000);
+
+	jQ('.largeImageWrap img').bind('click', function(){
+		odl.detail.dekko.updateCounter();
+		odl.detail.dekko.next();
+	});
+
+	jQ('#blckptr0').addClass('orangepointer');
+	jQ('#tinyImage0 img').addClass('selectImg').removeClass("tinyImage");
+
+	if (imageCount > 1)
+	{
+		jQ('#dekko #leftpan #left-arrow').bind('click', function(){
+			odl.detail.dekko.updateCounter(); 
+			odl.detail.dekko.previous();
+		});
+		jQ('#dekko #rightpan #right-arrow').bind('click', function(){
+			odl.detail.dekko.updateCounter(); 
+			odl.detail.dekko.next();
+		});
+	}
+};
+
+odl.detail.dekko.next = function()
+{
+	if (odl.detail.dekko.currentImage < odl.detail.dekko.imageCount - 1)
+	{
+		odl.detail.dekko.switchImage(odl.detail.dekko.currentImage + 1);
+	}
+};
+
+odl.detail.dekko.previous = function()
+{
+	if (odl.detail.dekko.currentImage > 0)
+	{
+		odl.detail.dekko.switchImage(odl.detail.dekko.currentImage - 1);
+	}
+};
+
+odl.detail.dekko.switchImage = function ( newID )
+{
+	if (odl.detail.dekko.transitionLock == true)
+		return;
+
+	if(newID != odl.detail.dekko.currentImage)
+	{
+		odl.detail.dekko.blackMarker(odl.detail.dekko.currentImage, newID);
+		odl.detail.dekko.previousImage = odl.detail.dekko.currentImage;
+		odl.detail.dekko.transitionLock = true;
+		odl.detail.dekko.fade('out' , 'largeImg' + odl.detail.dekko.currentImage);
+		odl.detail.dekko.fade('in' , 'largeImg' + newID);
+		jQ("#tinyImage"+odl.detail.dekko.currentImage+" img").removeClass('selectImg').addClass("tinyImage");
+		jQ("#tinyImage"+newID+" img").addClass("selectImg").removeClass("tinyImage");
+		odl.detail.dekko.currentImage = newID;
+		odl.detail.dekko.updateCounter();
+		
+		var ytPlayer = odl.detail.dekko.youtubePlayers['ytPlayer' + odl.detail.dekko.previousImage];
+		var dmiEl = jQ('#dmiPlayer' + odl.detail.dekko.previousImage + ' iframe');
+		if (ytPlayer)
+		{
+			ytPlayer.pauseVideo();
+		}
+		else if (dmiEl.length)
+		{
+			dmiEl[0].contentWindow.stop();
+		}
+
+		jQ('#dekko #imgbox  #largeImg'+newID).css('visibility','visible').css('opacity','1');
+		odl.detail.dekko.switchpanel(newID);
+	}
+};
+
+
+odl.detail.dekko.switchpanel = function(newID)
+{
+	var panel = Math.floor(newID / (odl.detail.dekko.imagesPerPanel));
+	if (panel < odl.detail.dekko.currentPanel)
+	{
+		odl.detail.dekko.toggleleft();
+	}
+	if (panel > odl.detail.dekko.currentPanel)
+	{
+		odl.detail.dekko.toggleright();
+	}
+};
+
+odl.detail.dekko.togglePanel = function(panelID_1, panelID_2)
+{
+	jQ('#panel' + panelID_1).css('display', 'none');
+	jQ('#panel' + panelID_2).css('display', 'block');
+};
+
+odl.detail.dekko.toggleleft = function()
+{
+	if (odl.detail.dekko.currentPanel > 0)
+	{
+		odl.detail.dekko.togglePanel(odl.detail.dekko.currentPanel, odl.detail.dekko.currentPanel-1);
+		odl.detail.dekko.currentPanel--;
+	}
+	if(odl.detail.dekko.currentPanel == 0)
+	{
+		jQ('#left-button').removeClass('imgcrousl-blueleft').addClass('imgcrousl-greyleft');
+	}
+	jQ('#right-button').removeClass('imgcrousl-greyright').addClass('imgcrousl-blueright');
+};
+
+odl.detail.dekko.toggleright = function()
+{
+	if (odl.detail.dekko.currentPanel < odl.detail.dekko.panelCount - 1)
+	{
+		odl.detail.dekko.togglePanel(odl.detail.dekko.currentPanel, odl.detail.dekko.currentPanel+1);
+		odl.detail.dekko.currentPanel++;
+	}
+	if(odl.detail.dekko.currentPanel == odl.detail.dekko.panelCount - 1)
+	{
+		jQ('#right-button').removeClass('imgcrousl-blueright').addClass('imgcrousl-greyright');
+	}
+	jQ('#left-button').removeClass('imgcrousl-greyleft').addClass('imgcrousl-blueleft');
+};
+
+odl.detail.dekko.updateCounter = function()
+{
+	if (!odl.detail.dekko.imageCount)
+	{
+		odl.detail.dekko.imageCount = jQ('#imgbox .largeImageWrap').length;
+	}
+	jQ('.controls-wrap #counter').html( (odl.detail.dekko.currentImage + 1) + ' / ' + odl.detail.dekko.imageCount);
+	
+	if(odl.detail.dekko.currentImage + 1 == odl.detail.dekko.imageCount)
+		jQ("#rightpan #right-arrow").hide();
+	else
+		jQ("#rightpan #right-arrow").show();
+	
+	if(odl.detail.dekko.currentImage == 0)
+		jQ("#leftpan #left-arrow").hide();
+	else
+		jQ("#leftpan #left-arrow").show();
+};
+
+odl.detail.dekko.fade = function(type, id)
+{
+	var element = jQ('#' + id);
+	var setOpacity = function(object, opacityPct)
+	{
+		element.css('filter', 'alpha(opacity=' + opacityPct + ')');
+		element.css('MozOpacity',  opacityPct/100);
+		element.css('opacity', opacityPct/100);
+	};
+
+	var ChangeOpacity = function(start, stop)
+	{
+      var opacity = element.css('opacity') * 100;
+	  if( start < stop)
+	  {
+		  opacity = start = start + 30;
+	  }
+	  else
+	  {
+		  opacity = start = start - 30;
+	  }
+
+	  if (opacity <= 0)
+		{
+		  setOpacity(element,0);
+		  element.css('visibility', 'hidden');
+		  odl.detail.dekko.transitionLock = false;
+		}
+	  else if (opacity >= 100)
+		{
+		  setOpacity(element,100);
+		  element.css('filter', ''); //IE6, 7, 8 compat bug 46462
+		  odl.detail.dekko.transitionLock = false;
+		}
+	  else
+	  {
+		setOpacity(element,opacity);
+	    element.timer = setTimeout(function(){ChangeOpacity(start, stop);}, 200);
+	  }
+	};
+
+	var fadeIn = function(id)
+	{
+		if (element.timer) clearTimeout(element.timer);
+		element.timer = setTimeout(function(){ ChangeOpacity(0, 100);}, 1);
+	};
+
+	var fadeOut = function(id)
+	{
+		if (element.timer) clearTimeout(element.timer);
+		element.timer = setTimeout(function(){ ChangeOpacity(100, 0);}, 1);
+	};
+
+	if(type == 'in')
+	{
+		setOpacity(element,0);
+		element.css('visibility', 'visible');
+		fadeIn(id);
+	}
+	else
+	{
+		fadeOut(id);
+	}
+};
+
+odl.detail.dekko.blackMarker = function(oldID, newID)
+{
+	if(oldID != newID)
+	{
+		jQ('#blckptr' + oldID).removeClass('orangepointer');
+		jQ('#blckptr' + newID).addClass('orangepointer');
+	}
+};
+
+odl.detail.mapJS = 0;
+
+odl.detail.showMap = function ()
+{
+	if (!odl.detail.mapJS)
+	{
+		odl.detail.mapJS = 1;
+		
+		var oldDocumentWrite = document.write;
+		document.write = function(x) {
+			jQ('<div>').html(x).appendTo(document.body);
+			document.write = oldDocumentWrite;
+		};
+		
+		var script = document.createElement("script");
+		script.type = "text/javascript";
+		script.src = "//maps.google.com/maps/api/js?sensor=false";
+		document.body.appendChild(script);
+		
+		odl.detail.mapJS = 2;
+		setTimeout(function() { odl.detail.showMap(); }, 250);
+	}
+	else if (typeof (google) != 'undefined' && typeof (google.maps) != 'undefined')
+	{
+		var locationText = jQ('#locText').text();
+		var msgbox = new odl.msgbox({header: locationText, close_x: true, overlay: true, ok: true,ok_text: 'Close', id: 'map_msgbox'});
+		msgbox.setContent('<div id="gmap_bckgrnd"><div id="gmap"></div></div>');
+		safecall(odl.googlemap.loadGMap, function() { return document.getElementById('gmap') == null ? undefined : 'function' });
+	}
+	else if (odl.detail.mapJS == 2)
+	{
+		setTimeout(function() { odl.detail.showMap(); }, 250);
+	}
+};
+
+/*Confirmation Lightbox for delete a listing*/
+odl.detail.confirmation = {};
+
+odl.detail.confirmation.popup = function(listingId, ele)
+{
+	var header = 'Delete Post?';
+	var contents = '<div id="listing-delete-header">';
+	contents += '<p>Are you sure you want to delete this post?</p>';
+	contents += '</div>';
+	
+	var okCallback = function () { 
+		jQ('#postAction').val('Delete'); 
+		jQ('#listingManagementForm-' + listingId).submit();
+	};
+	
+	if (odl.detail.confirmation.popupWin)
+		odl.detail.confirmation.popupWin.close();
+	odl.detail.confirmation.popupWin = new odl.msgbox({
+		header: header,
+		skin: 'ad-management-action-button',
+		content: contents,
+		ok_text: 'Delete',
+		modal: true,
+		cancel_text: 'Cancel',
+		close_x: true,
+		cancel: true,
+		ok: okCallback,
+		hide_footer: false,
+		anchor: ele
+	});
+};
+
+
+fire(function(){
+	odl.detail.dekko.init();
+	odl.detail.tracking.init();
+
+	//bug 48027 - track idp:start which is for the PV
+	if (odl.detail.listingID) //bug 48121 - do the track only on IDP (the homepage does not have odl.detail.listingID)
+	{
+		//per lwang, decaload like the tiles to reduce hits on mongo
+		if (Math.floor(Math.random() * 10) == 0)
+			odl.detail.tracking.idp.track({'event_type': 'decaload'});
+	}
+	 
+	if (odl.detail.isPro)
+	{
+		if (odl.detail.listingID)
+			odl.detail.tracking.idp.track({'event_type': 'start'});
+		else if (odl.detail.sellerID)
+			odl.detail.tracking.seller.track({'event_type': 'start'});
+	}
+
+	//bug 45551 - truncate h1 via JS so as to not impact SEO
+	odl.utilities.dotdotdot({ele: jQ('.category-breadcrumbs h1')});
+
+	//if page IDP, strip the PHPSESSID from the permalink
+	var permalink = jQ('#listing-permalink');
+	if (permalink.length > 0)
+	{
+		var permalink = permalink.find('a');
+		var href = permalink.attr('href');
+		href = href.substring(0, href.lastIndexOf('&'));
+		permalink.attr('href', href);
+	}
+
+	if (odl.detail.oodleCanonicalURL)
+	{
+		odl.fbready.add(
+			function() {
+				var sep = '?';
+				if (odl.detail.oodleCanonicalURL.indexOf('?') > 0)
+				{
+					sep = '&';
+				}	
+				jQ('.social-like').append('<fb:like href="' + odl.detail.oodleCanonicalURL + sep + 'cm_mmc=Share_Listing-_-Like-_-NA-_-NA' + '" layout="button_count" show_faces="false" font="lucida grande"></fb:like>');
+				jQ('.social-send').append('<fb:send href="' + odl.detail.oodleCanonicalURL + sep + 'fb_ref=click&cm_mmc=Share_Listing-_-Send-_-NA-_-NA"></fb:send>');
+				FB.XFBML.parse(jQ('.social-like')[0]);
+				FB.XFBML.parse(jQ('.social-send')[0]);
+			 }
+		);
+	}
+});
+
+odl.detail.dekko.imgOut = function(id)
+{
+	jQ("#rightpan").css("display","none");
+	jQ("#leftpan").css("display","none");
+};
+
+odl.detail.dekko.imgOver = function(id)
+{
+	jQ("#rightpan").css("display","block");
+	jQ("#leftpan").css("display","block");
+};
+
+odl.detail.dekko.largeImageOverRight = function(id)
+{
+	currentId = id;
+	nextId = id+1;
+	if (nextId < odl.detail.dekko.imageCount)
+	{
+		odl.detail.dekko.switchImage(nextId);
+	}
+};
+
+odl.detail.dekko.largeImageOverLeft = function(id)
+{
+	currentId = id;
+	prevId = id-1;
+	if (prevI > 0)
+	{
+		odl.detail.dekko.switchImage(nextId);
+	}
+};
+
+(function() {
+  odl.namespace('share');
+  odl.share.sendBox = function(sellerID) {
+    var anchor_x, callback;
+    anchor_x = null;
+    if (odl.info.is_facebook) {
+      anchor_x = jQ('#seller-rail').get(0);
+    }
+    callback = function() {
+      return odl.share.IDPShareMsgbox = new odl.msgbox({
+        url: '/share/get-share-with-friends/?url=' + escape(window.location.href),
+        hide_footer: true,
+        overlay: true,
+        singleton: true,
+        width: 475,
+        skin: 'fb-share',
+        anchor_x: anchor_x,
+        callbacks: {
+          close: function() {
+            return odl.share.tracking.unregisterIDPShare();
+          },
+          load_onsuccess: function() {
+            odl.share.tracking.registerIDPShare();
+            return odl.share.tracking.framework.track({
+              event_type: 'start'
+            });
+          }
+        },
+        close_x: function() {
+          odl.share.IDPShareMsgbox.close();
+          return odl.share.tracking.framework.track({
+            event_type: 'cancel'
+          });
+        }
+      });
+    };
+    return odl.auth2.refresh({
+      callback: callback
+    });
+  };
+  odl.share.tracking = {};
+  odl.share.init = function() {
+    var pageType;
+    pageType = odl.info.page.type;
+    if (typeof odl.detail !== 'undefined' && odl.detail.listingID) {
+      pageType = 'idp';
+    }
+    odl.share.tracking.framework = new odl.event.framework('IDPListingShare', pageType);
+    if (pageType === 'idp') {
+      return odl.share.tracking.framework.addDefaultParams({
+        'listing_id': odl.detail.listingID
+      });
+    }
+  };
+  odl.share.tracking.IDPShareLikeEvent = function() {
+    odl.share.tracking.framework.track({
+      event_type: 'like',
+      status: 'submit'
+    });
+    odl.share.tracking.framework.track({
+      event_type: 'success'
+    });
+    return odl.share.IDPShareMsgbox.close();
+  };
+  odl.share.tracking.IDPShareAuthPromptEvent = function() {
+    return odl.share.tracking.framework.track({
+      event_type: 'auth',
+      status: 'prompt'
+    });
+  };
+  odl.share.tracking.IDPShareAuthLoginEvent = function() {
+    return odl.share.tracking.framework.track({
+      event_type: 'auth',
+      status: 'login'
+    });
+  };
+  odl.share.tracking.IDPShareSendEvent = function() {
+    var url;
+    odl.share.tracking.framework.track({
+      event_type: 'send',
+      status: 'submit'
+    });
+    url = odl.info.base_path + 'share/update-facebook-send/';
+    if (typeof odl.detail !== 'undefined' && odl.detail.listingID) {
+      url += '?listing_id=' + odl.detail.listingID;
+      jQ.ajax({
+        type: 'GET',
+        url: url,
+        dataType: 'json'
+      });
+    }
+    odl.share.tracking.framework.track({
+      event_type: 'success'
+    });
+    return odl.share.IDPShareMsgbox.close();
+  };
+  odl.share.tracking.registerIDPShare = function() {
+    var callback;
+    callback = function() {
+      FB.Event.subscribe('edge.create', odl.share.tracking.IDPShareLikeEvent);
+      FB.Event.subscribe('message.send', odl.share.tracking.IDPShareSendEvent);
+      FB.Event.subscribe('auth.prompt', odl.share.tracking.IDPShareAuthPrompt);
+      return FB.Event.subscribe('auth.login', odl.share.tracking.IDPShareAuthLogin);
+    };
+    return odl.fbready.add(callback);
+  };
+  odl.share.tracking.unregisterIDPShare = function() {
+    var callback;
+    callback = function() {
+      FB.Event.unsubscribe('edge.create', odl.share.tracking.IDPShareLikeEvent);
+      FB.Event.unsubscribe('message.send', odl.share.tracking.IDPShareSendEvent);
+      FB.Event.unsubscribe('auth.prompt', odl.share.tracking.IDPShareAuthPrompt);
+      return FB.Event.unsubscribe('auth.login', odl.share.tracking.IDPShareAuthLogin);
+    };
+    return odl.fbready.add(callback);
+  };
+  fire(odl.share.init);
+}).call(this);
+
+if (typeof Oodle == "undefined" || !Oodle) {
+	Oodle = {};
+}
+
+if (typeof Oodle.Account=="undefined" || !Oodle.Account) {
+	Oodle.Account = {};
+}
+
+Oodle.Account.refreshMessage = function ()
+{
+	var messageEle = $('my-account-message');
+	var url = '/account/refresh-message/';
+	var callbackSuccess = function(data)
+	{
+		try
+		{
+   			if (data.result)
+   			{
+				messageEle.innerHTML = data.result;
+   			}
+   			else
+   			{
+				messageEle.innerHTML = '';
+   			}
+		}
+		catch (e)
+		{
+			// Unable to parse data
+			log(e);
+			messageEle.innerHTML = '';
+		}
+	};
+	var callbackFailure = function()
+	{
+		// Unable to parse data
+		messageEle.innerHTML = '';
+	};
+
+	var cObj = jQ.ajax({
+		type: 'GET',
+		url: url,
+		dataType: 'json',
+		timeout: 45000,
+		success: callbackSuccess,
+		error: callbackFailure
+	});
+
+	return false;
+}
+
+function resubmitActivationEmail()
+{
+	namespace('odl.email');
+	if (!odl.email.activation_email_sent)
+	{
+		jQ.get('/ajax/resubmit-activation-email/',
+				{},
+				function(response)
+				{
+					if (response.success)
+					{
+						$('message_content_header').innerHTML = 'Another verification email has been sent.';	
+					}
+					else
+					{
+						var msgbox = new odl.msgbox({header:'Whoops...', content:"<div style='line-height:20px'>Looks like your session has expired or you have logged out. Please login and try again.<br>If you think this is an error, please contact support by clicking <a href='/info/help/?node_id=44&mode=contact'>here</a>.", singleton: true})
+					}
+				},
+				"json"
+		);
+	}
+	odl.email.activation_email_sent = 1;
+	return false;	
+}
+odl.namespace('googlemap');
+
+odl.googlemap.ListingInfo = {};
+
+odl.googlemap.loadMapTabs = function()
+{	
+	jQ(function()
+	{
+		//------Tab init
+		var tab_counter = 0;
+		var tab_content = '';
+
+		var $tabs = jQ('#map-tabs').tabs(
+		{
+			tabTemplate: '<li><a href="#{href}"></a></li>',
+			panelTemplate: '<div class="yui-content"></div>',
+			add: function(event, ui)
+			{
+				jQ(ui.panel).append(tab_content);
+			}
+		});
+		
+		function addTab(tab_title)
+		{
+			return $tabs.tabs('add', '#tabs-'+tab_counter++, tab_title);
+		}
+		
+		//------Init maps
+		tab_content = '<div id="gmap" style="width: 100%; height: 300px"></div>';
+		addTab('Google Maps');
+			
+		
+		odl.googlemap.loadGMap();
+	});
+};
+
+odl.googlemap.loadGMap = function()
+{
+	var isFirst = true;
+	var listingInfo = odl.googlemap.ListingInfo;
+	
+	for (var listingId in listingInfo)
+	{
+		var mapInfo = listingInfo[listingId];
+		var latlng = new google.maps.LatLng(mapInfo.lat, mapInfo.lng);
+
+		if (isFirst)
+		{
+			var myOptions =
+			{
+				zoom: 15,
+				center: latlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+
+			var mapDiv = document.getElementById('gmap');
+			odl.googlemap.gMap = new google.maps.Map(mapDiv, myOptions);
+			isFirst = false;
+		}
+
+		var marker = new google.maps.Marker(
+		{
+			position: latlng,
+			map: odl.googlemap.gMap,
+			title: mapInfo.title
+		});
+	}
+};
+
+
+(function() {
+  odl.detail.compressBody = function() {
+    var body, decompressor, elements, height, lineHeight, lines, newHeight, remainder;
+    elements = jQ('#listing-description .listing-attribute-value span');
+    if (elements.size()) {
+      body = elements.first();
+    }
+    if (body != null) {
+      height = jQ(body).height();
+      lineHeight = odl.utilities.getLineHeight(body);
+      lines = Math.ceil(height / lineHeight);
+      remainder = lineHeight - height % lineHeight;
+      if (lines >= 4 || jQ('#a_additional_details').length > 0) {
+        newHeight = 4 * lineHeight + remainder;
+        jQ(body).height(newHeight);
+        jQ(body).css('display', 'block');
+        jQ(body).css('overflow', 'hidden');
+        jQ('#detail-wrapper .listing-normal-attributes').hide();
+        decompressor = function() {
+          jQ(body).height('auto');
+          jQ('.listing-normal-attributes').show();
+          return jQ('#listing-attributes-expander').hide();
+        };
+        return jQ('#listing-attributes').first().append(jQ('<div/>').attr('id', 'listing-attributes-expander').append(jQ('<a/>').html('More Details <span/>').attr('href', 'javascript:void(null)').click(decompressor)));
+      }
+    }
+  };
+}).call(this);
+

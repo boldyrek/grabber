@@ -1,0 +1,919 @@
+/*!
+ * jQuery UI Mouse 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Mouse
+ *
+ * Depends:
+ *	jquery.ui.widget.js
+ */
+(function(b){var d=false;b(document).mouseup(function(){d=false});b.widget("ui.mouse",{options:{cancel:":input,option",distance:1,delay:0},_mouseInit:function(){var a=this;this.element.bind("mousedown."+this.widgetName,function(c){return a._mouseDown(c)}).bind("click."+this.widgetName,function(c){if(true===b.data(c.target,a.widgetName+".preventClickEvent")){b.removeData(c.target,a.widgetName+".preventClickEvent");c.stopImmediatePropagation();return false}});this.started=false},_mouseDestroy:function(){this.element.unbind("."+
+this.widgetName)},_mouseDown:function(a){if(!d){this._mouseStarted&&this._mouseUp(a);this._mouseDownEvent=a;var c=this,f=a.which==1,g=typeof this.options.cancel=="string"&&a.target.nodeName?b(a.target).closest(this.options.cancel).length:false;if(!f||g||!this._mouseCapture(a))return true;this.mouseDelayMet=!this.options.delay;if(!this.mouseDelayMet)this._mouseDelayTimer=setTimeout(function(){c.mouseDelayMet=true},this.options.delay);if(this._mouseDistanceMet(a)&&this._mouseDelayMet(a)){this._mouseStarted=
+this._mouseStart(a)!==false;if(!this._mouseStarted){a.preventDefault();return true}}true===b.data(a.target,this.widgetName+".preventClickEvent")&&b.removeData(a.target,this.widgetName+".preventClickEvent");this._mouseMoveDelegate=function(e){return c._mouseMove(e)};this._mouseUpDelegate=function(e){return c._mouseUp(e)};b(document).bind("mousemove."+this.widgetName,this._mouseMoveDelegate).bind("mouseup."+this.widgetName,this._mouseUpDelegate);a.preventDefault();return d=true}},_mouseMove:function(a){if(b.browser.msie&&
+!(document.documentMode>=9)&&!a.button)return this._mouseUp(a);if(this._mouseStarted){this._mouseDrag(a);return a.preventDefault()}if(this._mouseDistanceMet(a)&&this._mouseDelayMet(a))(this._mouseStarted=this._mouseStart(this._mouseDownEvent,a)!==false)?this._mouseDrag(a):this._mouseUp(a);return!this._mouseStarted},_mouseUp:function(a){b(document).unbind("mousemove."+this.widgetName,this._mouseMoveDelegate).unbind("mouseup."+this.widgetName,this._mouseUpDelegate);if(this._mouseStarted){this._mouseStarted=
+false;a.target==this._mouseDownEvent.target&&b.data(a.target,this.widgetName+".preventClickEvent",true);this._mouseStop(a)}return false},_mouseDistanceMet:function(a){return Math.max(Math.abs(this._mouseDownEvent.pageX-a.pageX),Math.abs(this._mouseDownEvent.pageY-a.pageY))>=this.options.distance},_mouseDelayMet:function(){return this.mouseDelayMet},_mouseStart:function(){},_mouseDrag:function(){},_mouseStop:function(){},_mouseCapture:function(){return true}})})(jQuery);
+
+/*
+ * jQuery UI Draggable 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Draggables
+ *
+ * Depends:
+ *	jquery.ui.core.js
+ *	jquery.ui.mouse.js
+ *	jquery.ui.widget.js
+ */
+(function(d){d.widget("ui.draggable",d.ui.mouse,{widgetEventPrefix:"drag",options:{addClasses:true,appendTo:"parent",axis:false,connectToSortable:false,containment:false,cursor:"auto",cursorAt:false,grid:false,handle:false,helper:"original",iframeFix:false,opacity:false,refreshPositions:false,revert:false,revertDuration:500,scope:"default",scroll:true,scrollSensitivity:20,scrollSpeed:20,snap:false,snapMode:"both",snapTolerance:20,stack:false,zIndex:false},_create:function(){if(this.options.helper==
+"original"&&!/^(?:r|a|f)/.test(this.element.css("position")))this.element[0].style.position="relative";this.options.addClasses&&this.element.addClass("ui-draggable");this.options.disabled&&this.element.addClass("ui-draggable-disabled");this._mouseInit()},destroy:function(){if(this.element.data("draggable")){this.element.removeData("draggable").unbind(".draggable").removeClass("ui-draggable ui-draggable-dragging ui-draggable-disabled");this._mouseDestroy();return this}},_mouseCapture:function(a){var b=
+this.options;if(this.helper||b.disabled||d(a.target).is(".ui-resizable-handle"))return false;this.handle=this._getHandle(a);if(!this.handle)return false;if(b.iframeFix)d(b.iframeFix===true?"iframe":b.iframeFix).each(function(){d('<div class="ui-draggable-iframeFix" style="background: #fff;"></div>').css({width:this.offsetWidth+"px",height:this.offsetHeight+"px",position:"absolute",opacity:"0.001",zIndex:1E3}).css(d(this).offset()).appendTo("body")});return true},_mouseStart:function(a){var b=this.options;
+this.helper=this._createHelper(a);this._cacheHelperProportions();if(d.ui.ddmanager)d.ui.ddmanager.current=this;this._cacheMargins();this.cssPosition=this.helper.css("position");this.scrollParent=this.helper.scrollParent();this.offset=this.positionAbs=this.element.offset();this.offset={top:this.offset.top-this.margins.top,left:this.offset.left-this.margins.left};d.extend(this.offset,{click:{left:a.pageX-this.offset.left,top:a.pageY-this.offset.top},parent:this._getParentOffset(),relative:this._getRelativeOffset()});
+this.originalPosition=this.position=this._generatePosition(a);this.originalPageX=a.pageX;this.originalPageY=a.pageY;b.cursorAt&&this._adjustOffsetFromHelper(b.cursorAt);b.containment&&this._setContainment();if(this._trigger("start",a)===false){this._clear();return false}this._cacheHelperProportions();d.ui.ddmanager&&!b.dropBehaviour&&d.ui.ddmanager.prepareOffsets(this,a);this.helper.addClass("ui-draggable-dragging");this._mouseDrag(a,true);d.ui.ddmanager&&d.ui.ddmanager.dragStart(this,a);return true},
+_mouseDrag:function(a,b){this.position=this._generatePosition(a);this.positionAbs=this._convertPositionTo("absolute");if(!b){b=this._uiHash();if(this._trigger("drag",a,b)===false){this._mouseUp({});return false}this.position=b.position}if(!this.options.axis||this.options.axis!="y")this.helper[0].style.left=this.position.left+"px";if(!this.options.axis||this.options.axis!="x")this.helper[0].style.top=this.position.top+"px";d.ui.ddmanager&&d.ui.ddmanager.drag(this,a);return false},_mouseStop:function(a){var b=
+false;if(d.ui.ddmanager&&!this.options.dropBehaviour)b=d.ui.ddmanager.drop(this,a);if(this.dropped){b=this.dropped;this.dropped=false}if((!this.element[0]||!this.element[0].parentNode)&&this.options.helper=="original")return false;if(this.options.revert=="invalid"&&!b||this.options.revert=="valid"&&b||this.options.revert===true||d.isFunction(this.options.revert)&&this.options.revert.call(this.element,b)){var c=this;d(this.helper).animate(this.originalPosition,parseInt(this.options.revertDuration,
+10),function(){c._trigger("stop",a)!==false&&c._clear()})}else this._trigger("stop",a)!==false&&this._clear();return false},_mouseUp:function(a){this.options.iframeFix===true&&d("div.ui-draggable-iframeFix").each(function(){this.parentNode.removeChild(this)});d.ui.ddmanager&&d.ui.ddmanager.dragStop(this,a);return d.ui.mouse.prototype._mouseUp.call(this,a)},cancel:function(){this.helper.is(".ui-draggable-dragging")?this._mouseUp({}):this._clear();return this},_getHandle:function(a){var b=!this.options.handle||
+!d(this.options.handle,this.element).length?true:false;d(this.options.handle,this.element).find("*").andSelf().each(function(){if(this==a.target)b=true});return b},_createHelper:function(a){var b=this.options;a=d.isFunction(b.helper)?d(b.helper.apply(this.element[0],[a])):b.helper=="clone"?this.element.clone().removeAttr("id"):this.element;a.parents("body").length||a.appendTo(b.appendTo=="parent"?this.element[0].parentNode:b.appendTo);a[0]!=this.element[0]&&!/(fixed|absolute)/.test(a.css("position"))&&
+a.css("position","absolute");return a},_adjustOffsetFromHelper:function(a){if(typeof a=="string")a=a.split(" ");if(d.isArray(a))a={left:+a[0],top:+a[1]||0};if("left"in a)this.offset.click.left=a.left+this.margins.left;if("right"in a)this.offset.click.left=this.helperProportions.width-a.right+this.margins.left;if("top"in a)this.offset.click.top=a.top+this.margins.top;if("bottom"in a)this.offset.click.top=this.helperProportions.height-a.bottom+this.margins.top},_getParentOffset:function(){this.offsetParent=
+this.helper.offsetParent();var a=this.offsetParent.offset();if(this.cssPosition=="absolute"&&this.scrollParent[0]!=document&&d.ui.contains(this.scrollParent[0],this.offsetParent[0])){a.left+=this.scrollParent.scrollLeft();a.top+=this.scrollParent.scrollTop()}if(this.offsetParent[0]==document.body||this.offsetParent[0].tagName&&this.offsetParent[0].tagName.toLowerCase()=="html"&&d.browser.msie)a={top:0,left:0};return{top:a.top+(parseInt(this.offsetParent.css("borderTopWidth"),10)||0),left:a.left+(parseInt(this.offsetParent.css("borderLeftWidth"),
+10)||0)}},_getRelativeOffset:function(){if(this.cssPosition=="relative"){var a=this.element.position();return{top:a.top-(parseInt(this.helper.css("top"),10)||0)+this.scrollParent.scrollTop(),left:a.left-(parseInt(this.helper.css("left"),10)||0)+this.scrollParent.scrollLeft()}}else return{top:0,left:0}},_cacheMargins:function(){this.margins={left:parseInt(this.element.css("marginLeft"),10)||0,top:parseInt(this.element.css("marginTop"),10)||0,right:parseInt(this.element.css("marginRight"),10)||0,bottom:parseInt(this.element.css("marginBottom"),
+10)||0}},_cacheHelperProportions:function(){this.helperProportions={width:this.helper.outerWidth(),height:this.helper.outerHeight()}},_setContainment:function(){var a=this.options;if(a.containment=="parent")a.containment=this.helper[0].parentNode;if(a.containment=="document"||a.containment=="window")this.containment=[a.containment=="document"?0:d(window).scrollLeft()-this.offset.relative.left-this.offset.parent.left,a.containment=="document"?0:d(window).scrollTop()-this.offset.relative.top-this.offset.parent.top,
+(a.containment=="document"?0:d(window).scrollLeft())+d(a.containment=="document"?document:window).width()-this.helperProportions.width-this.margins.left,(a.containment=="document"?0:d(window).scrollTop())+(d(a.containment=="document"?document:window).height()||document.body.parentNode.scrollHeight)-this.helperProportions.height-this.margins.top];if(!/^(document|window|parent)$/.test(a.containment)&&a.containment.constructor!=Array){a=d(a.containment);var b=a[0];if(b){a.offset();var c=d(b).css("overflow")!=
+"hidden";this.containment=[(parseInt(d(b).css("borderLeftWidth"),10)||0)+(parseInt(d(b).css("paddingLeft"),10)||0),(parseInt(d(b).css("borderTopWidth"),10)||0)+(parseInt(d(b).css("paddingTop"),10)||0),(c?Math.max(b.scrollWidth,b.offsetWidth):b.offsetWidth)-(parseInt(d(b).css("borderLeftWidth"),10)||0)-(parseInt(d(b).css("paddingRight"),10)||0)-this.helperProportions.width-this.margins.left-this.margins.right,(c?Math.max(b.scrollHeight,b.offsetHeight):b.offsetHeight)-(parseInt(d(b).css("borderTopWidth"),
+10)||0)-(parseInt(d(b).css("paddingBottom"),10)||0)-this.helperProportions.height-this.margins.top-this.margins.bottom];this.relative_container=a}}else if(a.containment.constructor==Array)this.containment=a.containment},_convertPositionTo:function(a,b){if(!b)b=this.position;a=a=="absolute"?1:-1;var c=this.cssPosition=="absolute"&&!(this.scrollParent[0]!=document&&d.ui.contains(this.scrollParent[0],this.offsetParent[0]))?this.offsetParent:this.scrollParent,f=/(html|body)/i.test(c[0].tagName);return{top:b.top+
+this.offset.relative.top*a+this.offset.parent.top*a-(d.browser.safari&&d.browser.version<526&&this.cssPosition=="fixed"?0:(this.cssPosition=="fixed"?-this.scrollParent.scrollTop():f?0:c.scrollTop())*a),left:b.left+this.offset.relative.left*a+this.offset.parent.left*a-(d.browser.safari&&d.browser.version<526&&this.cssPosition=="fixed"?0:(this.cssPosition=="fixed"?-this.scrollParent.scrollLeft():f?0:c.scrollLeft())*a)}},_generatePosition:function(a){var b=this.options,c=this.cssPosition=="absolute"&&
+!(this.scrollParent[0]!=document&&d.ui.contains(this.scrollParent[0],this.offsetParent[0]))?this.offsetParent:this.scrollParent,f=/(html|body)/i.test(c[0].tagName),e=a.pageX,h=a.pageY;if(this.originalPosition){var g;if(this.containment){if(this.relative_container){g=this.relative_container.offset();g=[this.containment[0]+g.left,this.containment[1]+g.top,this.containment[2]+g.left,this.containment[3]+g.top]}else g=this.containment;if(a.pageX-this.offset.click.left<g[0])e=g[0]+this.offset.click.left;
+if(a.pageY-this.offset.click.top<g[1])h=g[1]+this.offset.click.top;if(a.pageX-this.offset.click.left>g[2])e=g[2]+this.offset.click.left;if(a.pageY-this.offset.click.top>g[3])h=g[3]+this.offset.click.top}if(b.grid){h=b.grid[1]?this.originalPageY+Math.round((h-this.originalPageY)/b.grid[1])*b.grid[1]:this.originalPageY;h=g?!(h-this.offset.click.top<g[1]||h-this.offset.click.top>g[3])?h:!(h-this.offset.click.top<g[1])?h-b.grid[1]:h+b.grid[1]:h;e=b.grid[0]?this.originalPageX+Math.round((e-this.originalPageX)/
+b.grid[0])*b.grid[0]:this.originalPageX;e=g?!(e-this.offset.click.left<g[0]||e-this.offset.click.left>g[2])?e:!(e-this.offset.click.left<g[0])?e-b.grid[0]:e+b.grid[0]:e}}return{top:h-this.offset.click.top-this.offset.relative.top-this.offset.parent.top+(d.browser.safari&&d.browser.version<526&&this.cssPosition=="fixed"?0:this.cssPosition=="fixed"?-this.scrollParent.scrollTop():f?0:c.scrollTop()),left:e-this.offset.click.left-this.offset.relative.left-this.offset.parent.left+(d.browser.safari&&d.browser.version<
+526&&this.cssPosition=="fixed"?0:this.cssPosition=="fixed"?-this.scrollParent.scrollLeft():f?0:c.scrollLeft())}},_clear:function(){this.helper.removeClass("ui-draggable-dragging");this.helper[0]!=this.element[0]&&!this.cancelHelperRemoval&&this.helper.remove();this.helper=null;this.cancelHelperRemoval=false},_trigger:function(a,b,c){c=c||this._uiHash();d.ui.plugin.call(this,a,[b,c]);if(a=="drag")this.positionAbs=this._convertPositionTo("absolute");return d.Widget.prototype._trigger.call(this,a,b,
+c)},plugins:{},_uiHash:function(){return{helper:this.helper,position:this.position,originalPosition:this.originalPosition,offset:this.positionAbs}}});d.extend(d.ui.draggable,{version:"1.8.16"});d.ui.plugin.add("draggable","connectToSortable",{start:function(a,b){var c=d(this).data("draggable"),f=c.options,e=d.extend({},b,{item:c.element});c.sortables=[];d(f.connectToSortable).each(function(){var h=d.data(this,"sortable");if(h&&!h.options.disabled){c.sortables.push({instance:h,shouldRevert:h.options.revert});
+h.refreshPositions();h._trigger("activate",a,e)}})},stop:function(a,b){var c=d(this).data("draggable"),f=d.extend({},b,{item:c.element});d.each(c.sortables,function(){if(this.instance.isOver){this.instance.isOver=0;c.cancelHelperRemoval=true;this.instance.cancelHelperRemoval=false;if(this.shouldRevert)this.instance.options.revert=true;this.instance._mouseStop(a);this.instance.options.helper=this.instance.options._helper;c.options.helper=="original"&&this.instance.currentItem.css({top:"auto",left:"auto"})}else{this.instance.cancelHelperRemoval=
+false;this.instance._trigger("deactivate",a,f)}})},drag:function(a,b){var c=d(this).data("draggable"),f=this;d.each(c.sortables,function(){this.instance.positionAbs=c.positionAbs;this.instance.helperProportions=c.helperProportions;this.instance.offset.click=c.offset.click;if(this.instance._intersectsWith(this.instance.containerCache)){if(!this.instance.isOver){this.instance.isOver=1;this.instance.currentItem=d(f).clone().removeAttr("id").appendTo(this.instance.element).data("sortable-item",true);
+this.instance.options._helper=this.instance.options.helper;this.instance.options.helper=function(){return b.helper[0]};a.target=this.instance.currentItem[0];this.instance._mouseCapture(a,true);this.instance._mouseStart(a,true,true);this.instance.offset.click.top=c.offset.click.top;this.instance.offset.click.left=c.offset.click.left;this.instance.offset.parent.left-=c.offset.parent.left-this.instance.offset.parent.left;this.instance.offset.parent.top-=c.offset.parent.top-this.instance.offset.parent.top;
+c._trigger("toSortable",a);c.dropped=this.instance.element;c.currentItem=c.element;this.instance.fromOutside=c}this.instance.currentItem&&this.instance._mouseDrag(a)}else if(this.instance.isOver){this.instance.isOver=0;this.instance.cancelHelperRemoval=true;this.instance.options.revert=false;this.instance._trigger("out",a,this.instance._uiHash(this.instance));this.instance._mouseStop(a,true);this.instance.options.helper=this.instance.options._helper;this.instance.currentItem.remove();this.instance.placeholder&&
+this.instance.placeholder.remove();c._trigger("fromSortable",a);c.dropped=false}})}});d.ui.plugin.add("draggable","cursor",{start:function(){var a=d("body"),b=d(this).data("draggable").options;if(a.css("cursor"))b._cursor=a.css("cursor");a.css("cursor",b.cursor)},stop:function(){var a=d(this).data("draggable").options;a._cursor&&d("body").css("cursor",a._cursor)}});d.ui.plugin.add("draggable","opacity",{start:function(a,b){a=d(b.helper);b=d(this).data("draggable").options;if(a.css("opacity"))b._opacity=
+a.css("opacity");a.css("opacity",b.opacity)},stop:function(a,b){a=d(this).data("draggable").options;a._opacity&&d(b.helper).css("opacity",a._opacity)}});d.ui.plugin.add("draggable","scroll",{start:function(){var a=d(this).data("draggable");if(a.scrollParent[0]!=document&&a.scrollParent[0].tagName!="HTML")a.overflowOffset=a.scrollParent.offset()},drag:function(a){var b=d(this).data("draggable"),c=b.options,f=false;if(b.scrollParent[0]!=document&&b.scrollParent[0].tagName!="HTML"){if(!c.axis||c.axis!=
+"x")if(b.overflowOffset.top+b.scrollParent[0].offsetHeight-a.pageY<c.scrollSensitivity)b.scrollParent[0].scrollTop=f=b.scrollParent[0].scrollTop+c.scrollSpeed;else if(a.pageY-b.overflowOffset.top<c.scrollSensitivity)b.scrollParent[0].scrollTop=f=b.scrollParent[0].scrollTop-c.scrollSpeed;if(!c.axis||c.axis!="y")if(b.overflowOffset.left+b.scrollParent[0].offsetWidth-a.pageX<c.scrollSensitivity)b.scrollParent[0].scrollLeft=f=b.scrollParent[0].scrollLeft+c.scrollSpeed;else if(a.pageX-b.overflowOffset.left<
+c.scrollSensitivity)b.scrollParent[0].scrollLeft=f=b.scrollParent[0].scrollLeft-c.scrollSpeed}else{if(!c.axis||c.axis!="x")if(a.pageY-d(document).scrollTop()<c.scrollSensitivity)f=d(document).scrollTop(d(document).scrollTop()-c.scrollSpeed);else if(d(window).height()-(a.pageY-d(document).scrollTop())<c.scrollSensitivity)f=d(document).scrollTop(d(document).scrollTop()+c.scrollSpeed);if(!c.axis||c.axis!="y")if(a.pageX-d(document).scrollLeft()<c.scrollSensitivity)f=d(document).scrollLeft(d(document).scrollLeft()-
+c.scrollSpeed);else if(d(window).width()-(a.pageX-d(document).scrollLeft())<c.scrollSensitivity)f=d(document).scrollLeft(d(document).scrollLeft()+c.scrollSpeed)}f!==false&&d.ui.ddmanager&&!c.dropBehaviour&&d.ui.ddmanager.prepareOffsets(b,a)}});d.ui.plugin.add("draggable","snap",{start:function(){var a=d(this).data("draggable"),b=a.options;a.snapElements=[];d(b.snap.constructor!=String?b.snap.items||":data(draggable)":b.snap).each(function(){var c=d(this),f=c.offset();this!=a.element[0]&&a.snapElements.push({item:this,
+width:c.outerWidth(),height:c.outerHeight(),top:f.top,left:f.left})})},drag:function(a,b){for(var c=d(this).data("draggable"),f=c.options,e=f.snapTolerance,h=b.offset.left,g=h+c.helperProportions.width,n=b.offset.top,o=n+c.helperProportions.height,i=c.snapElements.length-1;i>=0;i--){var j=c.snapElements[i].left,l=j+c.snapElements[i].width,k=c.snapElements[i].top,m=k+c.snapElements[i].height;if(j-e<h&&h<l+e&&k-e<n&&n<m+e||j-e<h&&h<l+e&&k-e<o&&o<m+e||j-e<g&&g<l+e&&k-e<n&&n<m+e||j-e<g&&g<l+e&&k-e<o&&
+o<m+e){if(f.snapMode!="inner"){var p=Math.abs(k-o)<=e,q=Math.abs(m-n)<=e,r=Math.abs(j-g)<=e,s=Math.abs(l-h)<=e;if(p)b.position.top=c._convertPositionTo("relative",{top:k-c.helperProportions.height,left:0}).top-c.margins.top;if(q)b.position.top=c._convertPositionTo("relative",{top:m,left:0}).top-c.margins.top;if(r)b.position.left=c._convertPositionTo("relative",{top:0,left:j-c.helperProportions.width}).left-c.margins.left;if(s)b.position.left=c._convertPositionTo("relative",{top:0,left:l}).left-c.margins.left}var t=
+p||q||r||s;if(f.snapMode!="outer"){p=Math.abs(k-n)<=e;q=Math.abs(m-o)<=e;r=Math.abs(j-h)<=e;s=Math.abs(l-g)<=e;if(p)b.position.top=c._convertPositionTo("relative",{top:k,left:0}).top-c.margins.top;if(q)b.position.top=c._convertPositionTo("relative",{top:m-c.helperProportions.height,left:0}).top-c.margins.top;if(r)b.position.left=c._convertPositionTo("relative",{top:0,left:j}).left-c.margins.left;if(s)b.position.left=c._convertPositionTo("relative",{top:0,left:l-c.helperProportions.width}).left-c.margins.left}if(!c.snapElements[i].snapping&&
+(p||q||r||s||t))c.options.snap.snap&&c.options.snap.snap.call(c.element,a,d.extend(c._uiHash(),{snapItem:c.snapElements[i].item}));c.snapElements[i].snapping=p||q||r||s||t}else{c.snapElements[i].snapping&&c.options.snap.release&&c.options.snap.release.call(c.element,a,d.extend(c._uiHash(),{snapItem:c.snapElements[i].item}));c.snapElements[i].snapping=false}}}});d.ui.plugin.add("draggable","stack",{start:function(){var a=d(this).data("draggable").options;a=d.makeArray(d(a.stack)).sort(function(c,f){return(parseInt(d(c).css("zIndex"),
+10)||0)-(parseInt(d(f).css("zIndex"),10)||0)});if(a.length){var b=parseInt(a[0].style.zIndex)||0;d(a).each(function(c){this.style.zIndex=b+c});this[0].style.zIndex=b+a.length}}});d.ui.plugin.add("draggable","zIndex",{start:function(a,b){a=d(b.helper);b=d(this).data("draggable").options;if(a.css("zIndex"))b._zIndex=a.css("zIndex");a.css("zIndex",b.zIndex)},stop:function(a,b){a=d(this).data("draggable").options;a._zIndex&&d(b.helper).css("zIndex",a._zIndex)}})})(jQuery);
+
+odl.namespace('radius');
+
+// Placeholder for the current radius
+odl.radius.current_url = -1;
+odl.radius.current_radius = -1;
+odl.radius.ball_offset = -1;
+
+/**
+ * Setup the slider drag
+ */
+odl.radius.setupSlider = function ()
+{	
+	jQ('#radius-slider').bind('click.radius', odl.radius.click);
+	odl.radius.outstandingSlides = 0;
+	jQ('.radius-ball').draggable({
+		axis: 'x',
+		grid: [odl.radius.spacing, 0],
+		containment: 'parent',
+		drag: function (e) {
+			odl.radius.adjustRadius(true);
+			
+			// Catch edge-case delayed move - seemed to happen in FF
+			setTimeout(function () {
+				odl.radius.adjustRadius(true);
+			}, 100);
+		}
+	});
+	
+};
+
+/**
+ * Adjust the slider when clicked
+ */
+odl.radius.click = function (e)
+{
+	var keepAdjusting = true;
+	var x = e.pageX || e.clientX;
+	var y = e.pageY || e.clientY;
+
+	var direction = null; // If there's to be movement, this will indicate the direction moved
+	                      //  We use this variable so that once we start moving, we don't end up
+	                      //   bouncing back and forth (as the point clicked might not be an exact click boundary),
+	                      //   but only continue in one direction.
+	                      
+	var adjusted = false; // If the ball was moved, this should get set to true
+	
+	// Loop adjusting the slider click by click until we reach near the point clicked
+	while (keepAdjusting)
+	{
+		keepAdjusting = false;
+		var curOffset = jQ('.radius-ball').offset();
+		var xOffset = curOffset.left;
+		var yOffset = curOffset.top;
+		var width = jQ('.radius-ball').width();
+		var height = jQ('.radius-ball').height();
+	
+		if (y < yOffset + height + 5) // Bound the clickable area to be just around the slider part
+		{
+			if (xOffset > x && direction != 'right')
+			{
+				// try to move ball one click to the left
+				var left = jQ('.radius-ball').css('left').replace(/px/, '');
+				left -= odl.radius.spacing;
+				if (left >= 0)
+				{
+					keepAdjusting = true;
+					direction = 'left';
+					jQ('.radius-ball').draggable('disable');
+					jQ('.radius-ball').css('left', left + 'px');
+					adjusted = true;
+					jQ('.radius-ball').draggable('enable');
+				}
+			}
+			else if (xOffset + width < x && direction != 'left')
+			{
+				// try to move ball one click to the right
+				var left = jQ('.radius-ball').css('left').replace(/px/, '');
+				left -= -odl.radius.spacing;
+				if (left <= jQ('#radius-slider').width())
+				{
+					direction = 'right';
+					keepAdjusting = true;
+					jQ('.radius-ball').draggable('disable');
+					jQ('.radius-ball').css('left', left + 'px');
+					adjusted = true;
+					jQ('.radius-ball').draggable('enable');
+				}
+			}
+		}
+	}
+	
+	// If the ball has been moved then we need to adjust the radius
+	if (adjusted)
+		odl.radius.adjustRadius(true);
+};
+
+/**
+ * Turn on or off the loading overlay
+ */
+odl.radius.setLoading = function (state)
+{
+	if (state)
+	{
+		// Add an overlay if necessary
+		if (jQ('.radius-overlay').length == 0)
+		{
+			var w = jQ('#search-col').width();
+			var h = jQ('#search-col').height();
+			var offset = jQ('#search-col').offset();
+			jQ('.search-content').append('<div class="radius-overlay" style="width: ' + w + 'px; height: ' + h + 'px;"><img src="http://i.oodleimg.com/a/animate/spinner-large-gray.gif" /></div>');
+			var overlayOffset = jQ('.radius-overlay').offset();
+			var left = offset.left - overlayOffset.left;
+			var top = offset.top - overlayOffset.top;
+			jQ('.radius-overlay').css('left', left + 'px');		
+			jQ('.radius-overlay').css('top', top + 'px');
+		}
+	
+		// Adjust the radius text to be italicized, grayed out
+		var element = '#radius-text';
+		jQ(element).css('color', '#999');
+		jQ(element).css('font-style', 'italic');	
+		if (!jQ(element).html())
+		{
+			element = '#location-text';
+			jQ(element).css('color', '#999');
+			jQ(element).css('font-style', 'italic');	
+		}
+	}
+	else
+	{
+		jQ('.radius-overlay').remove();
+		
+		// Put back the radius text into original condition
+
+		jQ('#radius-text').css('color', 'inherit');
+		jQ('#location-text').css('color', 'inherit');
+		if (jQ(document.documentElement).hasClass('ie7'))
+		{
+			jQ('#radius-text').css('color', '#333');
+			jQ('#location-text').css('color', '#333');
+		}
+					
+		if (jQ('#radius-text').text().match(/\+0 miles/))
+			jQ('#radius-text').text('');
+		jQ('#radius-text').css('font-style', 'normal');
+		jQ('#location-text').css('font-style', 'normal');
+	}
+}
+
+odl.radius.adjustRadius = function (adjustPage)
+{
+	var leftpx = jQ('.radius-ball').css('left').replace(/px/,'');
+	if (leftpx != odl.radius.ball_offset)
+	{		
+		var index = leftpx / odl.radius.spacing;			
+
+		// Change the currently selected radius
+		jQ('#narrow-form #radius-select').get(0).selectedIndex = index;
+
+		// adjust the location text while we're loading
+		var info = jQ('#narrow-form #radius-select option:selected').text().split(/\|\|/);
+		var text = info[1];	
+		if (text != 'city' && !text.match(/^0/))
+			jQ('#radius-text').html(' +' + text);
+		else
+			jQ('#radius-text').html('');
+		
+		if (odl.radius.locationType == 'neighborhood')
+		{
+			if (text.match(/^0/))
+			{
+				jQ('#location-text').html(odl.radius.originalLocationText);
+			}
+			else
+			{
+				jQ('#location-text').html(odl.radius.alternateLocationText);
+			}						
+		}
+
+		odl.radius.ball_offset = leftpx;
+
+		// Browser history manipulation
+		if (adjustPage)
+		{
+			var urlInfo = odl.radius.getCurrentURLInfo();
+			var History = window.History;
+			if (History.enabled && 
+				!jQ(document.documentElement).hasClass('ie9') &&
+				!jQ(document.documentElement).hasClass('ie8') &&
+				!jQ(document.documentElement).hasClass('ie7'))
+			{
+				// Manipulate the browser history and let the callback change the page
+				odl.radius.highestState++;
+				History.pushState({state: odl.radius.highestState, radius: urlInfo.radius, offset: odl.radius.ball_offset}, urlInfo.title, urlInfo.url);
+			}
+			else
+			{
+				// For browsers that don't implement the History api (of if History.js is not enabled for some reason)
+				odl.radius.fetchPageDelay(urlInfo.radius, urlInfo.url);
+			}
+		}
+	}
+};
+
+odl.radius.highestState = 0; // Track how many adjustments have been made, and where we're at in back/forward history
+/**
+ * Setup a listener on the History so that when the history moves, we adjust the contents of the center and left nav
+ */
+odl.radius.init = function ()
+{
+	var History = window.History;
+	if (History.enabled)
+	{
+		// Detect a change in the browser's history (back or forward) - catch it and act appropriately
+		History.Adapter.bind(window, 'statechange', function () {
+			var State = History.getState();
+			var data = State.data;
+
+			// Setup the variables
+			var offset = odl.radius.original_ball_offset;
+			var radius = odl.radius.original_radius;
+			var radiusUrl = odl.radius.original_url;
+			var state = 0;
+			if (data && data.radius != undefined) // If we're in a later state, data.radius should be defined, otherwise use the defaults, which should be correct 
+			{
+				radius = data.radius;
+				offset = data.offset;
+				state = data.state;
+			}
+
+			if (state != odl.radius.highestState) // Only move the slider if we're not at the highest history point (meaning the browser went back)
+			{
+				// Move the slider to the right position
+				jQ('.radius-ball').css('left', offset + 'px');
+				odl.radius.adjustRadius(false);
+			}
+			odl.radius.fetchPageDelay(radius, State.url);
+		});
+	}
+}
+
+/**
+ * Splits out the url and adds a new radius to it according to the position of the slider
+ * Returns both the new url, and the new radius
+ */
+odl.radius.getCurrentURLInfo = function ()
+{
+	// Break apart the current url
+	var info = jQ('#narrow-form #radius-select option:selected').text().split('||');
+	var url = info[0];
+	var radius = jQ('#narrow-form #radius-select').val();
+	
+	var title = document.title;
+	if (title.match(/Page \d+\: /))
+	{
+		title = title.replace(/Page \d+\: /, '');
+	}
+	return {url: url, title: title, radius: radius};
+};
+
+/**
+ * A delayed fetch of the center content.
+ * 
+ * This delay prevents multiple simultaneous ajax loads - let the slider settle first.
+ */
+odl.radius.outstandingSlides = 0;
+odl.radius.fetchPageDelay = function (radius, url)
+{
+	// This is a small delay so that we don't generate prolific ajax calls when the page is being changed rapidly
+	odl.radius.setLoading(true);
+	odl.radius.outstandingSlides++;
+	setTimeout(function () {
+		odl.radius.outstandingSlides--;
+		if (odl.radius.outstandingSlides == 0)
+		{
+			odl.radius.fetchPage(radius, url);
+		}
+	}, 400);
+}
+
+odl.radius.listeners = [];
+
+odl.radius.addListener = function (listener)
+{
+	odl.radius.listeners.push(listener);
+}
+
+/**
+ * Performs the actual fetch of the content pane
+ */
+odl.radius.fetchPage = function (radius, radiusUrl)
+{
+	var url;
+	// Abort all running queries
+	if (odl.radius.ajax)
+	{
+		odl.radius.ajax.abort();
+	}
+	
+	// Don't have to fetch if we're already at the current radius
+	if (odl.radius.current_url == radiusUrl)
+	{
+		odl.radius.setLoading(false);
+		return;
+	}
+	
+	// Append ajax=1 to the url (for now)
+	if (!radiusUrl.match(/\?/))
+		url = radiusUrl + '?ajax=1';
+	else
+		url = radiusUrl + '&ajax=1';
+	
+	odl.radius.ajax = jQ.ajax({
+		url: url,
+		dataType: 'text',
+		timeout: 60000,
+		success: function (data)
+		{			
+			// Make sure this is the fetch we need
+			if (radius != jQ('#narrow-form #radius-select').val())
+			{
+				// need to refetch
+				return;
+			}
+
+			// Parser to extract javascripts from the returned result
+			var extractJavascripts = function (text)
+			{
+				var scripts = text.split(/<script/);
+				var scriptDepth = 0;
+				var scriptsLen = scripts.length;
+				var finalScripts = [];
+				var currentScript = { src: null,
+									  text: "var scriptsPlaceholderId = 'scripts-placeholder-0';\n",
+									  id: 0 };
+				var text = scripts[0];
+				
+				for (var i = 1 ; i < scriptsLen ; i++)
+				{
+					scriptDepth++;
+					if (scriptDepth > 1)
+					{
+						currentScript.text += '<script';
+						// <script> within a script is permitted, but not an extra </script> within a <script> (causes error on FF and Chrome -
+						//  e.g. try alert('<script>alert("<script>test</script>");</script>') does not work - you have to escape the internal "</script>"
+						//       like this: <\/script>
+						var closeTags = scripts[i].split('<\/script>');
+						
+						// Only one piece means another <script> within this current <script>
+						if (closeTags.length == 1)
+						{
+							currentScript.text += closeTags[0];
+						}
+						else
+						{
+							currentScript.text += closeTags[0];
+							text += '<div class="scripts-placeholder" id="scripts-placeholder-' + currentScript.id + '"></div>';
+							text += closeTags[1];
+							scriptDepth = 0; // Reset the script depth
+						}						
+					}
+					else
+					{
+						// Parse out the rest of the tag
+						var scriptTagRest = scripts[i];
+						var closePos = scriptTagRest.indexOf('>');
+						if (closePos >= 0)
+						{
+							var attributes = scriptTagRest.substr(0, closePos + 1);
+							var pattern = /src\=\"(.+?)\"/;
+							var match;
+							if (match = pattern.exec(attributes))
+							{
+								currentScript.src = match[1];
+							}
+							var rest = scriptTagRest.substr(closePos + 1);
+							if (attributes.match(/\/$/)) // A self closing tag
+							{
+								text += '<div class="scripts-placeholder" id="scripts-placeholder-' + currentScript.id + '"></div>';
+								text += rest;
+								scriptDepth--;
+							}
+							else
+							{
+								var closeTags = rest.split('<\/script>'); // Should split the 'rest' into two pieces
+								var end = scriptsLen - 1;
+								// Only one piece means <script> within a <script>
+								if (closeTags.length == 1 && i < end) // Not at end yet
+								{
+									currentScript.text += rest;
+								}
+								else
+								{
+									// proper close tag found
+									currentScript.text += closeTags[0];
+									text += '<div class="scripts-placeholder" id="scripts-placeholder-' + currentScript.id + '"></div>';
+									text += closeTags[1];
+									scriptDepth = 0; // reset script depth
+								}
+							}
+						}
+						else
+						{
+							// Bad script tag? fail.
+							if (typeof(console) != 'undefined' && console.log)
+								console.log('bad / unclosed script tag');
+							scriptDepth--;
+						}
+					}
+					if (scriptDepth <= 0)
+					{
+						finalScripts.push(currentScript);
+						var newId = finalScripts.length;
+						currentScript = { src: null, text: "var scriptsPlaceholderId = 'scripts-placeholder-" + newId + "';\n", id: newId };
+						scriptDepth = 0; // reset if necessary
+					}
+				}
+				return {scripts: finalScripts,
+						text: text};
+			}
+
+			var result = extractJavascripts(data);
+			var scripts = result.scripts;
+
+			var $data = jQ(result.text);
+			var $radiusSlider = $data.find('#radius-slider');
+			$radiusSlider.detach();
+			
+			// Work on the two columns
+			var $searchCol = $data.find('#search-col');
+			var $lowerLeftNav = $data.find('#lower-left-nav');
+
+			// Turn of the loading overlay and fill in the content
+			odl.radius.setLoading(false);
+			jQ('#search-col').html($searchCol.html());
+			jQ('#lower-left-nav').html($lowerLeftNav.html());
+
+			var oldDocumentWrite = document.write;
+			document.write = function (html)
+			{
+				jQ(scriptsPlaceholderId).parent().html(jQ(scriptsPlaceholderId).parent().html() + html);
+			}
+			var scriptFunc = function () {
+				var val = this.text;
+				var src = this.src;
+				var id = this.id;
+				var $element = jQ('#scripts-placeholder-' + id);
+				var remove = true;
+				if ($element.length == 0)
+				{
+					remove = false;
+					$element = jQ('#search-col');
+				}
+				if (src)
+				{
+					var node = document.createElement('script');
+					try {
+						node.src = src;
+					}
+					catch (e)
+					{
+						log(e);
+					}
+					$element.parent().get(0).appendChild(node);
+				}
+				else
+				{
+					var node = document.createElement('script');
+					try {
+						node.appendChild(document.createTextNode(val));
+					}
+					catch (e)
+					{
+						node.text = val;
+					}
+					$element.parent().get(0).appendChild(node);
+				}
+				if (remove)
+				{
+					$element.remove();
+				}
+			};
+			setTimeout(function () { 
+				document.write = oldDocumentWrite;
+			}, 1);
+
+			// Reset 'fire' function
+			fire = function (callback) { callback(); };
+
+			// Run all the scripts
+			jQ(scripts).each(scriptFunc);
+			
+			// Post load javascript setup
+			odl.async.ujs();
+			jQ('img.lazyload-image').lazyload(odl.lazyImage.loadImage);
+			odl.searchSerp.init();
+			odl.navigators.init();
+			odl.social_listings.setupClickCapture();
+
+			// Adjust the radius in the Search box
+			var location2Html = jQ('#location_2_text');
+			var currentRadius = jQ('#radius-text').text();
+			if (location2Html)
+			{
+				var text = location2Html.text();
+				text = text.replace(/\+.+/,'');
+				location2Html.text(text + currentRadius);
+			}
+			if (currentRadius.match(/\+0 miles/))
+				jQ('#radius-text').text('');
+
+			odl.radius.current_url = radiusUrl;
+			odl.radius.current_radius = radius;
+			odl.info.location.radius = radius;
+			
+			// Execute callbacks
+			for(var i in odl.radius.listeners)
+			{
+				odl.radius.listeners[i]();
+			}
+		}
+	});
+};
+
+odl.radius.init();
+
+odl.namespace('listingShare');
+
+odl.listingShare = function(ele) {
+	var that = this;
+
+	this.opened = false;
+	this.listingID = ele.attr('data-listingid');
+
+	this.wrapper = ele;
+	var clickEle = ele.find('.listing-share-button');
+	var menuEle = ele.find('.share-idp-dropdown');
+
+	var callback = function(cbk, e) {
+		switch(cbk)
+		{
+			case 'pre-open':
+				if (!that.opened)
+				{
+					that.opened = true;
+
+					//if we haven't already loaded the twitter JS ...
+					if (!odl.listingShare.twitterLoaded)
+					{
+						odl.listingShare.twitterLoaded = true;
+
+						//... then load the twitter JS asynchronously
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = '//platform.twitter.com/widgets.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+
+						//and handle twitter events once we have twttr object
+						safecall(function() {
+							twttr.events.bind('tweet', function(event) {
+								var id = jQ(event.target).closest('.listing-share-wrapper').attr('id').match(/\d+/)[0];
+								odl.listingShare.track({'event_type': 'twitter', 'status': 'success', 'listing_id': id});
+								jQ.get('/twitter/tweet-ajax-cbk/', {listing_id: id, user_id: odl.info.user_id});
+							});
+
+							twttr.events.bind('click', function(event) {
+								var id = jQ(event.target).closest('.listing-share-wrapper').attr('id').match(/\d+/)[0];
+								odl.listingShare.track({'event_type': 'twitter', 'status': 'start', 'listing_id': id});
+							});
+						}, function() { return typeof twttr == 'object' ? 'function' : 'blah'; });
+					}
+
+					if (!odl.listingShare.pinterestLoaded)
+					{
+						odl.listingShare.pinterestLoaded= true;
+
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = '//assets.pinterest.com/js/pinit.js';
+
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					}
+					var twitter = menuEle.find('.twitter-fixme');
+					twitter.removeClass('twitter-fixme');
+					twitter.addClass('twitter-share-button');
+
+					safecall(function() { twttr.widgets.load(); },
+							 function() { return typeof twttr == 'object' ? 'function' : 'blah'; });
+
+					var google = menuEle.find('.google-fixme');
+					gapi.plusone.render(google.get(0), {
+						'size': 'medium',
+						'annotation': 'none',
+						'callback': __gpluscallback,
+						'href': google.attr('data-href')
+					});
+				}
+				break;
+			case 'post-open':
+				clickEle.css({'z-index': odl.zindex.getHighest()});
+				that.wrapper.toggleClass('clicked');
+				odl.listingShare.track({
+					'event_type': 'share_button',
+					'status': that.wrapper.hasClass('clicked') ? 'open' : 'close',
+					'listing_id': that.listingID});
+				break;
+			case 'post-open-animate':
+				var max_width = jQ(window).width();
+				var offset = menuEle.offset();
+				var offset_x = offset.left;
+				var width = menuEle.outerWidth();
+				
+				if (offset_x + width > max_width)
+				{
+					var leftAdj = max_width - offset_x - width;
+					menuEle.css('left', leftAdj + 'px');
+				}
+				break;
+			case 'post-close':
+				that.wrapper.removeClass('clicked');
+				odl.listingShare.track({
+					'event_type': 'share_button',
+					'status': 'close',
+					'listing_id': that.listingID});
+				break;
+		}
+	};
+
+	new odl.dropdownMenu(clickEle, menuEle, callback);
+
+	// hash url -> to ID for later lookup when reporting on the event
+	var url = ele.attr('data-url');
+	odl.listingShare.lookupTable[url] = this.listingID;
+};
+
+//static functions
+odl.listingShare.track = function(params) {
+	jQ.extend(params, {'event_name': 'idp_share_button', 'page': odl.info.page.type});
+	odl.event.trackNamed(params);
+};
+
+odl.listingShare.emailShareStart = function(listingID) {
+	Oodle.Wizard.Show('tabbed_share', 'email', {'__listing_id': listingID, '__jsClose': 1}, null,
+			  //track LB open
+		function() { odl.listingShare.track({'event_type': 'email', 'status': 'start', 'listing_id': listingID}); }, null, { skin: 'oodle-lightbox change-loc' }
+		);
+};
+
+odl.listingShare.emailShareSuccess = function(listingID) {
+	odl.listingShare.track({'event_type': 'email', 'status': 'success', 'listing_id': listingID});
+
+	new odl.msgbox({
+		header: 'Share with your friends',
+		content: 'Your email has been sent!',
+		cancel: true,
+		cancel_text: 'Close',
+		ok: false,
+		close_x: true
+	});
+};
+
+
+//static vars
+odl.listingShare.twitterLoaded = false;
+odl.listingShare.pinterestLoaded = false;
+odl.listingShare.lookupTable = {};
+
+odl.listingShare.init = function()
+{
+	// unlike G+ and Twitter, Pinterest's JS needs to be reactivated every init()
+	odl.listingShare.pinterestLoaded = false;
+
+	jQ('.listing-share-wrapper').each(
+		function(index, ele)
+		{
+			if (jQ(ele).hasClass('initialized'))
+			{
+				return;
+			}
+			jQ(ele).addClass('initialized');
+			new odl.listingShare(jQ(ele));
+			
+			odl.listingShare.initFBShare(ele);
+		}
+	);
+};
+
+odl.listingShare.initFBShare = function(jq, cbk) {
+	jQ(jq).find('.fb-share-popup-link').click(function(e) {
+		var ele = jQ(e.currentTarget);
+		var listingUrl = ele.attr('data-url');
+		var pageType = ele.attr('data-page-type');
+
+		var shareUrl = 'http://www.facebook.com/sharer/sharer.php?u=' + escape(listingUrl);
+		
+		var listingTitle = ele.attr('data-title');
+		if (listingTitle)
+			shareUrl += '&t=' + escape(listingTitle);
+		
+		if (odl.info.fb_logged_in)
+		{
+			window.open(shareUrl, 'fbshare', 'width=600,height=400');
+		}
+		else
+		{
+			window.open(shareUrl, 'fbshare', 'width=1200,height=800');
+		}
+
+		var params =
+		{
+			'event_name' : 'share',
+			'event_type' : 'facebook_share',
+			'page' : pageType,
+			'partner' : odl.info.partner_tag,
+			'masquerade' :odl.info.partner_masquerade,
+			'oodle_id' : odl.info.user_id
+		};
+
+		var listingID = ele.attr('data-listingid');
+		if (listingID)
+		{
+			params['listing_id'] = listingID;
+			
+			//ajax call to save event as newsfeed
+			jQ.ajax({
+				'url' : odl.info.base_path + 'share/fb-share-ajax-cbk?listing_id=' + listingID + '&user_id=' + odl.info.user_id
+			});
+		}
+		
+		jQ.ajax({
+			'url' : odl.info.base_path + 'event/track-named/?' + jQ.param(params)
+		});
+		
+		if (cbk)
+			cbk();
+	});
+}
+
+jQ(document).ready(function(){
+	odl.listingShare.init();
+});
+
+odl.namespace('lazyloadFblike');
+
+odl.lazyloadFblike = function(listingID, page, customTag) {
+	var that = this;
+	this.listingID = listingID;
+	this.opened = false;
+	
+	var wrapperID = customTag ? customTag : 'serp-like-wrapper-' + listingID;
+	var clickID = wrapperID + ' .fb-like-link';
+	var menuID = wrapperID + ' .lazy-load-fblike';
+	this.menuID = menuID;
+	
+	this.wrapper = jQ('#' + wrapperID);
+	this.likeLink = jQ('#' + clickID);
+	this.dropdown = jQ('#' + menuID);
+	
+	var callback = function(cbk, e) {
+		switch(cbk)
+		{
+			case 'pre-open':
+				if (!that.opened)
+				{
+					that.opened = true;
+
+					var offSetY = that.likeLink.offset().top - that.likeLink.parent().offset().top + that.likeLink.height() + parseInt(that.likeLink.css('paddingTop')) * 2 + 1;
+					that.dropdown.css({'top': offSetY});
+										
+					var url = that.dropdown.attr('data-url');
+					that.dropdown.append('<fb:like href="' + url + '" layout="button_count" show_faces="false"></fb:like>');
+					FB.XFBML.parse(that.dropdown.get(0));
+					FB.Event.subscribe('xfbml.render', function() { jQ('#' + that.menuID + ' img').hide(); });
+				}
+				break;
+			case 'post-open':
+				that.dropdown.addClass('selected');
+				that.likeLink.addClass('selected');
+				that.likeLink.css({'z-index': odl.zindex.getHighest()});
+				
+				//tracking
+				var params =
+				{
+					'event_name' : 'comment',
+					'event_type' : 'like_link',
+					'page' : page,
+					'listing_id' : listingID,
+					'partner' : odl.info.partner_tag,
+					'masquerade' :odl.info.partner_masquerade,
+					'oodle_id' : odl.info.user_id
+				};
+				jQ.ajax
+				({
+					'url' : odl.info.base_path + 'event/track-named/?' + jQ.param(params)
+				});
+				
+				break;
+			case 'post-close':
+				that.dropdown.removeClass('selected');
+				that.likeLink.removeClass('selected');
+		}
+	};
+	
+	new odl.dropdownMenu('#' + clickID, '#' + menuID, callback);
+};
+
+odl.namespace('social_listings');
+
+odl.social_listings.setupClickCapture = function() {
+	jQ('[data-dom-ref]').each(function(index, element) {
+		element = jQ(element);
+		
+		var domref = jQ(element.attr('data-dom-ref'));
+		if (domref.length > 0)
+		{
+			element.addClass('has-link');
+			
+			element.click(function(event) {
+				domref.trigger('click'); //trigger any onclicks on the anchor (if any)
+				
+				var form = jQ('<form />');
+				form.attr('action', domref.attr('href'));
+				form.attr('target', domref.attr('target'));
+				form.attr('method', 'get');
+				
+				domref.append(form);
+				form.submit();
+			});
+			
+			element.mousedown(function(event) { domref.mousedown(); });
+		}
+	});
+	
+	jQ('[data-dom-ref] a').click(function(event) { event.stopPropagation(); });
+	jQ('[data-dom-ref] a').mousedown(function(event) { event.stopPropagation(); });
+};
+
+fire(odl.social_listings.setupClickCapture);
+
+//moved from template social-listings.html.twig
+fire(function() {
+	jQ('#social-listings .seller-info').each(function() {
+		var d = jQ(this);
+		odl.utilities.truncate({ele: d.find('.seller-name'), heightEle: d, lineHeight: 17});
+	});
+
+	jQ('#social-listings .listing-body').each(function() {
+		var d = jQ(this);
+		odl.utilities.truncate({ele: d, wantedLines: 2, lineHeight: 17, truncateText: '&hellip; <span class="more">more <span class="ar"></span></span>'});
+	});
+});
+

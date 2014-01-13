@@ -1,0 +1,52 @@
+
+06-11-2013 12:40:32 --- INFO: start: 06-11-2013 12:40:32
+06-11-2013 12:40:32 --- INFO: ----------Source_Gsmotors (apache2handler)
+06-11-2013 12:40:32 --- INFO: finish: 06-11-2013 12:40:32
+06-11-2013 12:40:32 --- INFO: elapsed time: ~0.07 sec., memory usage: ~1.97 Mb.
+06-11-2013 12:45:08 --- INFO: start: 06-11-2013 12:45:08
+06-11-2013 12:45:08 --- INFO: ----------Source_Gsmotors (apache2handler)
+06-11-2013 12:45:08 --- INFO: finish: 06-11-2013 12:45:08
+06-11-2013 12:45:08 --- INFO: elapsed time: ~0.04 sec., memory usage: ~1.97 Mb.
+06-11-2013 12:45:25 --- INFO: start: 06-11-2013 12:45:25
+06-11-2013 12:45:25 --- INFO: ----------Source_Adesa (apache2handler)
+06-11-2013 12:45:26 --- INFO: Authorized request
+06-11-2013 12:45:27 --- ERROR: 500 Internal Server Error
+06-11-2013 12:45:27 --- INFO: finish: 06-11-2013 12:45:27
+06-11-2013 12:45:27 --- INFO: elapsed time: ~1.51 sec., memory usage: ~2.03 Mb.
+06-11-2013 12:45:30 --- INFO: start: 06-11-2013 12:45:30
+06-11-2013 12:45:30 --- INFO: ----------Source_Megaavto (apache2handler)
+06-11-2013 12:45:36 --- INFO: Lexus RX 300 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 12:45:36 --- INFO: finish: 06-11-2013 12:45:36
+06-11-2013 12:45:36 --- INFO: elapsed time: ~5.54 sec., memory usage: ~2.04 Mb.
+06-11-2013 12:46:51 --- INFO: start: 06-11-2013 12:46:51
+06-11-2013 12:46:51 --- INFO: ----------Source_Adesa (apache2handler)
+06-11-2013 12:46:51 --- INFO: Authorized request
+06-11-2013 12:46:51 --- ERROR: 500 Internal Server Error
+06-11-2013 12:46:51 --- INFO: finish: 06-11-2013 12:46:51
+06-11-2013 12:46:51 --- INFO: elapsed time: ~0.77 sec., memory usage: ~2.03 Mb.
+06-11-2013 13:01:51 --- INFO: start: 06-11-2013 13:01:51
+06-11-2013 13:01:51 --- INFO: ----------Source_Megaavto (apache2handler)
+06-11-2013 13:01:56 --- INFO: Lexus GS300 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:00 --- INFO: Lexus RX 350 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:04 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:08 --- INFO: Lexus RX 330 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:11 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:15 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:19 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:23 --- INFO: Lexus LX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:27 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:31 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:35 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:39 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:43 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:47 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:50 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:54 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:02:58 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:03:02 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:03:06 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:03:11 --- INFO: Lexus RX 350 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+06-11-2013 13:03:11 --- INFO: finish: 06-11-2013 13:03:11
+06-11-2013 13:03:11 --- INFO: elapsed time: ~79.67 sec., memory usage: ~2.19 Mb.
+06-11-2013 22:41:06 --- INFO: start: 06-11-2013 22:41:06
+06-11-2013 22:41:06 --- INFO: ----------Source_AutoSalon (apache2handler)

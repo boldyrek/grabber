@@ -1,0 +1,716 @@
+/* VDP Section specific CSS File */
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.js-leadform .privacy{
+  background: url(/images/core/icon-lock.png) no-repeat 0 0;
+  padding-left: 22px;
+  font-size: 12px;
+}
+
+.js-leadform .invisible {
+  display:none !important;
+}
+
+.js-leadform .helper-text span {
+  margin: 0 !important;
+  display:inline;
+}
+
+
+/* Recently Viewed Overrides */
+#js-recently-viewed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999999;
+  margin-bottom: 20px;
+}
+#js-recently-viewed .content {
+  float:right;
+}
+#js-recently-viewed .module {
+  background-color: #fff;
+}
+#js-recently-viewed .open {
+  background: url(http://cms1b.cars.com/images/core/arrow-down.png) no-repeat 185px 10px #fff;
+}
+#js-recently-viewed .close {
+  background: url(http://cms1b.cars.com/images/core/arrow-up.png) no-repeat 185px 10px #fff;
+}
+#js-recently-viewed .remove {
+  margin: 3px 0 0 5px;
+  background: url(http://www-dq02.cars.com/images/core/icon-remove.png) no-repeat;
+  width: 10px;
+  height: 9px;
+  margin: 3px 0 0 90px;
+  position: absolute;
+  top: 82px;
+  width: 10px;
+}
+#js-recently-viewed .remove a{
+  width: 10px;
+  height: 9px;
+  padding: 0 4px 0 2px;
+}
+#js-recently-viewed .tabs {
+  position:relative;
+}
+#js-recently-viewed .tabs a {
+  padding: 10px 30px 12px 10px;
+}
+#js-recently-viewed .handle a{ 
+  outline: none;
+}
+#js-recently-viewed .gallery .scrollable {
+  height: 270px;
+}
+#js-recently-viewed .item {
+  height: 175px;
+}
+#js-recently-viewed .gallery .item div {
+  height: auto;
+  text-align: left;
+}
+#js-recently-viewed .gallery .items{
+  cursor: auto;
+}
+#js-recently-viewed .tabs .active, #js-recently-viewed .tabs a:hover {
+  border:2px solid #EFEFEF;
+  /*box-shadow: 0 0 5px 0 #E1E1E1;*/
+  border-bottom: none;
+}
+#js-recently-viewed .module {
+  border:2px solid #EFEFEF;
+  box-shadow: 0 0 5px 0 #E1E1E1;
+  min-height: 230px;
+}
+#js-recently-viewed .gallery .item img {
+  width: 100px;
+  height: 75px;
+  border: 0;
+  display: block;
+  margin-bottom: 10px;
+}
+#js-recently-viewed .tabs {
+  height: 25px;
+  border-bottom: 0;
+}
+
+/*VDP Multi Photo Popup*/
+/*Used media screen syntax to print sticky header fox for FireFOx PC*/
+@media screen {
+    .popup-header {
+    min-width: 1024px;
+    background-color: #4A5A63;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    opacity: 0.97;
+    z-index: 100;
+  }
+}
+
+.popup-header a.icon .print{
+background: url("http://graphics.cars.com/images/core/icon-print-white.png") no-repeat scroll 0 2px transparent;
+}
+
+.popup-header .check-availability-large {
+    margin: 0px 7px 0px 0px;
+}
+.popup-header #logo{
+  width: 120px;
+  height: 51px;
+}
+.popup-header h3{
+  color: #fff;
+  margin: 0 0 4px;
+}
+.popup-header p{
+  color: #c7d3d7;
+  margin-bottom:0; 
+}
+.popup-header a.icon, .popup-header a.icon:visited {
+  color: #fff;
+}
+.popup-header a.button, .popup-header a.button:hover {
+  margin: 15px 0 0;
+  padding: 7px 15px;
+}
+.photo {
+  loat: left;
+  margin: 0 0 10px 0;
+}
+.photo img {
+    border: 1px solid #666666;
+}
+.photos-holder{
+  margin: 104px auto 0;
+  width: 640px;
+}
+
+.native-popup .content{
+  margin-top: 90px;
+  padding: 15px;
+}
+
+.native-popup .popup-header {
+  padding-left: 16px;
+  top: 0;
+}
+.native-popup .popup-header h3 {
+  margin: 10px 0 0 4px;
+}
+/*************  Inline Leadform Starts  *********/
+#leadFormContentDiv {
+  width: 512px;
+}
+#leadFormContentDiv .muted{
+  font-weight: normal;
+}
+
+.fitbEmailToFrom {
+  margin-bottom:15px;
+}
+
+.lead-form-simple .alert-message.error {
+  display: none;
+}
+
+.js-leadform .alert-message{
+  margin: 15px 0 !important;
+}
+
+.error-message {
+  margin: -5px 0 10px 0;
+  color: #cc1100;
+  font-size: 12px;
+  display: block;
+  line-height: normal;
+}
+
+.form-notification {
+  float:right;
+  font-style:italic;
+}
+
+.inlfIframe  {
+  display:none;
+  margin-top:10px;
+}
+
+.radio-buttons-container {
+  margin: 10px 0;
+}
+
+.submit-row {
+  margin-top: 15px;
+}
+
+.comments-label {
+  float: left;
+  width: 100px;
+}
+
+.required-statement {
+  float: right;
+  margin: 3px 0 0;
+}
+
+.lead-form-simple {
+  padding-right: 10px;
+}
+
+.lead-form-simple .seller {
+  margin: 0 0 15px;
+}
+
+.lead-radio-label {
+  font-weight: normal;
+}
+
+.input-wrapper {
+  height: 80px;
+}
+
+.privacy-statement-container {
+  float: left;
+  margin: 10px 0 0;
+}
+
+.lead-form-simple .privacy-statement-container {
+  margin-top: 0;
+}
+
+.privacy-statement {
+  float: left;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0 0 0 8px;
+}
+
+.privacy-statement-container .icon {
+  background: url(http://graphics.cars.com/images/core/icon-security-lock.png) no-repeat scroll 0 0 / 13px 16px transparent;
+  display: block;
+  float: left;
+  height: 16px;
+  position: relative;
+  top: 5px;
+  width: 13px;
+}
+
+.trade-in-details {
+  display: none;
+}
+
+.overlay .seller {
+  margin-bottom: 15px;
+}
+
+.lead-radio-label strong {
+  font-style:italic;
+}
+
+#tradeInForm div.row:last-of-type {
+  margin-bottom: 16px;
+}
+
+.scroll-shadow-top {
+  background: url(http://graphics.cars.com/images/core/scroll-shadow-top.png) repeat-x scroll left top transparent;
+  display: none;
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  top: 92px;
+  width: 504px;
+  z-index: 9999;
+  opacity: 0.55;
+}
+
+.scroll-shadow-bottom {
+  background: url(http://graphics.cars.com/images/core/scroll-shadow-bottom.png) repeat-x scroll left bottom transparent;
+  bottom: 16px;
+  display: none;
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  width: 504px;
+  z-index: 99999;
+  opacity: 0.55;
+}
+
+.lead-form-simple {
+  max-height: 440px;
+  overflow: auto;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.lifter{
+  height:150px;
+}
+
+#inlineFormOverlay iframe {
+  display: none;
+}
+
+#leadSubThanks Input {
+  display: none;
+}
+
+
+.js-overlay .hidden {
+  display: none;
+}
+
+#inlineFormOverlay {
+  height: 610px; /* Override container height inside modeal */
+}
+/*************  End Leadform   *********/
+
+@media print {
+    .popup-header  {
+
+    }
+    .popup-header .hide-in-print{
+      display: none;
+    }
+    .popup-header p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    .popup-header .print-page {
+      display: none;
+    }
+    .photos-holder{
+      margin: 104px auto 0;
+      width: 640px;
+  }
+}
+
+/*************   About Dealer Starts   *********/
+.about-dealer {
+  margin: 0 0 15px 0;
+  padding: 10px 0 0;
+  border-top: 1px solid #E1E1E1;
+}
+.about-dealer h4.secondary, .dealer h4.secondary a, .dealer h4.secondary a:visited {
+  margin: 0 0 7px;
+}
+.about-dealer .review {
+  margin: 10px 0 10px 0;
+}
+.about-dealer .review p {
+  margin-bottom: 0px;
+}
+.about-dealer .phone {
+}
+.about-dealer .address {
+  margin: 7px 0 5px 0;
+}
+.about-dealer .links {
+  margin: 18px 0 10px 0;
+}
+.about-dealer .links a {
+  margin-right: 15px;
+}
+.about-dealer .align-center {
+  text-align: center;
+}
+.about-dealer .dealer-logo {
+  border: 1px solid #bfbfbf;
+}
+.about-dealer  a.button.secondary.green-txt{
+  font-size: 12px;
+  padding: 3px 10px 4px;
+  color: #93A445;
+}
+.about-dealer  a.button.icon-left span.dlr-specials {
+  background:url("http://graphics.cars.com/images/core/icon-dlr-specials-ico.png") no-repeat scroll 0 0 transparent;
+  padding: 0 9px 0 0;
+}
+a.button.secondary.green-txt{
+  color: #93A445;
+
+}
+/*************   About Dealer End   *********/
+
+.qpo {
+  margin: 0 0 15px 0 ;
+  padding: 10px 0 0;
+  border-top: 1px solid #E1E1E1;
+}
+
+.sca-link {
+  border-top: 1px solid #E1E1E1;
+  margin: 0 0 15px;
+  padding: 10px 0 0;
+}
+
+.toolbar {
+  float: right;
+}
+
+.toolbar label {
+  font-weight: normal !important;
+  display: inline !important;
+  color: #098AE4;
+  line-height: 22px !important;
+}
+
+.toolbar .saved {
+  background-color: #098AE4;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 2px 9px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.toolbar a {
+  margin-left: 5px; 
+}
+
+.toolbar .save {
+  cursor: pointer;
+}
+
+.toolbar .save input {
+  vertical-align: top;
+}
+
+/* Icon for external links */
+a.icon .external {
+    background: url("/images/core/external-icon.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
+}
+
+/* Social Toolbar Icons */
+.social-toolbar a.icon {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.social-toolbar a.icon .email {
+  background: url(/images/core/email-icon.png) no-repeat 0 2px transparent;
+}
+
+.social-toolbar a.icon .send-to-phone {
+  background: url(/images/core/sendtophone-icon.png) no-repeat 0 2px transparent;
+}
+
+.social-toolbar a.icon .facebook {
+  background: url(/images/core/facebook-icon.png) no-repeat 0 2px transparent;
+}
+
+.social-toolbar a.icon .twitter {
+  background: url(/images/core/twitter-icon.png) no-repeat 0 2px transparent;
+}
+
+.social-toolbar a.icon span {
+  padding: 0 20px 9px 0 !important;
+  vertical-align: middle;
+}
+
+/* Table Styles About-vehicle, These styles smilar to core but not core */
+.about-vehicle.datalist {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.about-vehicle.datalist tr td {
+  /*padding: 10px 16px;*/
+  padding: 5px 0px;
+  width: 115px;
+}
+
+.about-vehicle.datalist.zebra tr td {
+  padding: 5px 10px;
+  width: 115px;
+}
+
+.about-vehicle.datalist tr th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.about-vehicle.datalist tr td:nth-child(even) {
+  /*width: 60px;*/
+}
+
+.about-vehicle.datalist.zebra tr:nth-child(even) {
+  background-color: #EEF1F3;
+}
+
+.about-vehicle.datalist.zebra.vertical tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.about-vehicle.datalist.zebra.vertical tr td:nth-child(even) {
+  background-color: #EEF1F3;
+}
+
+/* Gigya Overrides */
+
+/* #qtip-0 {display: block;top: 317px;left: 1000px;}*/
+.gig-share-bar-container, .gig-share-bar-container table, .gig-share-bar-container td, .gig-share-bar-container tr, .gig-share-bar-container div, #shareThisMod .gig-share-bar-container td {
+  float: none !important;
+}
+
+.gig-bar-container *, div.gig-reactions-container, .gig-reactions-container span, .gig-reactions-container a:link, .gig-reactions-container a:active {
+  font-size: inherit !important;
+ padding: 2px 0 1px;
+ color: #098AE4 !important;
+ vertical-align: middle !important;
+}
+
+.gig-button-up a:hover {
+ color: #004d81 !important;
+}
+
+.gig-bar-container img {
+    display: inline !important;
+    margin-right: 4px !important;
+    float: left !important!
+}
+
+.gig-bar-container img span{
+    color: inherit !important;
+    vertical-align: middle !important;
+}
+
+.gig-share-bar-container table { 
+  width:auto; 
+}
+.gig-share-bar-container, .gig-share-bar-container table, .gig-share-bar-container td, .gig-share-bar-container tr, .gig-share-bar-container div, #shareThisMod .gig-share-bar-container td { 
+  float: left; 
+  margin: 0; 
+  border-collapse: collapse; 
+  padding: 0 0 2px; 
+}
+
+.gig-button-up {
+  padding: 0px !important;
+}
+
+/* Popup Save Vehicle */
+.saved-tooltip-msg span {
+    font-style: italic;
+}
+.opt-out {
+  color: #666666;
+  font-size: 12px !important;
+  font-weight: normal;
+}
+
+/* Photo Swipe */
+.core-vdp.gallery-swipe {
+  height: 241px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.core-vdp.gallery-swipe .scroll {
+  position: absolute;
+  overflow: hidden;
+  width: 333px;
+  height: 241px;
+  float: left;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.core-vdp.gallery-swipe .scroll .items {
+  width: 20000em;
+  clear: both;
+  position: absolute;
+}
+
+.core-vdp.gallery-swipe .items .item {
+  float: left;
+  width: 333px !important;
+  height: 238px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: #EEF1F3;
+  margin: 0;
+}
+
+.core-vdp.gallery-swipe .items .item img{
+  width: 333px;
+  height: auto;
+}
+
+.core-vdp.gallery {
+  margin-bottom: 10px;
+}
+.core-vdp.gallery .scroll .col1 {
+  margin-left: 0px;
+}
+
+.core-vdp.gallery .scroll .col18 {
+  width: 298px;
+}
+
+.core-vdp.gallery .scrollable {
+  position: relative;
+  overflow: hidden;
+  height: 60px;
+  margin-left: 0px;
+}
+
+.core-vdp.gallery .scrollable .items {
+  height: 47px;
+  padding-left: 4px;
+  position: absolute;
+  top: 0;
+  width: 20000em;
+}
+
+.core-vdp.gallery .items div {
+  float: left;
+}
+
+.core-vdp.gallery .items .item .col4 {
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+.core-vdp.gallery .items .selected img{
+  border-color:#0c92ff;
+}
+
+.core-vdp.gallery .items div div {
+  height: 47px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.core-vdp.gallery .items img {
+  border: 1px solid #e1e1e1;
+  width: 60px;
+  height: 45px;
+}
+
+/* Carousel */
+.core-vdp.gallery .left, .core-vdp.gallery .right {
+  float: left;
+  background: url(/images/core/scroll-left.png) no-repeat left center;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  background-size: 10px auto;
+}
+
+.core-vdp.gallery .left:hover, .core-vdp.gallery .right:hover {
+  background-color: #FFF;
+}
+
+.core-vdp.gallery .right {
+  background-image: url(/images/core/scroll-right.png);
+  border-radius: 0 5px 5px 0;
+  background-size: 10px auto;
+  background-position: right center;
+}
+
+.core-vdp.gallery-swipe .items .item img.icon-overlay-play-big{
+  height: 69px;
+  left: 132px;
+  position: absolute;
+  top: 83px;
+  width: 68px;
+}
+
+.core-vdp.gallery .items img.icon-overlay-play-small{
+  height: 27px;
+  left: 25px;
+  position: absolute;
+  top: 10px;
+  width: 28px;
+  border: none;
+}
+
+.core-vdp.gallery .left.disabled, .core-vdp.gallery .right.disabled {
+  opacity:0.5;
+  filter: alpha(opacity=50);
+}
+
+.disclaimer {
+  color: #999;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 10px;
+}

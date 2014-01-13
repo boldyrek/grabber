@@ -1,0 +1,2742 @@
+class.MdpmBase.php ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-class.MdpmBase.php-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-13 15:52+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gizzat <gizzat@makmalauto.com>\n"
+"Language-Team: test\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: d:\\tcl.system\\\n"
+"X-Poedit-SearchPath-0: d:\\tcl.system\n"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAbstract.php:378
+class.MdpmBase.php "Привет"
+msgstr "Hello"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAbstract.php:378
+class.MdpmBase.php "выйти"
+msgstr "exit"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:105
+class.MdpmBase.php "Список аккаунтов"
+msgstr "Accounts list"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:109
+class.MdpmBase.php "название"
+msgstr "Make and Model"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:131
+class.MdpmBase.php "Данные для аккаунта"
+msgstr "Account information"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:131
+class.MdpmBase.php "Создание нового аккаунта"
+msgstr "Create a new account"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:142
+class.MdpmBase.php "Название"
+msgstr "Vehicle details"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:148
+class.MdpmBase.php "E-Mail владельца"
+msgstr "Owner e-mail"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:154
+class.MdpmBase.php "Идентицикационное слово"
+msgstr "Keyword"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:160
+class.MdpmBase.php "Логин"
+msgstr "Login"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:172
+class.MdpmBase.php "Пароль"
+msgstr "Password"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:178
+class.MdpmBase.php "Подтверждение"
+msgstr "Confirmation"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:190
+class.MdpmBase.php "Активен"
+msgstr "Active"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAccount.php:200
+class.MdpmBase.php "Удалить аккаунт"
+msgstr "Delete account"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAdmin.php:66
+class.MdpmBase.php "Администраторы аккаунтов"
+msgstr "Accounts administrators"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAdmin.php:66
+class.MdpmBase.php "Добавить администратора"
+msgstr "Add administrator"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAdmin.php:69
+class.MdpmBase.php "логин"
+msgstr "Login"
+
+#: d:\tcl.system/account_admin/lib/class.AdministratorsAdmin.php:70
+class.MdpmBase.php "имя"
+msgstr "name"
+
+#: d:\tcl.system/lib/class.Proto.php:550
+class.MdpmBase.php "Cars.com"
+msgstr ""
+
+#: d:\tcl.system/lib/class.Proto.php:551
+class.MdpmBase.php "Grabber"
+msgstr ""
+
+#: d:\tcl.system/lib/class.Proto.php:556
+class.MdpmBase.php "продажа автомобилей"
+msgstr "cars for sale"
+
+#: d:\tcl.system/lib/class.Proto.php:561
+class.MdpmBase.php "аукционы"
+msgstr "auctions"
+
+#: d:\tcl.system/lib/class.Proto.php:562
+class.MdpmBase.php "отчеты"
+msgstr "reports"
+
+#: d:\tcl.system/lib/class.Proto.php:563
+class.MdpmBase.php "бухгалтерия"
+msgstr "accounting"
+
+#: d:\tcl.system/lib/class.Proto.php:564
+class.MdpmBase.php "контейнеры"
+msgstr "containers"
+
+#: d:\tcl.system/lib/class.Proto.php:565
+class.MdpmBase.php "пользователи"
+msgstr "users"
+
+#: d:\tcl.system/lib/class.Proto.php:567
+class.MdpmBase.php "файлы"
+msgstr "file sharing"
+
+#: d:\tcl.system/lib/class.Proto.php:568
+class.MdpmBase.php "настройки профиля"
+msgstr "profile"
+
+#: d:\tcl.system/lib/class.Proto.php:585
+class.MdpmBase.php "На первую страницу"
+msgstr "Go to home page"
+
+#: d:\tcl.system/lib/class.Proto.php:590
+class.MdpmBase.php "У вас нет доступа для просмотра этой страницы!"
+msgstr "You have no rights to view this page!"
+
+#: d:\tcl.system/lib/class.Proto.php:598
+class.MdpmBase.php "Для данного типа пользователя меню не существует!"
+msgstr "There is no menu for this user type!"
+
+#: d:\tcl.system/lib/class.Proto.php:627
+class.MdpmBase.php "Не найден файл содержащий меню пользователей"
+msgstr "Users menu config file couldn't be found"
+
+#: d:\tcl.system/lib/class.Proto.php:636
+class.MdpmBase.php "Не найден файл с правами пользователей!"
+msgstr "Can not find a file with user rights!"
+
+#: d:\tcl.system/lib/class.Proto.php:793
+class.MdpmBase.php "на следующую страницу"
+msgstr "next page"
+
+#: d:\tcl.system/lib/class.Proto.php:796
+class.MdpmBase.php "на последнюю страницу"
+msgstr "last page"
+
+#: d:\tcl.system/lib/class.Proto.php:892
+class.MdpmBase.php "Система уведомлений Makmal-Auto"
+msgstr ""
+
+#: d:\tcl.system/lib/menu.php:6
+class.MdpmBase.php "ГЛАВНАЯ"
+msgstr "HOME"
+
+#: d:\tcl.system/lib/menu.php:7
+#: d:\tcl.system/lib/menu.php:26
+#: d:\tcl.system/lib/menu.php:34
+#: d:\tcl.system/lib/menu.php:51
+#: d:\tcl.system/lib/menu.php:73
+class.MdpmBase.php "КЛИЕНТЫ"
+msgstr "CLIENTS"
+
+#: d:\tcl.system/lib/menu.php:8
+#: d:\tcl.system/lib/menu.php:27
+#: d:\tcl.system/lib/menu.php:35
+#: d:\tcl.system/lib/menu.php:42
+#: d:\tcl.system/lib/menu.php:52
+#: d:\tcl.system/lib/menu.php:65
+#: d:\tcl.system/lib/menu.php:69
+class.MdpmBase.php "АВТОМОБИЛИ"
+msgstr "CARS"
+
+#: d:\tcl.system/lib/menu.php:9
+#: d:\tcl.system/lib/menu.php:53
+class.MdpmBase.php "ТОВАРЫ"
+msgstr "GOODS"
+
+#: d:\tcl.system/lib/menu.php:10
+#: d:\tcl.system/lib/menu.php:54
+class.MdpmBase.php "МАШИНЫ К ПОКУПКЕ"
+msgstr "CARS TO BUY"
+
+#: d:\tcl.system/lib/menu.php:11
+#: d:\tcl.system/lib/menu.php:29
+#: d:\tcl.system/lib/menu.php:37
+#: d:\tcl.system/lib/menu.php:55
+class.MdpmBase.php "ИНВОЙСЫ"
+msgstr "INVOICES"
+
+#: d:\tcl.system/lib/menu.php:12
+#: d:\tcl.system/lib/menu.php:30
+#: d:\tcl.system/lib/menu.php:38
+#: d:\tcl.system/lib/menu.php:56
+class.MdpmBase.php "КОНТРАКТЫ"
+msgstr "CONTRACTS"
+
+#: d:\tcl.system/lib/menu.php:13
+#: d:\tcl.system/lib/menu.php:28
+#: d:\tcl.system/lib/menu.php:36
+#: d:\tcl.system/lib/menu.php:57
+#: d:\tcl.system/lib/menu.php:74
+class.MdpmBase.php "КОНТЕЙНЕРЫ"
+msgstr "CONTAINERS"
+
+#: d:\tcl.system/lib/menu.php:14
+class.MdpmBase.php "БУХГАЛТЕРИЯ"
+msgstr "ACCOUNTING"
+
+#: d:\tcl.system/lib/menu.php:17
+class.MdpmBase.php "ТРАНСПОРТНИКИ"
+msgstr "TRANSPORTERS"
+
+#: d:\tcl.system/lib/menu.php:18
+class.MdpmBase.php "ЭКСПЕДИТОРЫ"
+msgstr "SHIPPING"
+
+#: d:\tcl.system/lib/menu.php:43
+#: d:\tcl.system/lib/menu.php:58
+class.MdpmBase.php "ПЛАТЕЖИ"
+msgstr "PAYMENTS"
+
+#: d:\tcl.system/lib/menu.php:44
+class.MdpmBase.php "БАЛАНС"
+msgstr "BALANCE"
+
+#: d:\tcl.system/lib/menu.php:45
+class.MdpmBase.php "ЛИЧНЫЕ ДАННЫЕ"
+msgstr "PERSONAL DATA"
+
+#: d:\tcl.system/lib/menu.php:59
+class.MdpmBase.php "ОТЧЕТЫ ПО АВТОМОБИЛЯМ"
+msgstr "CAR REPORTS"
+
+#: d:\tcl.system/lib/menu.php:60
+class.MdpmBase.php "ОТЧЕТЫ ПО КОНТЕЙНЕРАМ"
+msgstr "CONTAINER REPORTS"
+
+#: d:\tcl.system/mod/accounting/class.Accountingcars.php:36
+class.MdpmBase.php " - = не выбран = - "
+msgstr " - = not selected = - "
+
+#: d:\tcl.system/mod/accounting/class.Accountingform.php:43
+class.MdpmBase.php "Ошибка! Платеж с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such payment in the base"
+
+#: d:\tcl.system/mod/accounting/class.Accountingform.php:52
+class.MdpmBase.php "Изменения сохранены"
+msgstr "Changes were saved"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:73
+class.MdpmBase.php "Дата"
+msgstr "Date"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:74
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:79
+class.MdpmBase.php "Автомобиль"
+msgstr "Cars"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:75
+class.MdpmBase.php "VIN"
+msgstr "VIN"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:76
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:74
+class.MdpmBase.php "Сумма"
+msgstr "Ammount"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:77
+class.MdpmBase.php "Добавил(а)"
+msgstr "Added by"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:79
+class.MdpmBase.php "Комментарий"
+msgstr "Comments"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:80
+class.MdpmBase.php "Подтвердил(а)"
+msgstr "Confirmed"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:81
+class.MdpmBase.php "Оплачено"
+msgstr "Customer paid in total"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:119
+class.MdpmBase.php "Платежи | Расходы"
+msgstr "Payments | Expenses"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:119
+class.MdpmBase.php "добавить"
+msgstr "add"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:124
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:121
+class.MdpmBase.php "автомобиль"
+msgstr "auto"
+
+#: d:\tcl.system/mod/accounting/class.AccountingList.php:126
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:231
+class.MdpmBase.php "найти"
+msgstr "find"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:34
+class.MdpmBase.php "последнее изменение"
+msgstr "last changed"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:34
+class.MdpmBase.php "создал"
+msgstr "created by"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:34
+class.MdpmBase.php "подтвердил"
+msgstr "confirmed by"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:35
+class.MdpmBase.php "нет данных о последних изменениях"
+msgstr "there is no data about last change"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:38
+class.MdpmBase.php "активный"
+msgstr "active"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:39
+class.MdpmBase.php "не подтвержденный"
+msgstr "not confirmed"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:42
+class.MdpmBase.php "активировать"
+msgstr "activate"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:44
+class.MdpmBase.php "изменения сохранены"
+msgstr "changes were saved"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:70
+class.MdpmBase.php "Расход"
+msgstr "Credit"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:70
+class.MdpmBase.php "Приход"
+msgstr "Debit"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:81
+class.MdpmBase.php "дата"
+msgstr "Date"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:86
+#, fuzzy
+class.MdpmBase.php "Назначение платежа"
+msgstr "Payments purposes"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:89
+class.MdpmBase.php "Оплачено?"
+msgstr "Paid?"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:93
+class.MdpmBase.php "комментарий"
+msgstr "comment"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:105
+class.MdpmBase.php "Вы действительно хотите удалить этот платеж?"
+msgstr "Do you realy want to delete this payment?"
+
+#: d:\tcl.system/mod/accounting/templates/accounting.form.php:105
+class.MdpmBase.php "удалить"
+msgstr "remove"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:22
+class.MdpmBase.php "Расходы на автомобиль"
+msgstr "Car expenses"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:25
+class.MdpmBase.php "цена в Америке на аукционе"
+msgstr "Car price"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:29
+class.MdpmBase.php "Аукционный сбор"
+msgstr "Auction fee"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:34
+class.MdpmBase.php "Комиссия дилера"
+msgstr "Dealer comission"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:38
+class.MdpmBase.php "ПП инспекция"
+msgstr "Post sale inspection"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:43
+class.MdpmBase.php "Доставка до порта"
+msgstr "Delivery to port"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:47
+class.MdpmBase.php "Доставка до места назначения"
+msgstr "Delivery to destination"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:51
+class.MdpmBase.php "Разгрузка"
+msgstr "Unloading"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:55
+class.MdpmBase.php "Страховка"
+msgstr "Insurance"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:60
+class.MdpmBase.php "Прочее"
+msgstr "Comments"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsinfo.php:66
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:202
+class.MdpmBase.php "ВСЕГО"
+msgstr "TOTAL"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:73
+class.MdpmBase.php "загрузка"
+msgstr "loading"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:92
+class.MdpmBase.php "Вы действительно хотите продолжить?"
+msgstr "Do you realy want to continue?"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:120
+class.MdpmBase.php "дата покупки"
+msgstr "Date of purchase"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:123
+class.MdpmBase.php "покупатель"
+msgstr "buyer"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:125
+class.MdpmBase.php "цена для клиента"
+msgstr "price for a client"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:127
+class.MdpmBase.php "расходы"
+msgstr "expenses"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:128
+class.MdpmBase.php "прибыль"
+msgstr "profit"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:203
+class.MdpmBase.php "автомобилей <b>не оплаченных полностью"
+msgstr "Cars <b>not payed completely"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:212
+class.MdpmBase.php "автомобилей <b>посчитанных"
+msgstr "Cars <b>counted"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:227
+class.MdpmBase.php "Поиск по VIN коду:"
+msgstr "Search by VIN code:"
+
+#: d:\tcl.system/mod/acc_reports/class.acc_reportsList.php:229
+class.MdpmBase.php "по владельцу:"
+msgstr "by owner:"
+
+#: d:\tcl.system/mod/acc_reports/templates/payment.form.php:49
+class.MdpmBase.php "Платеж"
+msgstr "Payment"
+
+#: d:\tcl.system/mod/acc_reports/templates/payment.form.php:54
+class.MdpmBase.php "не выбран"
+msgstr "not selected"
+
+#: d:\tcl.system/mod/acc_reports/templates/payment.form.php:67
+class.MdpmBase.php "статус платежа"
+msgstr "payment status"
+
+#: d:\tcl.system/mod/acc_reports/templates/payment.form.php:87
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:79
+class.MdpmBase.php "Сохранить"
+msgstr "Save"
+
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:54
+class.MdpmBase.php "Аукцион"
+msgstr "Auction"
+
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:57
+class.MdpmBase.php "Название аукциона"
+msgstr "Auction name"
+
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:61
+#: d:\tcl.system/mod/auctions/class.auctionslist.php:47
+class.MdpmBase.php "адрес"
+msgstr "Address"
+
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:65
+#: d:\tcl.system/mod/auctions/class.auctionslist.php:48
+class.MdpmBase.php "телефоны"
+msgstr "Contact info"
+
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:69
+class.MdpmBase.php "комментарии"
+msgstr "Comments"
+
+#: d:\tcl.system/mod/auctions/class.auctionsform.php:76
+class.MdpmBase.php "Вы действительно хотите удалить этот аукцион?"
+msgstr "Are you sure you want to delete this auction ?"
+
+#: d:\tcl.system/mod/auctions/class.auctionslist.php:42
+class.MdpmBase.php "Аукционы"
+msgstr "Auctions"
+
+#: d:\tcl.system/mod/auctions/class.auctionslist.php:42
+class.MdpmBase.php "Добавить"
+msgstr "Add"
+
+#: d:\tcl.system/mod/auctions/class.auctionslist.php:49
+class.MdpmBase.php "примечание"
+msgstr "Comments"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:19
+class.MdpmBase.php "Резервных копий нет"
+msgstr "No backups"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:25
+class.MdpmBase.php "автосохранение"
+msgstr "autosave"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:25
+class.MdpmBase.php "скачать"
+msgstr "download"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:34
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:38
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:87
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:91
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:111
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:115
+class.MdpmBase.php "Резервное копирование"
+msgstr "Backup"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:34
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:81
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:87
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:111
+class.MdpmBase.php "Создать"
+msgstr "Create"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:34
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:87
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:107
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:111
+class.MdpmBase.php "Загрузить (и Восстановить)"
+msgstr "Upload (and Restore)"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:48
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:53
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:61
+class.MdpmBase.php "Сохранено строк данных"
+msgstr "Saved data rows"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:49
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:54
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:62
+class.MdpmBase.php "Суммарный объем данных"
+msgstr "Total volume of data"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:52
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:60
+class.MdpmBase.php "Автосохранение"
+msgstr "Autosave"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:55
+class.MdpmBase.php "Востановленно из резервной копии"
+msgstr "Restored from backup file"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:56
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:64
+class.MdpmBase.php "Строк данных"
+msgstr "Data rows"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:57
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:65
+class.MdpmBase.php "Объем данных"
+msgstr "Data volume"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:63
+class.MdpmBase.php "Востановленно из загруженной резервной копии"
+msgstr "Restored from the uploaded backup file"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:69
+class.MdpmBase.php "Восстановить данные из резервной копии за"
+msgstr "Restore data from a backup copy of "
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:69
+class.MdpmBase.php "все данные после это даты будут утеряны, <br>но их можно будет восстановить из резервной копии которая будет создана сейчас."
+msgstr "all data will be lost ater this date, <br>but you can restore them with the backup"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:73
+class.MdpmBase.php "Восстановить"
+msgstr "Restore"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:77
+class.MdpmBase.php "Создать новую резервную копию?"
+msgstr "Create new backup?"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:102
+class.MdpmBase.php "Восстановить данные из файла резервной копии?"
+msgstr "Restore data from backup?"
+
+#: d:\tcl.system/mod/backup/templates/class.BackupTemplates.php:102
+class.MdpmBase.php "все данные внесенные после создания загружаемой копии будут утеряны, <br>но их можно будет восстановить из резервной копии которая будет создана сейчас."
+msgstr "all data will be lost, <br> but you can restore them later with the help of backup. "
+
+#: d:\tcl.system/mod/cars/class.Carscomment.php:104
+class.MdpmBase.php "Заполните текст комментария"
+msgstr " Fill in the text of the commentary"
+
+#: d:\tcl.system/mod/cars/class.Carscomment.php:128
+class.MdpmBase.php "Комментарий сохранен"
+msgstr "Comment saved"
+
+#: d:\tcl.system/mod/cars/class.Carscomment.php:130
+class.MdpmBase.php "Комментарий сохранить не удалось"
+msgstr "Comments were not saved"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:55
+class.MdpmBase.php "Ошибка! Автомобиль с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such vehicle in the base"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:162
+class.MdpmBase.php "Автомобиль с таким вин кодом"
+msgstr "Vehicle with specified VIN code"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:163
+class.MdpmBase.php "уже есть в базе"
+msgstr "already in a base"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:163
+#: d:\tcl.system/mod/cars/class.Carsform.php:987
+#: d:\tcl.system/mod/cars/class.CarsList.php:178
+#: d:\tcl.system/mod/cars/class.CarsList.php:288
+class.MdpmBase.php "владелец"
+msgstr "Purchaser"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:224
+class.MdpmBase.php "Действительно удалить?"
+msgstr "Do you realy want to delete?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:244
+class.MdpmBase.php "Фотографии экспедитора"
+msgstr "Photos by freight forwarder"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:246
+class.MdpmBase.php "Вы действительно хотите удалить это фото?"
+msgstr "Do you realy want to delete this photo?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:265
+class.MdpmBase.php "Вы действительно хотите удалить Отчет о состоянии автомобиля или CR?"
+msgstr "Do you realy want to delete vehicle condition report?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:272
+#: d:\tcl.system/mod/cars/class.Carsform.php:273
+class.MdpmBase.php "пусто поле"
+msgstr "emty field"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:274
+#: d:\tcl.system/mod/cars/class.Carsform.php:276
+#: d:\tcl.system/mod/cars/class.Carsform.php:278
+#: d:\tcl.system/mod/cars/class.Carsform.php:281
+class.MdpmBase.php "не выбрано"
+msgstr "not selected"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:291
+class.MdpmBase.php " нет портов! "
+msgstr "no ports were selected!"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:300
+class.MdpmBase.php "инвойс"
+msgstr "Invoice"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:302
+class.MdpmBase.php "нет инвойса"
+msgstr "there is no invoice"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:337
+class.MdpmBase.php "месяц"
+msgstr "month"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:338
+#: d:\tcl.system/mod/cars/class.Carsform.php:339
+#: d:\tcl.system/mod/cars/class.Carsform.php:340
+class.MdpmBase.php "месяца"
+msgstr "months"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:341
+#: d:\tcl.system/mod/cars/class.Carsform.php:342
+#: d:\tcl.system/mod/cars/class.Carsform.php:343
+#: d:\tcl.system/mod/cars/class.Carsform.php:344
+#: d:\tcl.system/mod/cars/class.Carsform.php:345
+#: d:\tcl.system/mod/cars/class.Carsform.php:346
+#: d:\tcl.system/mod/cars/class.Carsform.php:347
+#: d:\tcl.system/mod/cars/class.Carsform.php:348
+class.MdpmBase.php "месяцев"
+msgstr "months"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:351
+#: d:\tcl.system/mod/cars/class.Carsform.php:356
+#: d:\tcl.system/mod/cars/class.Carsform.php:357
+#: d:\tcl.system/mod/cars/class.Carsform.php:358
+#: d:\tcl.system/mod/cars/class.Carsform.php:359
+#: d:\tcl.system/mod/cars/class.Carsform.php:360
+#: d:\tcl.system/mod/cars/class.Carsform.php:365
+class.MdpmBase.php "дней"
+msgstr "days"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:352
+class.MdpmBase.php "день"
+msgstr "day"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:353
+#: d:\tcl.system/mod/cars/class.Carsform.php:354
+#: d:\tcl.system/mod/cars/class.Carsform.php:355
+class.MdpmBase.php "дня"
+msgstr "days"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:369
+class.MdpmBase.php "с покупки прошло"
+msgstr "# of days since purchase"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:369
+class.MdpmBase.php "и"
+msgstr "and"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:396
+class.MdpmBase.php "прошло"
+msgstr "left"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:406
+class.MdpmBase.php "готова к отправке"
+msgstr "ready for dispatch"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:407
+class.MdpmBase.php "дата готовности"
+msgstr "ready date"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:447
+class.MdpmBase.php "Вы действительно хотите удалить После Продажную инспекцию?"
+msgstr "Are you sure you want to delete Post Sale Inspection ?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:461
+class.MdpmBase.php "Вы действительно хотите удалить этот файл?"
+msgstr "Are you sure you want to delete this file ?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:475
+class.MdpmBase.php "Вы действительно хотите удалить Сопроводительный документ?"
+msgstr "Are you sure you want to delete this document ?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:484
+class.MdpmBase.php "Пользователь создан.<br>Приглашение клиенту успешно отправлено."
+msgstr "The user was creates. <br>The invitation was sent to the customer. "
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:487
+class.MdpmBase.php "Пользователь создан.<br>Приглашение клиенту отправить НЕ удалось!"
+msgstr "The user was created.<br>The invitation was not sent!"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:490
+class.MdpmBase.php "Пользователь не создан! <br>Приглашение клиенту НЕ было отправлено! <br>Возможно у него не указаны email или имя."
+msgstr "The user was not created! <br>The invitation was not sent ! <br> Probably there was no email or name indicated."
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:493
+class.MdpmBase.php "У этого клиента уже есть логин. Приглашение не требуется."
+msgstr "This client already has an account. Invitation is not required."
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:526
+class.MdpmBase.php "Запись по автомобилю (расход-приход)"
+msgstr "Vehicle record (credit-debit)"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:547
+class.MdpmBase.php "Назначение расхода"
+msgstr "Details of Payment"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:574
+class.MdpmBase.php "Балланс по автомобилю"
+msgstr "Vehicle balance"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:574
+class.MdpmBase.php "Добавить услугу"
+msgstr "Add service"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:574
+class.MdpmBase.php "<b>добавить</b>"
+msgstr "<b>add</b>"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:578
+class.MdpmBase.php "Создал"
+msgstr "Created"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:578
+class.MdpmBase.php "Подтв."
+msgstr "Confirmed"
+
+# Р - расход  - E - Expense
+#: d:\tcl.system/mod/cars/class.Carsform.php:594
+class.MdpmBase.php "P"
+msgstr "E"
+
+# П - Платёж - P - Payment
+#: d:\tcl.system/mod/cars/class.Carsform.php:594
+class.MdpmBase.php "П"
+msgstr "P"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:596
+#: d:\tcl.system/mod/cars/class.Carsform.php:859
+#: d:\tcl.system/mod/cars/class.Carsform.php:876
+class.MdpmBase.php "да"
+msgstr "yes"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:596
+class.MdpmBase.php "нет"
+msgstr "no"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:633
+class.MdpmBase.php "Нет данных для данного автомобиля"
+msgstr "There is no data for this vehicle"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:636
+class.MdpmBase.php "всего расходов"
+msgstr "total expenses"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:637
+class.MdpmBase.php "балланс"
+msgstr "Balance"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:710
+class.MdpmBase.php "доставлена с"
+msgstr "delivered from"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:710
+#: d:\tcl.system/mod/cars/class.CarsList.php:406
+class.MdpmBase.php "в пути"
+msgstr "in transit"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:854
+#: d:\tcl.system/mod/cars/class.Carsform.php:871
+class.MdpmBase.php "Подтв...."
+msgstr "Confirming"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:862
+#: d:\tcl.system/mod/cars/class.Carsform.php:879
+class.MdpmBase.php "Ошибка!"
+msgstr "Error!"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:863
+#: d:\tcl.system/mod/cars/class.Carsform.php:880
+class.MdpmBase.php "неизвестно"
+msgstr "unknown"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:902
+class.MdpmBase.php "всего за автомобиль"
+msgstr "Sell price"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:912
+class.MdpmBase.php "баланс"
+msgstr "Balance"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:926
+class.MdpmBase.php "чистая прибыль"
+msgstr "net profit"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:936
+class.MdpmBase.php "цена в Америке на аукционе"
+msgstr "Auction price"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:988
+class.MdpmBase.php "Добавить клиента"
+msgstr "Add client"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1002
+class.MdpmBase.php "получатель"
+msgstr "consignee"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1004
+class.MdpmBase.php "Добавить получателя"
+msgstr "Add a consignee"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1020
+class.MdpmBase.php "Марка автомобиля"
+msgstr "Make"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1020
+class.MdpmBase.php "Модель"
+msgstr "Model"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1022
+class.MdpmBase.php "Добавить марку"
+msgstr "Add brand"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1024
+class.MdpmBase.php "Добавить модель"
+msgstr "Add model"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1028
+#: d:\tcl.system/mod/cars/class.CarsList.php:287
+class.MdpmBase.php "вин код"
+msgstr "Vin code"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1031
+class.MdpmBase.php "Автомобиль продан (для клиента)"
+msgstr "Auto is sold (for client)"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1034
+class.MdpmBase.php "дата выпуска"
+msgstr "Year"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1040
+class.MdpmBase.php "объем двигателя"
+msgstr "Engine size"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1042
+class.MdpmBase.php "цена в инвойсе"
+msgstr "Invoice price"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1047
+class.MdpmBase.php "вес"
+msgstr "weight"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1051
+#: d:\tcl.system/mod/cars/class.CarsList.php:290
+class.MdpmBase.php "контейнер"
+msgstr "Container"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1055
+class.MdpmBase.php "пробег"
+msgstr "Mileage"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1057
+#: d:\tcl.system/mod/cars/class.CarsList.php:291
+class.MdpmBase.php "транспортник"
+msgstr "Transporter"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1063
+#: d:\tcl.system/mod/cars/class.CarsList.php:292
+class.MdpmBase.php "порт"
+msgstr "Port of Origin"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1068
+class.MdpmBase.php "дата реальной доставки"
+msgstr "date of actual delivery"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1074
+class.MdpmBase.php "статус транспортировки"
+msgstr "transportation status"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1082
+class.MdpmBase.php "доставлена"
+msgstr "delivered"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1086
+class.MdpmBase.php "Местонахождение автомобиля"
+msgstr "Vehicle location"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1088
+class.MdpmBase.php "Тайтл"
+msgstr "Title"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1098
+class.MdpmBase.php "место<br>назначения"
+msgstr "Destination"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1109
+class.MdpmBase.php "пригласить клиента"
+msgstr "send an invitation to a client"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1115
+class.MdpmBase.php "Вы действительно хотите удалить этот автомобиль?"
+msgstr "Do you realy want to delete this vehicle?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1117
+class.MdpmBase.php "Продать"
+msgstr "Sell"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1163
+class.MdpmBase.php "выставить на продажу"
+msgstr "list for sale"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1164
+class.MdpmBase.php "Редактировать шаблоны"
+msgstr "Edit template"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1173
+class.MdpmBase.php "шаблон"
+msgstr "template"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1187
+class.MdpmBase.php "цена"
+msgstr "price"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1191
+class.MdpmBase.php "продан"
+msgstr "sold"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1194
+class.MdpmBase.php "выставить до"
+msgstr "expire on"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1271
+#: d:\tcl.system/mod/cars/class.Carsform.php:1316
+class.MdpmBase.php "Фотографии"
+msgstr "Photos"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1273
+class.MdpmBase.php "все фотографии"
+msgstr "all photos"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1281
+class.MdpmBase.php "Отчет о состоянии автомобиля или CR"
+msgstr "Vehicle conditioin report CR"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1282
+#: d:\tcl.system/mod/cars/class.Carsform.php:1306
+class.MdpmBase.php "показывать на сайте"
+msgstr "show on site"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1294
+#: d:\tcl.system/mod/cars/class.Carsform.php:1301
+class.MdpmBase.php "показывать клиенту"
+msgstr "show to client"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1300
+#: d:\tcl.system/mod/cars/class.Carsform.php:1382
+class.MdpmBase.php "Сопроводительные документы"
+msgstr "Supporting documents"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1314
+#: d:\tcl.system/mod/cars/class.Carsform.php:1325
+#: d:\tcl.system/mod/cars/class.Carsform.php:1349
+#: d:\tcl.system/mod/cars/class.Carsform.php:1357
+#: d:\tcl.system/mod/cars/class.Carsform.php:1364
+#: d:\tcl.system/mod/cars/class.Carsform.php:1370
+#: d:\tcl.system/mod/cars/class.Carsform.php:1378
+#: d:\tcl.system/mod/cars/class.Carsform.php:1386
+class.MdpmBase.php "Загрузить"
+msgstr "Upload"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1353
+class.MdpmBase.php "Отчет (CR)"
+msgstr "Condition report"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1404
+class.MdpmBase.php "Добавить еще одного клиента"
+msgstr "Add another client"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1405
+#: d:\tcl.system/mod/cars/class.Carsform.php:1415
+class.MdpmBase.php "Закрыть окно"
+msgstr "Close window"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1415
+class.MdpmBase.php "Продажа автомобиля"
+msgstr "Car sale"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1416
+class.MdpmBase.php "Продавец"
+msgstr "Seller"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1417
+class.MdpmBase.php "Покупатель"
+msgstr "Buyer"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1418
+class.MdpmBase.php "Цена"
+msgstr "Price"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1419
+class.MdpmBase.php "Отправить"
+msgstr "Send"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1419
+class.MdpmBase.php "Вы действительно хотите сменить владельца автомобиля?"
+msgstr "Do you realy want to change a vehicle owner?"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1436
+class.MdpmBase.php "Покупатель и продавец одно лицо!"
+msgstr "The seller and the buyer is under one name!"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1441
+class.MdpmBase.php "Не заполнено поле ЦЕНА!"
+msgstr "PRICE field is empty!"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1494
+class.MdpmBase.php "заказ"
+msgstr "order"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1495
+class.MdpmBase.php "на продажу"
+msgstr "for sale"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1496
+class.MdpmBase.php "отказ"
+msgstr "reject"
+
+#: d:\tcl.system/mod/cars/class.Carsform.php:1508
+class.MdpmBase.php "раздел"
+msgstr "section"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:149
+class.MdpmBase.php "Автомобили"
+msgstr "Cars"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:149
+class.MdpmBase.php "Список мест"
+msgstr "Ports of destination"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:149
+class.MdpmBase.php "Список портов"
+msgstr "Ports of origin"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:152
+class.MdpmBase.php "по названию"
+msgstr "Search by make:"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:154
+class.MdpmBase.php "по Вин коду"
+msgstr "by VIN code"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:156
+class.MdpmBase.php "с"
+msgstr "from"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:160
+class.MdpmBase.php "по"
+msgstr "to"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:167
+class.MdpmBase.php "Список марок"
+msgstr "Make list"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:167
+class.MdpmBase.php "Список моделей"
+msgstr "Model list"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:170
+class.MdpmBase.php "место нахождения авто"
+msgstr "Search by vehicle location"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:172
+class.MdpmBase.php "место назначения"
+msgstr "by destination"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:176
+class.MdpmBase.php "в порту"
+msgstr "by port of origin"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:289
+class.MdpmBase.php "модель"
+msgstr "Model"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:293
+class.MdpmBase.php "местонахождение авто"
+msgstr "Vehicle location"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:294
+class.MdpmBase.php "местонахождение тайтла"
+msgstr "Title location"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:307
+class.MdpmBase.php "- = не выбран = -"
+msgstr "- = not selected = -"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:360
+class.MdpmBase.php "по вашему запросу ничего не найдено"
+msgstr "your query has not returned any results"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:405
+class.MdpmBase.php "новые"
+msgstr "new"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:407
+#, fuzzy
+class.MdpmBase.php "не проданые"
+msgstr "for sale"
+
+#: d:\tcl.system/mod/cars/class.CarsList.php:408
+class.MdpmBase.php "архив"
+msgstr "archive"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:15
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:15
+class.MdpmBase.php "Комментарии"
+msgstr "Comments"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:29
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:29
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:163
+class.MdpmBase.php "скрытый"
+msgstr "hidden"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:35
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:35
+class.MdpmBase.php "Автор"
+msgstr "Author"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:50
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:50
+class.MdpmBase.php "Редактировать"
+msgstr "Edit"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:51
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:51
+class.MdpmBase.php "Вы действительно хотите удалить этот комментарий?"
+msgstr "Do you realy want to delete this comment?"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:51
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:51
+class.MdpmBase.php "Удалить"
+msgstr "Remove"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:103
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:103
+class.MdpmBase.php "Добавить комментарий"
+msgstr "Add comment"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:107
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:107
+class.MdpmBase.php "Редактировать комментарий"
+msgstr "Edit comment"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:126
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:126
+class.MdpmBase.php "комментарий удален"
+msgstr "comment was deleted"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:161
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:161
+class.MdpmBase.php "Тип"
+msgstr "Type"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:162
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:162
+class.MdpmBase.php "для всех"
+msgstr "for all"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:168
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:169
+class.MdpmBase.php "Текст комментария"
+msgstr "Comment text"
+
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates.php:173
+#: d:\tcl.system/mod/cars/templates/class.CommentTemplates__.php:174
+class.MdpmBase.php "Cохранить"
+msgstr "Save"
+
+#: d:\tcl.system/mod/carstobuy/class.Cars2buy.php:79
+class.MdpmBase.php "Cегодня"
+msgstr "Today"
+
+#: d:\tcl.system/mod/carstobuy/class.Cars2buy.php:129
+class.MdpmBase.php "Следующие к покупке"
+msgstr "Next to buy"
+
+#: d:\tcl.system/mod/carstobuy/class.Cars2buy.php:163
+class.MdpmBase.php "Просроченные"
+msgstr "Expired"
+
+#: d:\tcl.system/mod/carstobuy/class.Cars2buy.php:197
+class.MdpmBase.php "Планируемые"
+msgstr "Planned"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:72
+class.MdpmBase.php "- не выбран -"
+msgstr " - not selected - "
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:97
+class.MdpmBase.php "Автомобиль к покупке"
+msgstr "Cars to buy"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:108
+class.MdpmBase.php "Время аукциона"
+msgstr "Sale time"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:114
+class.MdpmBase.php "Номер линии"
+msgstr "Lane"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:116
+class.MdpmBase.php "Макс. цена покупки<br> на аукционе"
+msgstr "Max price to buy"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:120
+class.MdpmBase.php "Номер лота"
+msgstr "Run"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:122
+class.MdpmBase.php "Год(а)"
+msgstr "Year"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:127
+class.MdpmBase.php "VIN код"
+msgstr "VIN"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:132
+class.MdpmBase.php "Клиент"
+msgstr "Client"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuyform.php:135
+class.MdpmBase.php "куплена"
+msgstr "bought"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:22
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:72
+class.MdpmBase.php "Машины к покупке"
+msgstr "Cars to buy"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:73
+class.MdpmBase.php "показывать купленные"
+msgstr "show bought cars"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:81
+class.MdpmBase.php "номер линии"
+msgstr "Lane number"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:82
+class.MdpmBase.php "номер лота"
+msgstr "Run number"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:84
+class.MdpmBase.php "время"
+msgstr "time"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:86
+class.MdpmBase.php "макс. цена"
+msgstr "max price"
+
+#: d:\tcl.system/mod/carstobuy/class.carsToBuylist.php:87
+class.MdpmBase.php "год(а)"
+msgstr "year"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:93
+class.MdpmBase.php "по договору"
+msgstr "According to the agreement"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:94
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:170
+class.MdpmBase.php "оплачено"
+msgstr "paid"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:95
+class.MdpmBase.php "остаток"
+msgstr "balance"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:97
+class.MdpmBase.php "остаток по переводу"
+msgstr "Wire transfer balance"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:155
+class.MdpmBase.php "автомобилей"
+msgstr "Number of vehicles in container"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:173
+class.MdpmBase.php "Поиск по VIN коду"
+msgstr "Search by VIN code"
+
+#: d:\tcl.system/mod/cars_reports/class.cars_reportsList.php:175
+class.MdpmBase.php "по владельцу"
+msgstr "by owner"
+
+#: d:\tcl.system/mod/cars_reports/templates/payment.form.php:19
+class.MdpmBase.php "пользователь"
+msgstr "user"
+
+#: d:\tcl.system/mod/cars_reports/templates/payment.form.php:54
+class.MdpmBase.php "Плательщик"
+msgstr "Payer"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:30
+class.MdpmBase.php "Проблемы с добавлением платежа!"
+msgstr "There are problems adding a payment!"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:95
+class.MdpmBase.php "сумма"
+msgstr "Ammount"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:131
+class.MdpmBase.php "зеленым цветом выделены платежи от имени этого дилера."
+msgstr "green - dealer payments"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:170
+class.MdpmBase.php "всего"
+msgstr "total"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:228
+class.MdpmBase.php "версия для печати"
+msgstr "print version"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:229
+class.MdpmBase.php "Детализация баланса по клиенту"
+msgstr "Detailing the balance of the client"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:234
+class.MdpmBase.php "ЗАКАЗАНО"
+msgstr "ORDERED"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:235
+class.MdpmBase.php "на   сумму"
+msgstr "total ammount"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:237
+class.MdpmBase.php "ОПЛАЧЕНО"
+msgstr "PAID"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:250
+class.MdpmBase.php "прибывшие"
+msgstr "arrived"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:253
+class.MdpmBase.php "Добавить платеж этому клиенту"
+msgstr "Add this payment to the client"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:255
+class.MdpmBase.php "Платежи"
+msgstr "Payments"
+
+#: d:\tcl.system/mod/clients/class.Clientsdetail.php:257
+class.MdpmBase.php "все / последний месяц"
+msgstr "all / last month"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:35
+class.MdpmBase.php "Ошибка! Клиент с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such client in the base"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:51
+class.MdpmBase.php "добавить получателя"
+msgstr "Add a consignee"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:58
+#: d:\tcl.system/mod/clients/templates/form.customer.php:10
+class.MdpmBase.php "аванс"
+msgstr "prepayment"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:66
+#: d:\tcl.system/mod/clients/templates/form.customer.php:17
+class.MdpmBase.php "Вы действительно хотите удалить прикрепленный файл?"
+msgstr "Do you realy want to delete attached file?"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:82
+#, fuzzy
+class.MdpmBase.php ""
+"Пользователь создан.<br>\n"
+"\t\t\t\tПриглашение клиенту успешно отправлено."
+msgstr ""
+"The user was created.<br>\n"
+"\t\t\t\tThe invitation was sent to the user."
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:112
+#: d:\tcl.system/mod/clients/templates/form.customer.php:31
+class.MdpmBase.php "автомобили клиента"
+msgstr "client's  vehicles"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:116
+#: d:\tcl.system/mod/clients/class.ClientsList.php:49
+#: d:\tcl.system/mod/clients/templates/form.customer.php:35
+class.MdpmBase.php "ФИО"
+msgstr "First And Last Names "
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:119
+#: d:\tcl.system/mod/clients/templates/form.customer.php:38
+class.MdpmBase.php "доставлено на сумму"
+msgstr "total ammount ordered"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:129
+#: d:\tcl.system/mod/clients/templates/form.customer.php:48
+class.MdpmBase.php "предоплата<br>за машины в пути"
+msgstr "prepayment"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:139
+#: d:\tcl.system/mod/clients/templates/form.customer.php:58
+class.MdpmBase.php "платежи"
+msgstr "payments"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:148
+#: d:\tcl.system/mod/clients/templates/form.customer.php:67
+class.MdpmBase.php "к оплате"
+msgstr "payable"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:155
+#: d:\tcl.system/mod/clients/templates/form.customer.php:74
+class.MdpmBase.php "контакты"
+msgstr "contacts"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:157
+#: d:\tcl.system/mod/clients/templates/form.customer.php:76
+class.MdpmBase.php "машины в пути"
+msgstr "cars in transit"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:164
+#: d:\tcl.system/mod/clients/templates/form.customer.php:83
+class.MdpmBase.php "паспорт"
+msgstr "passport"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:166
+#: d:\tcl.system/mod/clients/templates/form.customer.php:85
+class.MdpmBase.php "всего машин заказано"
+msgstr "total ordered vehicles"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:179
+#: d:\tcl.system/mod/clients/templates/form.customer.php:98
+class.MdpmBase.php "дилер"
+msgstr "dealer"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:185
+class.MdpmBase.php "разрешить рассылку"
+msgstr "allow newletters"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:186
+#: d:\tcl.system/mod/clients/templates/form.customer.php:105
+class.MdpmBase.php "дилер этого клиента"
+msgstr "this client dealer"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:193
+class.MdpmBase.php "уже существует!"
+msgstr "already exists!"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:199
+#: d:\tcl.system/mod/clients/templates/form.customer.php:118
+class.MdpmBase.php "пароль"
+msgstr "password"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:202
+class.MdpmBase.php "пароль можно только сменить!"
+msgstr "password can only be changed!"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:205
+#: d:\tcl.system/mod/clients/templates/form.customer.php:123
+class.MdpmBase.php "контракт"
+msgstr "an agreement"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:222
+#: d:\tcl.system/mod/clients/templates/form.customer.php:130
+class.MdpmBase.php "Вы действительно хотите удалить этого клиента?"
+msgstr "Do you realy want to delete this client?"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:232
+#: d:\tcl.system/mod/clients/templates/form.customer.php:139
+class.MdpmBase.php "копия паспорта"
+msgstr "passport copy"
+
+#: d:\tcl.system/mod/clients/class.Clientsform.php:271
+#: d:\tcl.system/mod/clients/templates/form.customer.php:178
+class.MdpmBase.php "нет договоров"
+msgstr "there are no agreements"
+
+#: d:\tcl.system/mod/clients/class.ClientsList.php:73
+class.MdpmBase.php "Клиенты"
+msgstr "Clients"
+
+#: d:\tcl.system/mod/clients/class.ClientsList.php:74
+class.MdpmBase.php "Получатели"
+msgstr "Consignees"
+
+#: d:\tcl.system/mod/clients/templates/form.customer.php:112
+class.MdpmBase.php "уже существует"
+msgstr "already exists"
+
+#: d:\tcl.system/mod/clients/templates/form.customer.php:121
+class.MdpmBase.php "пароль можно только сменить"
+msgstr "password can only be changed"
+
+#: d:\tcl.system/mod/clients/templates/form.customer.php:178
+class.MdpmBase.php "создать"
+msgstr "create"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:60
+class.MdpmBase.php "Не выбран ни один параметр!"
+msgstr "There is no options selected!"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:75
+class.MdpmBase.php "распечатать выбранные контейнеры"
+msgstr "print selected containers"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:78
+class.MdpmBase.php "Можно выставить одну или несколько дат.<br>Даты выставляются <u>всем выбранным контейнерам</u>."
+msgstr "You can select one or a few dates.<br>Dates are set <u>for all the selected containers</u>."
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:81
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:247
+#: d:\tcl.system/mod/containers/class.ContainersList.php:190
+class.MdpmBase.php "Отправка"
+msgstr "Loading date"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:87
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:252
+class.MdpmBase.php "Китай"
+msgstr "China"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:93
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:257
+#: d:\tcl.system/mod/containers/class.ContainersList.php:192
+class.MdpmBase.php "Ж/Д"
+msgstr "Estimated time of arrival"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:99
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:262
+class.MdpmBase.php "Достук"
+msgstr ""
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:105
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:267
+class.MdpmBase.php "Бишкек"
+msgstr ""
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:111
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:272
+class.MdpmBase.php "Доставлен"
+msgstr "Delivered"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:116
+class.MdpmBase.php "СОХРАНИТЬ ИЗМЕНЕНИЯ"
+msgstr "SAVE CHANGES"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:154
+class.MdpmBase.php "Изменения сохранены!"
+msgstr "Changes were saved!"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:156
+class.MdpmBase.php "Для контейнеров:"
+msgstr "For container"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:157
+class.MdpmBase.php "установлены следующие значения"
+msgstr "the following values were set"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:183
+class.MdpmBase.php "не выбран ни один контейнер!"
+msgstr "there is no container selected"
+
+#: d:\tcl.system/mod/containers/class.Containerscprint.php:188
+class.MdpmBase.php "экспедитор"
+msgstr "Shipping company "
+
+#: d:\tcl.system/mod/containers/class.Containersform.php:65
+class.MdpmBase.php "Ошибка! Контейнер с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such container in the base!"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:166
+class.MdpmBase.php "Контейнеры"
+msgstr "Containers"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:167
+class.MdpmBase.php "Список портов перегруза"
+msgstr "Transshipment port list"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:167
+class.MdpmBase.php "Добавить порт перегруза"
+msgstr "Add transshipment port"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:169
+class.MdpmBase.php "искать по номеру:"
+msgstr "search by number:"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:171
+class.MdpmBase.php "экспедитору:"
+msgstr "shipping company"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:178
+class.MdpmBase.php "распечатать"
+msgstr "print"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:178
+class.MdpmBase.php "редактировать"
+msgstr "edit"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:182
+class.MdpmBase.php "показывать прибывшие"
+msgstr "show arrived"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:188
+class.MdpmBase.php "Номер контейнера"
+msgstr "Container number"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:189
+class.MdpmBase.php "Букинг №"
+msgstr "Booking #"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:191
+class.MdpmBase.php "Порт"
+msgstr "Estimated time of departure"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:193
+class.MdpmBase.php "Назначение"
+msgstr "Date of transshipment dispatch"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:194
+class.MdpmBase.php "Ожидается"
+msgstr "Arrival at final destination"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:195
+class.MdpmBase.php "Машин"
+msgstr "Number of vehicles in container"
+
+#: d:\tcl.system/mod/containers/class.ContainersList.php:196
+class.MdpmBase.php "Экспедитор"
+msgstr "Shipping company "
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:52
+#: d:\tcl.system/mod/containers/templates/container.form_.php:53
+class.MdpmBase.php "Инфо"
+msgstr "Info"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:82
+#: d:\tcl.system/mod/containers/templates/container.form_.php:83
+class.MdpmBase.php "Загрузить документ"
+msgstr "Upload document"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:84
+#: d:\tcl.system/mod/containers/templates/container.form_.php:85
+class.MdpmBase.php "название файла"
+msgstr "file name"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:106
+#: d:\tcl.system/mod/containers/templates/container.form_.php:107
+class.MdpmBase.php " - не выбран - "
+msgstr " - = not choosen = - "
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:125
+#: d:\tcl.system/mod/containers/templates/container.form_.php:126
+class.MdpmBase.php "нет портов"
+msgstr "there is no ports"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:129
+#: d:\tcl.system/mod/containers/templates/container.form_.php:130
+class.MdpmBase.php "не выбран порт отправки!"
+msgstr "not selected shipping port!"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:154
+#: d:\tcl.system/mod/containers/templates/container.form_.php:155
+class.MdpmBase.php "не выбран порт"
+msgstr "not selected port"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:162
+#: d:\tcl.system/mod/containers/templates/container.form_.php:163
+class.MdpmBase.php "Контейнер"
+msgstr "Container"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:165
+#: d:\tcl.system/mod/containers/templates/container.form_.php:166
+class.MdpmBase.php "номер"
+msgstr "Container number"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:169
+#: d:\tcl.system/mod/containers/templates/container.form_.php:170
+class.MdpmBase.php "автомобили погруженные"
+msgstr "loaded vehicles"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:172
+#: d:\tcl.system/mod/containers/templates/container.form_.php:173
+class.MdpmBase.php "Дата погрузки в контейнер"
+msgstr "Loading date"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:180
+#: d:\tcl.system/mod/containers/templates/container.form_.php:181
+class.MdpmBase.php "Отправкa из США"
+msgstr "Estimated time of Departure from Port"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:187
+#: d:\tcl.system/mod/containers/templates/container.form_.php:188
+class.MdpmBase.php "Приход в порт перегруза"
+msgstr "Arrival at the port of transshipment"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:194
+#: d:\tcl.system/mod/containers/templates/container.form_.php:195
+class.MdpmBase.php "Погрузка на Ж/Д платформу"
+msgstr "Loading on a railroad platform "
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:201
+#: d:\tcl.system/mod/containers/templates/container.form_.php:202
+class.MdpmBase.php "Станция <br>назначения - Бишкек"
+msgstr "Arrival at final<br>destination"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:211
+#: d:\tcl.system/mod/containers/templates/container.form_.php:212
+class.MdpmBase.php "доставлен"
+msgstr "delivered"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:219
+#: d:\tcl.system/mod/containers/templates/container.form_.php:220
+class.MdpmBase.php "цена  доставки"
+msgstr "Freight cost "
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:222
+#: d:\tcl.system/mod/containers/templates/container.form_.php:223
+class.MdpmBase.php "Номер букинга"
+msgstr "Booking number"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:226
+#: d:\tcl.system/mod/containers/templates/container.form_.php:227
+class.MdpmBase.php "порт перегруза<br>на Ж/Д"
+msgstr "Transshipment port (on the Railway)"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:229
+#: d:\tcl.system/mod/containers/templates/container.form_.php:230
+class.MdpmBase.php "Морская Линия"
+msgstr "Maritime Line"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:233
+#: d:\tcl.system/mod/containers/templates/container.form_.php:234
+class.MdpmBase.php "ожидаемая дата<br>прибытия"
+msgstr "Estimated date <br> of arrival "
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:236
+#: d:\tcl.system/mod/containers/templates/container.form_.php:237
+class.MdpmBase.php "станция<br>назначения"
+msgstr "Destination<br>point"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:240
+#: d:\tcl.system/mod/containers/templates/container.form_.php:241
+class.MdpmBase.php "Номер ж/д платформы"
+msgstr "Railroad platform number"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:243
+#: d:\tcl.system/mod/containers/templates/container.form_.php:244
+class.MdpmBase.php "Стоимость контейнера<br>в Бишкеке"
+msgstr "Container box sell price<br>at destination"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:250
+class.MdpmBase.php "Стоимость разгрузки<br>контейнера"
+msgstr "Container box unload price"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:280
+#: d:\tcl.system/mod/containers/templates/container.form_.php:274
+class.MdpmBase.php "Товар в контейнере"
+msgstr "Stuff in container"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:300
+#: d:\tcl.system/mod/containers/templates/container.form_.php:294
+class.MdpmBase.php "Вы действительно хотите удалить этот контейнер?"
+msgstr "Do you realy want to delete this container?"
+
+#: d:\tcl.system/mod/containers/templates/container.form.php:322
+#: d:\tcl.system/mod/containers/templates/container.form.php:340
+#: d:\tcl.system/mod/containers/templates/container.form_.php:316
+#: d:\tcl.system/mod/containers/templates/container.form_.php:334
+class.MdpmBase.php "- не выбрана -"
+msgstr " - not selected - "
+
+#: d:\tcl.system/mod/con_reports/class.con_reportsList.php:58
+#, fuzzy
+class.MdpmBase.php ""
+"по договору<br>\n"
+"\t\t\t\t\t\t\t\t\t\t(общая сумма для клиента)"
+msgstr ""
+"according to agrement<br>\n"
+"\t\t\t\t\t\t\t\t\t\t(total payable amount for a client)"
+
+#: d:\tcl.system/mod/con_reports/class.con_reportsList.php:60
+class.MdpmBase.php "Фактически оплачено клиентом"
+msgstr "Paid by customer"
+
+#: d:\tcl.system/mod/con_reports/class.con_reportsList.php:143
+class.MdpmBase.php "Поиск по номеру контейнера"
+msgstr "Search by container number"
+
+#: d:\tcl.system/mod/con_reports/class.con_reportsList.php:145
+class.MdpmBase.php "по VIN коду"
+msgstr "by VIN code"
+
+#: d:\tcl.system/mod/expeditors/class.Expeditorsform.php:28
+class.MdpmBase.php "Ошибка! Экспедитор с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such shipping company in the base"
+
+#: d:\tcl.system/mod/expeditors/class.ExpeditorsList.php:33
+class.MdpmBase.php "Экспедиторы"
+msgstr "Shipping Companies"
+
+#: d:\tcl.system/mod/expeditors/class.ExpeditorsList.php:35
+class.MdpmBase.php "Не найдено ни одной записи."
+msgstr "No records found."
+
+#: d:\tcl.system/mod/expeditors/class.ExpeditorsList.php:42
+class.MdpmBase.php "Имя / название экспедитора"
+msgstr "Shipping Company name"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:42
+class.MdpmBase.php "имя / название"
+msgstr "Name"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:51
+class.MdpmBase.php "телефон"
+msgstr "Contact information"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:55
+class.MdpmBase.php "работает в портах"
+msgstr "ports"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:61
+class.MdpmBase.php "изменить порты"
+msgstr "change ports"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:70
+class.MdpmBase.php "Вы действительно хотите удалить этого экспедитора?"
+msgstr "Do you realy want to delete this shipping agent?"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:79
+class.MdpmBase.php "Порты этого поставщика"
+msgstr "Ports of the forwarder"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:96
+class.MdpmBase.php "КОНТЕЙНЕР"
+msgstr "CONTAINER"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:117
+class.MdpmBase.php "Услуги экспедитора"
+msgstr "Shipping services"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:118
+class.MdpmBase.php "Добавление услуги"
+msgstr "Add a service"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:133
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:161
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:180
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:189
+class.MdpmBase.php "описание"
+msgstr "Description"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:144
+class.MdpmBase.php "Платежи экспедитору"
+msgstr "Payments to Shipping Company"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:146
+class.MdpmBase.php "Добавление платежа"
+msgstr "Payment addition"
+
+#: d:\tcl.system/mod/expeditors/templates/expeditor.form.php:214
+class.MdpmBase.php "Вы действительно хотите удалить эту запись?"
+msgstr "Do you realy want to delete this record?"
+
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:14
+class.MdpmBase.php "файлов на обмен нет"
+msgstr "there is no file to share"
+
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:19
+class.MdpmBase.php "удалить файл"
+msgstr "remove file"
+
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:35
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:39
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:54
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:59
+class.MdpmBase.php "Обмен файлами"
+msgstr "File sharing"
+
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:35
+class.MdpmBase.php "загрузить"
+msgstr "upload"
+
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:54
+class.MdpmBase.php "список"
+msgstr "list"
+
+#: d:\tcl.system/mod/fileshare/templates/class.FileshareTemplates.php:69
+class.MdpmBase.php "загружаемый файл"
+msgstr "loading file"
+
+#: d:\tcl.system/mod/grabber/class/core.php:43
+#: d:\tcl.system/mod/grabber/class/core.php:167
+class.MdpmBase.php "Подождите, идет процесс импорта данных..."
+msgstr ""
+
+#: d:\tcl.system/mod/grabber/class/core.php:55
+#: d:\tcl.system/mod/grabber/class/core.php:198
+class.MdpmBase.php "№"
+msgstr ""
+
+#: d:\tcl.system/mod/grabber/class/core.php:57
+#, fuzzy
+class.MdpmBase.php "Условия поиска"
+msgstr "Transporter's services"
+
+#: d:\tcl.system/mod/grabber/class/core.php:58
+#, fuzzy
+class.MdpmBase.php "Активность"
+msgstr "activate"
+
+#: d:\tcl.system/mod/grabber/class/core.php:200
+#, fuzzy
+class.MdpmBase.php "Источник"
+msgstr "balance"
+
+#: d:\tcl.system/mod/grabber/class/core.php:201
+#, fuzzy
+class.MdpmBase.php "Добавлена в базу"
+msgstr "Payment addition"
+
+#: d:\tcl.system/mod/grabber/class/core.php:203
+#, fuzzy
+class.MdpmBase.php "VIN добавлен"
+msgstr "delivered"
+
+#: d:\tcl.system/mod/grabber/class/core.php:204
+#, fuzzy
+class.MdpmBase.php "Пробег"
+msgstr "Mileage"
+
+#: d:\tcl.system/mod/grabber/class/core.php:206
+#, fuzzy
+class.MdpmBase.php "Дата аукциона"
+msgstr "Sale time"
+
+#: d:\tcl.system/mod/grabber/class/core.php:207
+#, fuzzy
+class.MdpmBase.php "Цвет кузова"
+msgstr "Exterior"
+
+#: d:\tcl.system/mod/grabber/class/core.php:208
+#, fuzzy
+class.MdpmBase.php "Цвет салона"
+msgstr "Interior"
+
+#: d:\tcl.system/mod/grabber/class/core.php:209
+#, fuzzy
+class.MdpmBase.php "Дата выпуска"
+msgstr "Year"
+
+#: d:\tcl.system/mod/grabber/class/core.php:210
+#: d:\tcl.system/mod/grabber/class/core.php:255
+#, fuzzy
+class.MdpmBase.php "Ссылка"
+msgstr "Ammount"
+
+#: d:\tcl.system/mod/grabber/class/core.php:269
+#, fuzzy
+class.MdpmBase.php "Ничего не найдено"
+msgstr "no results found"
+
+#: d:\tcl.system/mod/invoices/class.Invoicescarsforclient.php:44
+class.MdpmBase.php "Выберите машину"
+msgstr "Choose vehicle"
+
+#: d:\tcl.system/mod/invoices/class.InvoicesList.php:39
+class.MdpmBase.php "Дата добавления"
+msgstr "Date"
+
+#: d:\tcl.system/mod/invoices/class.InvoicesList.php:40
+class.MdpmBase.php "Номер"
+msgstr "Invoice number"
+
+#: d:\tcl.system/mod/invoices/class.InvoicesList.php:44
+class.MdpmBase.php "Вин код"
+msgstr "VIN code"
+
+#: d:\tcl.system/mod/invoices/class.InvoicesList.php:48
+class.MdpmBase.php "Инвойсы"
+msgstr "Invoices"
+
+#: d:\tcl.system/mod/invoices/class.InvoicesList.php:48
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:34
+class.MdpmBase.php "Список услуг"
+msgstr "Service list"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:21
+class.MdpmBase.php "Название услуги"
+msgstr "Service name"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:22
+class.MdpmBase.php "Описание услуги"
+msgstr "Service description"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:23
+class.MdpmBase.php "Количество"
+msgstr "Quantity"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:34
+class.MdpmBase.php "Список инвойсов"
+msgstr "Invoices list"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:49
+class.MdpmBase.php "Добавление/редактирование инвойса"
+msgstr "Add/Edit invoice"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:89
+class.MdpmBase.php "Ошибка соединения с сервером!"
+msgstr "Error connecting to the server!"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:194
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:225
+class.MdpmBase.php "Выбирите услугу"
+msgstr "Choose service"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:278
+class.MdpmBase.php "Получить список авто без инвойса"
+msgstr "Select a list of cars without invoice "
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:284
+class.MdpmBase.php "Печатная версия"
+msgstr "Print version"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:284
+class.MdpmBase.php "Отправить на почту клиенту"
+msgstr "Send to client via e-mail"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:295
+class.MdpmBase.php "Номер инвойса"
+msgstr "Invoice number"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:329
+class.MdpmBase.php "Удалить услугу"
+msgstr "Delete service"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:336
+class.MdpmBase.php "Под итого"
+msgstr "Sub total"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:340
+class.MdpmBase.php "Оплачены"
+msgstr "Paid"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:344
+class.MdpmBase.php "Итого"
+msgstr "Total"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:352
+class.MdpmBase.php "Удалить инвойс?"
+msgstr "do you want to delete invoice?"
+
+#: d:\tcl.system/mod/invoices/templates/class.InvoicesTemplates.php:352
+class.MdpmBase.php "Удалить инвойс"
+msgstr "Delete invoice"
+
+#: d:\tcl.system/mod/marka/class.markasave.php:13
+class.MdpmBase.php "Заполните название  марки автомобиля"
+msgstr "Fill in a car make "
+
+#: d:\tcl.system/mod/marka/class.markasave.php:30
+class.MdpmBase.php "Марка  автомобиля сохранена"
+msgstr "Car make was saved"
+
+#: d:\tcl.system/mod/marka/class.markasave.php:32
+class.MdpmBase.php "Марку автомобиля сохранить не удалось"
+msgstr "Car make couldn't be saved"
+
+#: d:\tcl.system/mod/marka/templates/class.markaTemplates.php:16
+class.MdpmBase.php "Название марки автомобиля"
+msgstr "A car make"
+
+#: d:\tcl.system/mod/marka/templates/class.markaTemplates.php:24
+#: d:\tcl.system/mod/model/templates/class.modelTemplates.php:27
+class.MdpmBase.php "Список автомобилей"
+msgstr "Cars list"
+
+#: d:\tcl.system/mod/marka/templates/class.markaTemplates.php:25
+#: d:\tcl.system/mod/model/templates/class.modelTemplates.php:28
+class.MdpmBase.php "Список товаров"
+msgstr "Goods list"
+
+#: d:\tcl.system/mod/marka/templates/class.markaTemplates.php:45
+#: d:\tcl.system/mod/model/templates/class.modelTemplates.php:48
+class.MdpmBase.php "Добавление/редактирование"
+msgstr "Add/Edit"
+
+#: d:\tcl.system/mod/marka/templates/class.markaTemplates.php:45
+class.MdpmBase.php "марки автомобиля"
+msgstr "car makes"
+
+#: d:\tcl.system/mod/model/class.modelsave.php:13
+class.MdpmBase.php "Заполните марку автомобиля"
+msgstr "Fill in a vehicle make  "
+
+#: d:\tcl.system/mod/model/class.modelsave.php:14
+class.MdpmBase.php "Заполните название модели"
+msgstr "Fill in a model"
+
+#: d:\tcl.system/mod/model/class.modelsave.php:33
+class.MdpmBase.php "Модель сохранена"
+msgstr "Model saved"
+
+#: d:\tcl.system/mod/model/class.modelsave.php:35
+class.MdpmBase.php "Модель сохранить не удалось"
+msgstr "Model couldn't be saved"
+
+#: d:\tcl.system/mod/model/templates/class.modelTemplates.php:17
+class.MdpmBase.php "Марка"
+msgstr "Make"
+
+#: d:\tcl.system/mod/model/templates/class.modelTemplates.php:18
+class.MdpmBase.php "Название модели"
+msgstr "Model name"
+
+#: d:\tcl.system/mod/model/templates/class.modelTemplates.php:48
+class.MdpmBase.php "модели"
+msgstr "model"
+
+#: d:\tcl.system/mod/places/class.placessave.php:13
+#: d:\tcl.system/mod/ports/class.portssave.php:13
+class.MdpmBase.php "Заполните название места"
+msgstr "Fill in a location name"
+
+#: d:\tcl.system/mod/places/class.placessave.php:30
+#: d:\tcl.system/mod/ports/class.portssave.php:30
+class.MdpmBase.php "Место сохранено"
+msgstr "Location saved"
+
+#: d:\tcl.system/mod/places/class.placessave.php:32
+#: d:\tcl.system/mod/ports/class.portssave.php:32
+class.MdpmBase.php "Место сохранить не удалось"
+msgstr "Location couldn't be saved"
+
+#: d:\tcl.system/mod/places/templates/class.placesTemplates.php:16
+#: d:\tcl.system/mod/ports/templates/class.portsTemplates.php:16
+class.MdpmBase.php "Название места"
+msgstr "Place name"
+
+#: d:\tcl.system/mod/places/templates/class.placesTemplates.php:45
+class.MdpmBase.php "места"
+msgstr "places"
+
+#: d:\tcl.system/mod/ports/templates/class.portsTemplates.php:45
+class.MdpmBase.php "ПОРТА"
+msgstr "Ports"
+
+#: d:\tcl.system/mod/post/class.postsave.php:13
+class.MdpmBase.php "Заполните название службы"
+msgstr "Fill in a service name"
+
+#: d:\tcl.system/mod/post/class.postsave.php:30
+class.MdpmBase.php "Служба сохранена"
+msgstr "Service saved"
+
+#: d:\tcl.system/mod/post/class.postsave.php:32
+class.MdpmBase.php "Службу сохранить не удалось"
+msgstr "Service couldn't be saved"
+
+#: d:\tcl.system/mod/post/templates/class.postTemplates.php:16
+class.MdpmBase.php "Название службы"
+msgstr "Service name"
+
+#: d:\tcl.system/mod/post/templates/class.postTemplates.php:25
+class.MdpmBase.php "Список почтовых служб"
+msgstr "Post services list"
+
+#: d:\tcl.system/mod/post/templates/class.postTemplates.php:42
+class.MdpmBase.php "службы"
+msgstr "services"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:186
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:202
+class.MdpmBase.php "Детализация баланса:"
+msgstr "Balance detalisation:"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:186
+class.MdpmBase.php "распечатка от:"
+msgstr "print from:"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:207
+class.MdpmBase.php "штук"
+msgstr "items"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:210
+class.MdpmBase.php "ЗАКАЗАНО:"
+msgstr "ORDERED:"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:216
+class.MdpmBase.php "ОПЛАЧЕНО:"
+msgstr "PAID:"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:221
+class.MdpmBase.php "БАЛАНС:"
+msgstr "BALANCE:"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:228
+class.MdpmBase.php "Подробнее..."
+msgstr "Details..."
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:231
+class.MdpmBase.php "(НЕ доставленные)"
+msgstr "(No yet delivered)"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:231
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:235
+class.MdpmBase.php "(все)"
+msgstr "(all)"
+
+#: d:\tcl.system/mod/printbalance/class.PrintBalance.php:235
+class.MdpmBase.php "(за последние 30 дней)"
+msgstr "(for the last 30 days)"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:34
+class.MdpmBase.php "Настройки вашей системы"
+msgstr "Your system settings"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:58
+class.MdpmBase.php "Настройки компании"
+msgstr "Company settings"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:68
+class.MdpmBase.php "Название компании"
+msgstr "Company title"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:73
+class.MdpmBase.php "Банковские реквизиты"
+msgstr ""
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:78
+class.MdpmBase.php "Подпись компании"
+msgstr "Company sign"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:96
+class.MdpmBase.php "Настройки списков"
+msgstr "Lists settings"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:112
+class.MdpmBase.php "Назначения платежей"
+msgstr "Payments purposes"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:114
+class.MdpmBase.php "Внимание. При создании списка назначений имейти ввиду, что назначение с номером (id) = 4 используется для подсчёта стоимости перевоза автомобиля в стране."
+msgstr ""
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:117
+class.MdpmBase.php "Местонахождения автомобиля"
+msgstr "Vehicle location"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:122
+class.MdpmBase.php "Местонахождения сопроводительных документов"
+msgstr "Title location"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:140
+class.MdpmBase.php "Настройки шаблонов писем"
+msgstr "Mail template settings"
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:156
+class.MdpmBase.php "Заголовок письма"
+msgstr ""
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:161
+class.MdpmBase.php "Нижняя часть письма"
+msgstr ""
+
+#: d:\tcl.system/mod/profile/templates/class.profileTemplates.php:166
+class.MdpmBase.php "Дополнительный шаблон (неизвестно для чего)"
+msgstr ""
+
+#: d:\tcl.system/mod/recievers/class.Recieversform.php:35
+class.MdpmBase.php "Ошибка! Получатель с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such receiver in the base"
+
+#: d:\tcl.system/mod/recievers/class.Recieversform.php:54
+class.MdpmBase.php "список получателей"
+msgstr "consignee list"
+
+#: d:\tcl.system/mod/recievers/class.Recieversform.php:66
+class.MdpmBase.php "Паспорт"
+msgstr "Passport"
+
+#: d:\tcl.system/mod/recievers/class.Recieversform.php:73
+class.MdpmBase.php "Вы действительно хотите удалить этого получателя ?"
+msgstr "Do you realy want to delete this receiver?"
+
+#: d:\tcl.system/mod/reload/templates/class.reloadTemplates.php:16
+class.MdpmBase.php "Название порта перегруза"
+msgstr "Port of Discharge"
+
+#: d:\tcl.system/mod/reload/templates/class.reloadTemplates.php:24
+class.MdpmBase.php "Список контейнеров"
+msgstr "Container List"
+
+#: d:\tcl.system/mod/reload/templates/class.reloadTemplates.php:42
+class.MdpmBase.php "ПОРТА ПЕРЕГРУЗА"
+msgstr "Port of Discharge"
+
+#: d:\tcl.system/mod/reports/class.ReportsMain.php:92
+class.MdpmBase.php "За период"
+msgstr "For a period"
+
+#: d:\tcl.system/mod/reports/class.ReportsMain.php:92
+class.MdpmBase.php "ничего не найдено"
+msgstr "no results found"
+
+#: d:\tcl.system/mod/reports/class.ReportsMain.php:99
+class.MdpmBase.php "Свернуть список"
+msgstr "Close list"
+
+#: d:\tcl.system/mod/reports/class.ReportsMain.php:103
+#: d:\tcl.system/mod/reports/class.ReportsMain.php:135
+class.MdpmBase.php "Развернуть список"
+msgstr "Expand List"
+
+#: d:\tcl.system/mod/reports/class.ReportsMain.php:112
+class.MdpmBase.php "Всего автомобилей"
+msgstr "Total vehicles"
+
+#: d:\tcl.system/mod/reports/template.php:11
+class.MdpmBase.php "Поставщик"
+msgstr "Supplier"
+
+#: d:\tcl.system/mod/reports/template.php:24
+class.MdpmBase.php "все"
+msgstr "all"
+
+#: d:\tcl.system/mod/reports/template.php:26
+class.MdpmBase.php "доставленные"
+msgstr "delivered"
+
+#: d:\tcl.system/mod/reports/template.php:31
+class.MdpmBase.php "СОЗДАТЬ ОТЧЕТ"
+msgstr "CREATE A REPORT"
+
+#: d:\tcl.system/mod/sale/class.php:43
+class.MdpmBase.php "Автомобили на продажу"
+msgstr "Cars for sale"
+
+#: d:\tcl.system/mod/sale/class.php:49
+class.MdpmBase.php "год выпуска"
+msgstr "year"
+
+#: d:\tcl.system/mod/sale/class.php:50
+class.MdpmBase.php "аукц. лист"
+msgstr "auction list"
+
+#: d:\tcl.system/mod/sale/class.php:93
+class.MdpmBase.php "нет ни одного автомобиля"
+msgstr "there is no vehicle"
+
+#: d:\tcl.system/mod/services/class.servicessave.php:13
+class.MdpmBase.php "Заполните название услуги"
+msgstr "Fill in a service name"
+
+#: d:\tcl.system/mod/services/class.servicessave.php:37
+class.MdpmBase.php "Услуга сохранена"
+msgstr "Item is saved"
+
+#: d:\tcl.system/mod/services/class.servicessave.php:39
+class.MdpmBase.php "Услугу сохранить не удалось"
+msgstr "Item couldn't be saved"
+
+#: d:\tcl.system/mod/services/templates/class.servicesTemplates.php:19
+class.MdpmBase.php "Цена услуги по умолчанию"
+msgstr "Item rate by default"
+
+#: d:\tcl.system/mod/services/templates/class.servicesTemplates.php:20
+class.MdpmBase.php "Количество услуги по умолчанию"
+msgstr "Service quantity by default"
+
+#: d:\tcl.system/mod/services/templates/class.servicesTemplates.php:43
+class.MdpmBase.php "Добаление/редактирование услуги"
+msgstr "Add/Edit service"
+
+#: d:\tcl.system/mod/tpl/class.tplsave.php:13
+class.MdpmBase.php "Заполните название шаблона"
+msgstr "Fill in the template name"
+
+#: d:\tcl.system/mod/tpl/class.tplsave.php:30
+class.MdpmBase.php "Шаблон сохранен"
+msgstr "Template is saved!"
+
+#: d:\tcl.system/mod/tpl/class.tplsave.php:32
+class.MdpmBase.php "Шаблон сохранить не удалось"
+msgstr "Couldn't save a template"
+
+#: d:\tcl.system/mod/tpl/templates/class.tplTemplates.php:17
+class.MdpmBase.php "Название шаблона"
+msgstr "Template name"
+
+#: d:\tcl.system/mod/tpl/templates/class.tplTemplates.php:18
+class.MdpmBase.php "Текст шаблона"
+msgstr "Template body"
+
+#: d:\tcl.system/mod/tpl/templates/class.tplTemplates.php:28
+class.MdpmBase.php "Список машин"
+msgstr "Cars list"
+
+#: d:\tcl.system/mod/tpl/templates/class.tplTemplates.php:30
+class.MdpmBase.php "Список шаблонов"
+msgstr "Templates list"
+
+#: d:\tcl.system/mod/tpl/templates/class.tplTemplates.php:47
+class.MdpmBase.php "шаблона"
+msgstr "template"
+
+#: d:\tcl.system/mod/transporters/class.Transportersform.php:40
+class.MdpmBase.php "Ошибка! Транспортник с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such transporter in the base"
+
+#: d:\tcl.system/mod/transporters/class.TransportersList.php:37
+class.MdpmBase.php "Транспортники"
+msgstr "Transporters"
+
+#: d:\tcl.system/mod/transporters/class.TransportersList.php:46
+class.MdpmBase.php "Имя / название транспортника"
+msgstr "Transporter name"
+
+#: d:\tcl.system/mod/transporters/templates/transporter.form.php:18
+class.MdpmBase.php "Транспортник"
+msgstr "Transporter"
+
+#: d:\tcl.system/mod/transporters/templates/transporter.form.php:49
+class.MdpmBase.php "Вы действительно хотите удалить этого поставщика?"
+msgstr "Do you realy want to delete this transporter?"
+
+#: d:\tcl.system/mod/transporters/templates/transporter.form.php:90
+class.MdpmBase.php "Услуги поставщика"
+msgstr "Transporter's services"
+
+#: d:\tcl.system/mod/transporters/templates/transporter.form.php:117
+class.MdpmBase.php "Платежи поставщику"
+msgstr "Payments to transporter"
+
+#: d:\tcl.system/mod/users/class.Usersform.php:30
+class.MdpmBase.php "Ошибка! Пользователь с такими параметрами в базе не обнаружен"
+msgstr "Error! There is no such user in the base"
+
+#: d:\tcl.system/mod/users/class.UsersList.php:37
+class.MdpmBase.php "Пользователи"
+msgstr "Users"
+
+#: d:\tcl.system/mod/users/class.UsersList.php:38
+class.MdpmBase.php "искать по имени"
+msgstr "Search by name"
+
+#: d:\tcl.system/mod/users/class.UsersList.php:40
+class.MdpmBase.php "по логину:"
+msgstr "by login:"
+
+#: d:\tcl.system/mod/users/class.UsersList.php:78
+#: d:\tcl.system/mod/users/templates/user.form.php:83
+class.MdpmBase.php "тип"
+msgstr "Type"
+
+#: d:\tcl.system/mod/users/class.UsersList.php:79
+class.MdpmBase.php "ФИО клиента"
+msgstr "Client's name"
+
+#: d:\tcl.system/mod/users/templates/user.form.php:78
+class.MdpmBase.php "Пользователь"
+msgstr "User"
+
+#: d:\tcl.system/mod/users/templates/user.form.php:98
+class.MdpmBase.php "пароль можно только поменять"
+msgstr "password can only be changed"
+
+#: d:\tcl.system/mod/users/templates/user.form.php:112
+class.MdpmBase.php "Вы действительно хотите удалить этого пользователя?"
+msgstr "Do you realy want to delete this user?"
+
+#: d:\tcl.system/public/lib/class.Publicbalance.php:92
+class.MdpmBase.php "* зеленым цветом выделены платежи от вашего имени."
+msgstr "* green - your payments"
+
+#: d:\tcl.system/public/lib/class.Publicbalance.php:176
+class.MdpmBase.php "Детализация баланса для:"
+msgstr "Detailed balance for:"
+
+#: d:\tcl.system/public/lib/class.Publicbalance.php:182
+class.MdpmBase.php "на   сумму:"
+msgstr "total ammount:"
+
+#: d:\tcl.system/public/lib/class.Publicbalance.php:185
+class.MdpmBase.php "МОЙ БАЛАНС:"
+msgstr "MY BALANCE:"
+
+#: d:\tcl.system/public/lib/class.Publicbalance.php:197
+class.MdpmBase.php "на отдельной странице"
+msgstr "on a separate page"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:120
+class.MdpmBase.php "Ваши автомобили"
+msgstr "Your cars"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:121
+class.MdpmBase.php "Отображать проданные автомобили"
+msgstr "Show sold cars"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:122
+class.MdpmBase.php "Обозначение цветов"
+msgstr "Colors markings"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:134
+class.MdpmBase.php "клиент"
+msgstr "client"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:136
+class.MdpmBase.php "всего<br>за автомобиль"
+msgstr "total "
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:138
+class.MdpmBase.php "место нахождения"
+msgstr "location"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:170
+class.MdpmBase.php "У вас пока не добавлено ни одного автомобиля!"
+msgstr "You dont' have any vehicles!"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:230
+class.MdpmBase.php "Сопроводительные документы:"
+msgstr "Supporting documents:"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:249
+class.MdpmBase.php "не известно"
+msgstr "unknown"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:269
+class.MdpmBase.php "экспортный сертификат"
+msgstr "export certificate"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:360
+class.MdpmBase.php "аукцион"
+msgstr "auction"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:402
+class.MdpmBase.php "статус"
+msgstr "status"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:409
+class.MdpmBase.php "Отчет о состоянии автомобиля или CR:"
+msgstr "Vehicle conditioin report:"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:414
+class.MdpmBase.php "После-продажная инспекция:"
+msgstr "Post sale inspection:"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:418
+class.MdpmBase.php "AutoCheck / Carfax:"
+msgstr ""
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:422
+class.MdpmBase.php "Место нахождение машины"
+msgstr "Vehicle location"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:424
+class.MdpmBase.php "Место назначения"
+msgstr "Destination"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:425
+class.MdpmBase.php "не указано"
+msgstr "not specified"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:429
+class.MdpmBase.php "Продан"
+msgstr "Sold"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:456
+class.MdpmBase.php "сохранить"
+msgstr "save"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:468
+class.MdpmBase.php "Идет в контейнере"
+msgstr "Loaded into container"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:477
+class.MdpmBase.php "отправкa"
+msgstr "shipping"
+
+#: d:\tcl.system/public/lib/class.Publiccars.php:485
+class.MdpmBase.php "Станция назначения"
+msgstr "Destination"
+
+#: d:\tcl.system/public/lib/class.Publicpayments.php:72
+class.MdpmBase.php "Ваши платежи"
+msgstr "Your payments"
+
+#: d:\tcl.system/public/lib/class.Publicpayments.php:102
+class.MdpmBase.php "У вас пока нет платежей"
+msgstr "You have no payments yet"
+
+#: d:\tcl.system/public/lib/class.Publicprintbalance.php:44
+class.MdpmBase.php "п/о"
+msgstr ""
+
+#: d:\tcl.system/public/lib/class.Publicprintbalance.php:201
+class.MdpmBase.php "В ПУТИ:"
+msgstr "IN TRANSIT:"
+
+#: d:\tcl.system/public/lib/class.Publicprintbalance.php:202
+class.MdpmBase.php "(предоплата)"
+msgstr "(prepay)"
+
+#: d:\tcl.system/public/lib/class.Publicprintbalance.php:207
+class.MdpmBase.php "ДОСТАВЛЕНО:"
+msgstr "DELIVERED:"
+
+#: d:\tcl.system/public/lib/class.Publicprintbalance.php:217
+class.MdpmBase.php "К ОПЛАТЕ:"
+msgstr "PAYMENT DUE:"
+
+#: d:\tcl.system/public/lib/class.Publicprivate.php:44
+class.MdpmBase.php "Личные данные"
+msgstr "Personal data"
+
+#: d:\tcl.system/public/lib/class.Publicprivate.php:49
+class.MdpmBase.php "контактные данные"
+msgstr "contacts"
+
+#: d:\tcl.system/reports/class.ReportsMain.php:119
+class.MdpmBase.php "номер кузова"
+msgstr "VIN number"
+
+#~ class.MdpmBase.php "авто"
+#~ msgstr "auto"
+#~ class.MdpmBase.php "Профайл"
+#~ msgstr "Profile"
+#~ class.MdpmBase.php "Текущая цена"
+#~ msgstr "Current price"
+#~ class.MdpmBase.php "предоплата"
+#~ msgstr "Deposit payed"
+#~ class.MdpmBase.php "[временно не доступно]"
+#~ msgstr "[temporary unavailable]"
+#~ class.MdpmBase.php "Платежи по автомобилю"
+#~ msgstr "Vehicle payments"
+#~ class.MdpmBase.php "добав. <b>приход</b>"
+#~ msgstr "add <b>payment</b>"
+#~ class.MdpmBase.php "всего платежей"
+#~ msgstr "Total payments"
+#~ class.MdpmBase.php "Нет платежей для данного автомобиля"
+#~ msgstr "There is no payments for this vehicle"
+#~ class.MdpmBase.php "Расходы по автомобилю"
+#~ msgstr "Vehicle expenses"
+#~ class.MdpmBase.php "добав. <b>расход</b>"
+#~ msgstr "add <b>expense</b>"
+#~ class.MdpmBase.php "Нет расходов для данного автомобиля"
+#~ msgstr "There is no expenses for this vehicle"
+#~ class.MdpmBase.php "Добавить получателя!"
+#~ msgstr "Add a consignee"
+#~ class.MdpmBase.php "добавить платеж"
+#~ msgstr "add payment"
+#~ class.MdpmBase.php "продажа товаров"
+#~ msgstr "goods for sale"
+#~ class.MdpmBase.php "резервное копирование"
+#~ msgstr "backup"
+
+#, fuzzy
+#~ class.MdpmBase.php "Добаление/редактирование"
+#~ msgstr "Add/Edit"
+
+#, fuzzy
+#~ class.MdpmBase.php "МАШИНЫ К&nbsp;ПОКУПКЕ"
+#~ msgstr "VEHICLES TO BUY"
+
+#, fuzzy
+#~ class.MdpmBase.php "последнее изменение:"
+#~ msgstr "last change"
+

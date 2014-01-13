@@ -1,0 +1,1028 @@
+
+18-11-2013 02:00:01 --- INFO: start: 18-11-2013 02:00:01
+18-11-2013 02:00:01 --- INFO: ----------Source_Adesa (cli)
+18-11-2013 02:00:02 --- INFO: Authorized request
+18-11-2013 02:00:03 --- INFO: Lexus RX 330 - found: 6, pass primary filters: 3, did not pass the filter by colors: 3, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:05 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 02:00:05 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:06 --- INFO: Lexus GX 470 - found: 3, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: 1, added: 0, new vincodes: 0
+18-11-2013 02:00:06 --- INFO: Lexus LX 470 - found: 2, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: , added: 0, new vincodes: 0
+18-11-2013 02:00:07 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:07 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:08 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:08 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:09 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:10 --- INFO: Toyota 4RUNNER 4WD V6 - found: 12, pass primary filters: 6, did not pass the filter by colors: 1, did not pass the filter by options: , added: 5, new vincodes: 0
+18-11-2013 02:00:10 --- INFO: Toyota FJ cruiser - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:11 --- INFO: Lexus RX 350 2013 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:00:11 --- INFO: Toyota Highlander - found: 13, pass primary filters: 2, did not pass the filter by colors: 1, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 02:00:12 --- INFO: Lexus RX 350 - found: 9, pass primary filters: 8, did not pass the filter by colors: 3, did not pass the filter by options: 5, added: 0, new vincodes: 0
+18-11-2013 02:00:13 --- INFO: Toyota 4RUNNER Limited V6 - found: 13, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 02:00:13 --- INFO: finish: 18-11-2013 02:00:13
+18-11-2013 02:00:13 --- INFO: elapsed time: ~12.21 sec., memory usage: ~1.99 Mb.
+18-11-2013 02:30:02 --- INFO: start: 18-11-2013 02:30:02
+18-11-2013 02:30:02 --- INFO: ----------Source_ExpOfCars (cli)
+18-11-2013 02:30:05 --- INFO: Lexus RX 330 - found: 36, pass primary filters: 28, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 28, new vincodes: 0
+18-11-2013 02:30:07 --- INFO: Lexus RX 400H - found: 11, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 02:30:08 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 02:30:11 --- INFO: Lexus GX 470 - found: 45, pass primary filters: 45, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 45, new vincodes: 0
+18-11-2013 02:30:13 --- INFO: Lexus LX 470 - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 02:30:15 --- INFO: Toyota Sequoia - found: 25, pass primary filters: 25, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 25, new vincodes: 0
+18-11-2013 02:30:16 --- INFO: Toyota Land Cruiser - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 02:30:17 --- INFO: Lexus LX 570 - found: 10, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 02:30:19 --- INFO: Toyota Venza - found: 15, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 0
+18-11-2013 02:30:19 --- INFO: Toyota 4runner 2010 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 02:30:23 --- INFO: Toyota 4RUNNER 4WD V6 - found: 53, pass primary filters: 21, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 21, new vincodes: 0
+18-11-2013 02:30:43 --- INFO: Toyota RAV 4 - found: 575, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:30:47 --- INFO: Toyota Highlander 4WD - found: 78, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 02:30:51 --- INFO: Toyota Highlander - found: 78, pass primary filters: 17, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 17, new vincodes: 0
+18-11-2013 02:30:57 --- INFO: Lexus RX 350 - found: 107, pass primary filters: 75, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 75, new vincodes: 0
+18-11-2013 02:31:00 --- INFO: Toyota 4RUNNER Limited V6 - found: 65, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 02:31:00 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:31:01 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 02:31:03 --- INFO: Toyota Highlander - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 02:31:04 --- INFO: Lexus GS300 - found: 9, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 02:31:04 --- INFO: finish: 18-11-2013 02:31:04
+18-11-2013 02:31:04 --- INFO: elapsed time: ~62.52 sec., memory usage: ~3.26 Mb.
+18-11-2013 02:45:01 --- INFO: start: 18-11-2013 02:45:01
+18-11-2013 02:45:01 --- INFO: ----------Source_Oodle (cli)
+18-11-2013 02:45:07 --- INFO: Toyota Highlander - found: 71, pass primary filters: 16, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 16, new vincodes: 0
+18-11-2013 02:45:25 --- INFO: Lexus RX 330 - found: 627, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 02:45:25 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:45:27 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 41, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 41, new vincodes: 0
+18-11-2013 02:45:55 --- INFO: Lexus GX 470 - found: 614, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 02:46:35 --- INFO: Lexus LX 470 - found: 198, pass primary filters: 32, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 32, new vincodes: 0
+18-11-2013 02:46:41 --- INFO: Toyota Sequoia - found: 240, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 0
+18-11-2013 02:46:42 --- INFO: Toyota Land Cruiser - found: 22, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 02:46:42 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:46:43 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:46:43 --- INFO: Toyota 4runner 2010 - found: 8, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 02:47:44 --- INFO: Toyota 4RUNNER 4WD V6 - found: 1228, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:51:09 --- INFO: Toyota RAV 4 - found: 10114, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:52:13 --- INFO: Toyota Highlander 4WD - found: 1197, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:52:36 --- INFO: Toyota Highlander - found: 1197, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:53:53 --- INFO: Lexus RX 350 - found: 1942, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 02:54:36 --- INFO: Toyota 4RUNNER Limited V6 - found: 1462, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:54:36 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:55:11 --- INFO: Lexus RX 350 - found: 60, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 02:55:52 --- INFO: Lexus GS300 - found: 253, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:56:29 --- INFO: Toyota FJ cruiser - found: 219, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:57:17 --- INFO: Lexus RX 350 2013 - found: 357, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 02:57:17 --- INFO: finish: 18-11-2013 02:57:17
+18-11-2013 02:57:17 --- INFO: elapsed time: ~736.43 sec., memory usage: ~14.1 Mb.
+18-11-2013 03:00:01 --- INFO: start: 18-11-2013 03:00:01
+18-11-2013 03:00:01 --- INFO: ----------Source_AutoSalon (cli)
+18-11-2013 03:00:15 --- INFO: Lexus RX 330 - found: 52, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:00:17 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:00:22 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 03:00:47 --- INFO: Lexus GX 470 - found: 57, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 03:02:48 --- INFO: Lexus LX 470 - found: 26, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 03:02:50 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:02:53 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:05 --- INFO: Lexus LX 570 - found: 19, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 03:03:07 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:10 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:12 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:15 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:19 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:21 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:03:53 --- INFO: Lexus RX 350 - found: 138, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 0
+18-11-2013 03:03:56 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 03:04:01 --- INFO: Lexus GX 460 - found: 3, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 03:04:08 --- INFO: Lexus RX 350 - found: 12, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 03:04:14 --- INFO: Toyota Highlander - found: 14, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 03:04:18 --- INFO: Lexus GS300 - found: 13, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 03:04:28 --- INFO: Toyota FJ cruiser - found: 22, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 03:04:39 --- INFO: Lexus RX 350 2013 - found: 36, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 03:04:39 --- INFO: finish: 18-11-2013 03:04:39
+18-11-2013 03:04:39 --- INFO: elapsed time: ~277.86 sec., memory usage: ~2.68 Mb.
+18-11-2013 06:00:05 --- INFO: start: 18-11-2013 06:00:05
+18-11-2013 06:00:06 --- INFO: ----------Source_Adesa (cli)
+18-11-2013 06:00:15 --- INFO: Authorized request
+18-11-2013 06:00:17 --- INFO: Lexus RX 330 - found: 6, pass primary filters: 3, did not pass the filter by colors: 3, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:00:17 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 06:00:18 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:00:19 --- INFO: Lexus GX 470 - found: 3, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: 1, added: 0, new vincodes: 0
+18-11-2013 06:00:23 --- INFO: Lexus LX 470 - found: 2, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: , added: 0, new vincodes: 0
+18-11-2013 06:00:24 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:00:24 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:00:24 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:00:54 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:00:55 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:01:00 --- INFO: Toyota 4RUNNER 4WD V6 - found: 12, pass primary filters: 6, did not pass the filter by colors: 1, did not pass the filter by options: , added: 5, new vincodes: 0
+18-11-2013 06:01:40 --- INFO: Toyota FJ cruiser - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:01:40 --- INFO: Lexus RX 350 2013 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:01:41 --- INFO: Toyota Highlander - found: 13, pass primary filters: 2, did not pass the filter by colors: 1, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 06:01:42 --- INFO: Lexus RX 350 - found: 9, pass primary filters: 8, did not pass the filter by colors: 3, did not pass the filter by options: 5, added: 0, new vincodes: 0
+18-11-2013 06:01:42 --- INFO: Toyota 4RUNNER Limited V6 - found: 13, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 06:01:42 --- INFO: finish: 18-11-2013 06:01:42
+18-11-2013 06:01:42 --- INFO: elapsed time: ~97.5 sec., memory usage: ~1.99 Mb.
+18-11-2013 06:30:01 --- INFO: start: 18-11-2013 06:30:01
+18-11-2013 06:30:01 --- INFO: ----------Source_ExpOfCars (cli)
+18-11-2013 06:30:06 --- INFO: Lexus RX 330 - found: 36, pass primary filters: 28, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 28, new vincodes: 0
+18-11-2013 06:30:07 --- INFO: Lexus RX 400H - found: 10, pass primary filters: 9, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 9, new vincodes: 0
+18-11-2013 06:30:10 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 06:30:14 --- INFO: Lexus GX 470 - found: 42, pass primary filters: 42, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 42, new vincodes: 0
+18-11-2013 06:30:16 --- INFO: Lexus LX 470 - found: 13, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 06:30:18 --- INFO: Toyota Sequoia - found: 25, pass primary filters: 25, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 25, new vincodes: 0
+18-11-2013 06:30:19 --- INFO: Toyota Land Cruiser - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 06:30:20 --- INFO: Lexus LX 570 - found: 10, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 06:30:24 --- INFO: Toyota Venza - found: 15, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 0
+18-11-2013 06:30:25 --- INFO: Toyota 4runner 2010 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 06:30:29 --- INFO: Toyota 4RUNNER 4WD V6 - found: 50, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 0
+18-11-2013 06:30:46 --- INFO: Toyota RAV 4 - found: 563, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:30:48 --- INFO: Toyota Highlander 4WD - found: 76, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 06:30:51 --- INFO: Toyota Highlander - found: 76, pass primary filters: 16, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 16, new vincodes: 0
+18-11-2013 06:30:57 --- INFO: Lexus RX 350 - found: 104, pass primary filters: 73, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 73, new vincodes: 0
+18-11-2013 06:30:59 --- INFO: Toyota 4RUNNER Limited V6 - found: 62, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 06:31:00 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:31:01 --- INFO: Lexus RX 350 - found: 9, pass primary filters: 9, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 9, new vincodes: 0
+18-11-2013 06:31:02 --- INFO: Toyota Highlander - found: 13, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 06:31:03 --- INFO: Lexus GS300 - found: 8, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 06:31:03 --- INFO: finish: 18-11-2013 06:31:03
+18-11-2013 06:31:03 --- INFO: elapsed time: ~62.62 sec., memory usage: ~3.2 Mb.
+18-11-2013 06:45:01 --- INFO: start: 18-11-2013 06:45:01
+18-11-2013 06:45:01 --- INFO: ----------Source_Oodle (cli)
+18-11-2013 06:45:05 --- INFO: Toyota Highlander - found: 71, pass primary filters: 16, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 16, new vincodes: 0
+18-11-2013 06:45:52 --- INFO: Lexus RX 330 - found: 634, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 06:45:53 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:45:54 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 41, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 41, new vincodes: 0
+18-11-2013 06:46:51 --- INFO: Lexus GX 470 - found: 622, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+18-11-2013 06:46:58 --- INFO: Lexus LX 470 - found: 198, pass primary filters: 32, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 32, new vincodes: 0
+18-11-2013 06:47:43 --- INFO: Toyota Sequoia - found: 239, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 06:47:44 --- INFO: Toyota Land Cruiser - found: 22, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 06:47:44 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:47:44 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:47:45 --- INFO: Toyota 4runner 2010 - found: 8, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 06:49:20 --- INFO: Toyota 4RUNNER 4WD V6 - found: 1238, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:52:44 --- INFO: Toyota RAV 4 - found: 10209, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:53:09 --- INFO: Toyota Highlander 4WD - found: 1203, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:53:32 --- INFO: Toyota Highlander - found: 1203, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:54:49 --- INFO: Lexus RX 350 - found: 1963, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:55:21 --- INFO: Toyota 4RUNNER Limited V6 - found: 1472, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:55:21 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:55:58 --- INFO: Lexus RX 350 - found: 61, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 0
+18-11-2013 06:56:04 --- INFO: Lexus GS300 - found: 254, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:56:09 --- INFO: Toyota FJ cruiser - found: 221, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:56:51 --- INFO: Lexus RX 350 2013 - found: 360, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 06:56:51 --- INFO: finish: 18-11-2013 06:56:51
+18-11-2013 06:56:51 --- INFO: elapsed time: ~710.77 sec., memory usage: ~14.14 Mb.
+18-11-2013 07:00:02 --- INFO: start: 18-11-2013 07:00:02
+18-11-2013 07:00:02 --- INFO: ----------Source_AutoSalon (cli)
+18-11-2013 07:00:17 --- INFO: Lexus RX 330 - found: 52, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:00:19 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:00:22 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 07:00:54 --- INFO: Lexus GX 470 - found: 60, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 07:01:10 --- INFO: Lexus LX 470 - found: 27, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 07:01:12 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:14 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:21 --- INFO: Lexus LX 570 - found: 19, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 07:01:24 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:27 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:29 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:32 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:35 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:01:38 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:02:09 --- INFO: Lexus RX 350 - found: 142, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 07:02:11 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 07:02:17 --- INFO: Lexus GX 460 - found: 3, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 07:02:21 --- INFO: Lexus RX 350 - found: 13, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 07:02:28 --- INFO: Toyota Highlander - found: 15, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 07:02:32 --- INFO: Lexus GS300 - found: 14, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 07:02:40 --- INFO: Toyota FJ cruiser - found: 22, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 07:02:48 --- INFO: Lexus RX 350 2013 - found: 37, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 07:02:48 --- INFO: finish: 18-11-2013 07:02:48
+18-11-2013 07:02:48 --- INFO: elapsed time: ~166.32 sec., memory usage: ~2.63 Mb.
+17-11-2013 14:15:01 --- INFO: start: 17-11-2013 14:15:01
+17-11-2013 14:15:03 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:35:46 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.MAAI.42296109&vin=1GNKRJKD9DJ231006' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+17-11-2013 22:15:01 --- INFO: start: 17-11-2013 22:15:01
+17-11-2013 22:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:35:58 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.MAAI.11808731&vin=1G1PG5SB5D7109176' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+18-11-2013 06:15:06 --- INFO: start: 18-11-2013 06:15:06
+18-11-2013 06:15:06 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:36:58 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.THAA.42312467&vin=WBAXH5C51DDW16927' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+17-11-2013 06:15:03 --- INFO: start: 17-11-2013 06:15:03
+17-11-2013 06:15:03 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:37:41 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.DFWA.42331983&vin=1C3CDZCG5DN663530' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+17-11-2013 10:15:01 --- INFO: start: 17-11-2013 10:15:01
+17-11-2013 10:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:38:26 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.RAA.12069321&vin=2C4RC1BG0DR720912' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+15-11-2013 02:15:01 --- INFO: start: 15-11-2013 02:15:01
+15-11-2013 02:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:38:40 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.NADE.13933764&vin=3N1CN7AP9DL856685' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+16-11-2013 22:15:01 --- INFO: start: 16-11-2013 22:15:01
+16-11-2013 22:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:39:00 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.FAAO.42330831&vin=3C4PDCBG1DT572525' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+15-11-2013 10:15:01 --- INFO: start: 15-11-2013 10:15:01
+15-11-2013 10:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:39:48 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.FAAO.13484827&vin=2T2ZK1BA8DC099736' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+16-11-2013 14:15:01 --- INFO: start: 16-11-2013 14:15:01
+16-11-2013 14:15:02 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:41:00 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.THAA.12024712&vin=1FMCU9H94DUB98293' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+13-11-2013 02:15:01 --- INFO: start: 13-11-2013 02:15:01
+13-11-2013 02:15:01 --- INFO: ----------Source_Gsmotors (cli)
+13-11-2013 13:26:44 --- INFO: Lexus RX 330 - found: 19776, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 01:22:22 --- INFO: Lexus RX 400H - found: 31778, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:42:34 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.AAA.42366093&vin=WBAFR7C59DC823821' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+12-11-2013 18:15:02 --- INFO: start: 12-11-2013 18:15:02
+12-11-2013 18:15:02 --- INFO: ----------Source_Gsmotors (cli)
+13-11-2013 00:59:48 --- INFO: Lexus RX 330 - found: 13449, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+14-11-2013 21:13:38 --- INFO: Lexus RX 400H - found: 33729, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+17-11-2013 12:28:34 --- INFO: Lexus GX 470 - found: 14994, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:42:46 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.CAAI.42332136&vin=1GNSCBE05DR299031' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+16-11-2013 10:15:01 --- INFO: start: 16-11-2013 10:15:01
+16-11-2013 10:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:42:55 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.NVAA.42350258&vin=1FM5K8D80DGA67348' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+13-11-2013 06:15:02 --- INFO: start: 13-11-2013 06:15:02
+13-11-2013 06:15:02 --- INFO: ----------Source_Gsmotors (cli)
+14-11-2013 10:29:02 --- INFO: Lexus RX 330 - found: 19776, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:43:30 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.THAA.12011431&vin=1G1ZE5EU5CF376155' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+17-11-2013 18:15:01 --- INFO: start: 17-11-2013 18:15:01
+17-11-2013 18:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:43:35 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.SLAA.11659470&vin=2G1WC5E30D1239701' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+16-11-2013 06:15:01 --- INFO: start: 16-11-2013 06:15:01
+16-11-2013 06:15:09 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:44:21 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.GCAA.12912595&vin=3FA6P0LUXDR104026' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+18-11-2013 02:15:01 --- INFO: start: 18-11-2013 02:15:01
+18-11-2013 02:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:46:24 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.FAAO.13452299&vin=1G6AA5RX6D0164750' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+13-11-2013 10:15:01 --- INFO: start: 13-11-2013 10:15:01
+13-11-2013 10:15:01 --- INFO: ----------Source_Gsmotors (cli)
+15-11-2013 06:37:54 --- INFO: Lexus RX 330 - found: 21999, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:48:13 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.MAA.16438724&vin=WDDKJ5KB6DF216090' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+15-11-2013 06:15:01 --- INFO: start: 15-11-2013 06:15:01
+15-11-2013 06:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:48:59 --- ERROR: Database_Exception [ 0 ]: [2013] Lost connection to MySQL server during query ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.TBAA.11582853&vin=3N1CN7AP0DL863816' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+17-11-2013 02:15:01 --- INFO: start: 17-11-2013 02:15:01
+17-11-2013 02:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:49:43 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=INLANE.DALA.14176717&vin=2C3CDXBG2DH637224' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+13-11-2013 22:15:01 --- INFO: start: 13-11-2013 22:15:01
+13-11-2013 22:15:01 --- INFO: ----------Source_Gsmotors (cli)
+16-11-2013 13:32:32 --- INFO: Lexus RX 330 - found: 17636, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:49:52 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.INDY.42351806&vin=2FMDK4JC9DBA59611' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+15-11-2013 14:15:02 --- INFO: start: 15-11-2013 14:15:02
+15-11-2013 14:15:02 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:50:00 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.THAA.42312572&vin=1C4HJWEG6DL537436' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+15-11-2013 18:15:01 --- INFO: start: 15-11-2013 18:15:01
+15-11-2013 18:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:50:17 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.FAAO.13473860&vin=1C4AJWAG6DL598017' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-11-2013 22:15:02 --- INFO: start: 14-11-2013 22:15:02
+14-11-2013 22:15:02 --- INFO: ----------Source_Gsmotors (cli)
+14-11-2013 22:15:13 --- ERROR: Request returns empty result
+14-11-2013 22:15:13 --- INFO: Lexus RX 330 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:50:27 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.LMAA.42391590&vin=4T1BD1FK0DU094709' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-11-2013 14:15:01 --- INFO: start: 14-11-2013 14:15:01
+14-11-2013 14:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:51:10 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.DETA.12008980&vin=3GYFNAE34CS544268' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+16-11-2013 18:15:01 --- INFO: start: 16-11-2013 18:15:01
+16-11-2013 18:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:51:33 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.SCAA.42349920&vin=1FADP5BU7DL507840' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-11-2013 18:15:01 --- INFO: start: 14-11-2013 18:15:01
+14-11-2013 18:15:01 --- INFO: ----------Source_Gsmotors (cli)
+17-11-2013 07:35:00 --- INFO: Lexus RX 330 - found: 13889, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:52:34 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.AAAW.42282750&vin=2C4RC1BG9DR519445' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+16-11-2013 02:15:01 --- INFO: start: 16-11-2013 02:15:01
+16-11-2013 02:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:52:42 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.DETA.11995528&vin=3FA6P0K90DR150493' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-11-2013 10:15:01 --- INFO: start: 14-11-2013 10:15:01
+14-11-2013 10:15:02 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 04:54:48 --- INFO: Lexus RX 330 - found: 21036, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:53:15 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.GOAA.12287166&vin=1C4NJPFB3ED586777' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+12-11-2013 14:15:01 --- INFO: start: 12-11-2013 14:15:01
+12-11-2013 14:15:01 --- INFO: ----------Source_Gsmotors (cli)
+12-11-2013 20:26:56 --- INFO: Lexus RX 330 - found: 15638, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+13-11-2013 10:32:29 --- INFO: Lexus RX 400H - found: 26071, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+15-11-2013 21:44:46 --- INFO: Lexus GX 470 - found: 22457, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:54:28 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.XABC.42333421&vin=1FAHP2KT8DG100464' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+14-11-2013 06:15:01 --- INFO: start: 14-11-2013 06:15:01
+14-11-2013 06:15:01 --- INFO: ----------Source_Gsmotors (cli)
+17-11-2013 06:30:00 --- INFO: Lexus RX 330 - found: 19373, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:55:17 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.LOUA.10664657&vin=1C3CDZAB0DN702645' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+13-11-2013 18:15:01 --- INFO: start: 13-11-2013 18:15:01
+13-11-2013 18:15:01 --- INFO: ----------Source_Gsmotors (cli)
+16-11-2013 07:40:09 --- INFO: Lexus RX 330 - found: 17891, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:55:37 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.RSAA.42376177&vin=1FTFW1ET8DFB98119' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+13-11-2013 14:15:01 --- INFO: start: 13-11-2013 14:15:01
+13-11-2013 14:15:01 --- INFO: ----------Source_Gsmotors (cli)
+15-11-2013 10:15:32 --- INFO: Lexus RX 330 - found: 17891, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:55:48 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.RAA.42331269&vin=WDDHF5KB4DA699569' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+15-11-2013 22:15:01 --- INFO: start: 15-11-2013 22:15:01
+15-11-2013 22:15:01 --- INFO: ----------Source_Gsmotors (cli)
+18-11-2013 09:57:25 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=SIMULCAST.SCAA.12230265&vin=2GKFLWE37D6242910' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+12-11-2013 22:15:01 --- INFO: start: 12-11-2013 22:15:01
+12-11-2013 22:15:01 --- INFO: ----------Source_Gsmotors (cli)
+13-11-2013 06:19:31 --- INFO: Lexus RX 330 - found: 13449, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+17-11-2013 13:07:06 --- INFO: Lexus RX 400H - found: 38435, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 09:57:41 --- ERROR: Database_Exception [ 0 ]: [2006] MySQL server has gone away ( SELECT `ccl_grabber_cars_cache`.`id` AS `id`, `ccl_grabber_cars_cache`.`source_id` AS `source_id`, `ccl_grabber_cars_cache`.`target_id` AS `target_id`, `ccl_grabber_cars_cache`.`search_id` AS `search_id`, `ccl_grabber_cars_cache`.`date_added` AS `date_added`, `ccl_grabber_cars_cache`.`date_auction` AS `date_auction`, `ccl_grabber_cars_cache`.`name` AS `name`, `ccl_grabber_cars_cache`.`vincode` AS `vincode`, `ccl_grabber_cars_cache`.`vincode_date_added` AS `vincode_date_added`, `ccl_grabber_cars_cache`.`mileage` AS `mileage`, `ccl_grabber_cars_cache`.`price` AS `price`, `ccl_grabber_cars_cache`.`options` AS `options`, `ccl_grabber_cars_cache`.`interior_code` AS `interior_code`, `ccl_grabber_cars_cache`.`exterior_code` AS `exterior_code`, `ccl_grabber_cars_cache`.`interior` AS `interior`, `ccl_grabber_cars_cache`.`exterior` AS `exterior`, `ccl_grabber_cars_cache`.`date_made` AS `date_made`, `ccl_grabber_cars_cache`.`state` AS `state`, `ccl_grabber_cars_cache`.`url` AS `url`, `ccl_grabber_cars_cache`.`picture` AS `picture` FROM `ccl_grabber_cars_cache` WHERE `ccl_grabber_cars_cache`.`url` = 'http://www.gsmotors.us/manheim/index.php?mode=lot&car=OVE.MAA.42339913&vin=1GNSKBE02DR295330' ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(1, 'SELECT `ccl_gra...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/gsmotors.php(85): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Gsmotors->execute()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#5 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#9 {main}
+18-11-2013 10:30:01 --- INFO: start: 18-11-2013 10:30:01
+18-11-2013 10:30:01 --- INFO: ----------Source_ExpOfCars (cli)
+18-11-2013 10:30:13 --- INFO: Lexus RX 330 - found: 45, pass primary filters: 34, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 34, new vincodes: 0
+18-11-2013 10:30:25 --- INFO: Lexus RX 400H - found: 14, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 10:30:26 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 10:30:42 --- INFO: Lexus GX 470 - found: 51, pass primary filters: 51, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 51, new vincodes: 0
+18-11-2013 10:30:59 --- INFO: Lexus LX 470 - found: 21, pass primary filters: 21, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 21, new vincodes: 0
+18-11-2013 10:31:17 --- INFO: Toyota Sequoia - found: 32, pass primary filters: 32, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 32, new vincodes: 0
+18-11-2013 10:31:23 --- INFO: Toyota Land Cruiser - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 10:31:29 --- INFO: Lexus LX 570 - found: 15, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 0
+18-11-2013 10:31:31 --- INFO: Toyota Venza - found: 15, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 0
+18-11-2013 10:31:32 --- INFO: Toyota 4runner 2010 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 10:31:37 --- INFO: Toyota 4RUNNER 4WD V6 - found: 59, pass primary filters: 24, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 24, new vincodes: 0
+18-11-2013 10:31:55 --- INFO: Toyota RAV 4 - found: 606, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:31:58 --- INFO: Toyota Highlander 4WD - found: 94, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 10:32:08 --- INFO: Toyota Highlander - found: 94, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 0
+18-11-2013 10:32:25 --- INFO: Lexus RX 350 - found: 123, pass primary filters: 85, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 85, new vincodes: 0
+18-11-2013 10:32:27 --- INFO: Toyota 4RUNNER Limited V6 - found: 72, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 10:32:29 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 1
+18-11-2013 10:32:32 --- INFO: Lexus RX 350 - found: 11, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+18-11-2013 10:32:34 --- INFO: Toyota Highlander - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 10:32:36 --- INFO: Lexus GS300 - found: 12, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 10:32:36 --- INFO: finish: 18-11-2013 10:32:36
+18-11-2013 10:32:36 --- INFO: elapsed time: ~154.8 sec., memory usage: ~4.32 Mb.
+18-11-2013 10:45:01 --- INFO: start: 18-11-2013 10:45:01
+18-11-2013 10:45:01 --- INFO: ----------Source_Oodle (cli)
+18-11-2013 10:45:04 --- INFO: Toyota Highlander - found: 71, pass primary filters: 16, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 16, new vincodes: 0
+18-11-2013 10:45:34 --- INFO: Lexus RX 330 - found: 637, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 10:45:34 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:45:36 --- INFO: Lexus GX 470 - found: 47, pass primary filters: 41, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 41, new vincodes: 0
+18-11-2013 10:45:57 --- INFO: Lexus GX 470 - found: 624, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+18-11-2013 10:46:03 --- INFO: Lexus LX 470 - found: 198, pass primary filters: 32, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 32, new vincodes: 0
+18-11-2013 10:46:10 --- INFO: Toyota Sequoia - found: 239, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 10:46:11 --- INFO: Toyota Land Cruiser - found: 22, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 10:46:12 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:46:12 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:46:13 --- INFO: Toyota 4runner 2010 - found: 8, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 10:46:39 --- INFO: Toyota 4RUNNER 4WD V6 - found: 1243, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:50:03 --- INFO: Toyota RAV 4 - found: 10229, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:50:29 --- INFO: Toyota Highlander 4WD - found: 1205, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:50:52 --- INFO: Toyota Highlander - found: 1205, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:51:48 --- INFO: Lexus RX 350 - found: 1966, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:52:28 --- INFO: Toyota 4RUNNER Limited V6 - found: 1478, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:52:29 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:52:31 --- INFO: Lexus RX 350 - found: 61, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 0
+18-11-2013 10:52:40 --- INFO: Lexus GS300 - found: 255, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 10:52:46 --- INFO: Toyota FJ cruiser - found: 221, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:52:57 --- INFO: Lexus RX 350 2013 - found: 360, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 10:52:57 --- INFO: finish: 18-11-2013 10:52:57
+18-11-2013 10:52:57 --- INFO: elapsed time: ~475.93 sec., memory usage: ~14.01 Mb.
+18-11-2013 11:00:01 --- INFO: start: 18-11-2013 11:00:01
+18-11-2013 11:00:01 --- INFO: ----------Source_AutoSalon (cli)
+18-11-2013 11:00:12 --- INFO: Lexus RX 330 - found: 52, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:00:15 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:00:18 --- INFO: Lexus GX 470 - found: 5, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 11:00:48 --- INFO: Lexus GX 470 - found: 61, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 11:01:08 --- INFO: Lexus LX 470 - found: 30, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 11:01:11 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:14 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:20 --- INFO: Lexus LX 570 - found: 19, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 11:01:23 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:25 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:28 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:31 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:33 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:01:37 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:02:08 --- INFO: Lexus RX 350 - found: 144, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 11:02:10 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 11:02:16 --- INFO: Lexus GX 460 - found: 3, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 11:02:21 --- INFO: Lexus RX 350 - found: 13, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 11:02:33 --- INFO: Toyota Highlander - found: 17, pass primary filters: 9, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 9, new vincodes: 0
+18-11-2013 11:02:37 --- INFO: Lexus GS300 - found: 14, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 11:02:49 --- INFO: Toyota FJ cruiser - found: 22, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 11:02:57 --- INFO: Lexus RX 350 2013 - found: 37, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 11:02:57 --- INFO: finish: 18-11-2013 11:02:57
+18-11-2013 11:02:57 --- INFO: elapsed time: ~176.11 sec., memory usage: ~2.65 Mb.
+18-11-2013 14:00:01 --- INFO: start: 18-11-2013 14:00:01
+18-11-2013 14:00:03 --- INFO: ----------Source_Adesa (cli)
+18-11-2013 14:00:05 --- INFO: Authorized request
+18-11-2013 14:00:08 --- INFO: Lexus RX 330 - found: 6, pass primary filters: 3, did not pass the filter by colors: 3, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:09 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 14:00:09 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:10 --- INFO: Lexus GX 470 - found: 3, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: 1, added: 0, new vincodes: 0
+18-11-2013 14:00:11 --- INFO: Lexus LX 470 - found: 2, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: , added: 0, new vincodes: 0
+18-11-2013 14:00:11 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:12 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:13 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:14 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:15 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:16 --- INFO: Toyota 4RUNNER 4WD V6 - found: 12, pass primary filters: 6, did not pass the filter by colors: 1, did not pass the filter by options: , added: 5, new vincodes: 0
+18-11-2013 14:00:16 --- INFO: Toyota FJ cruiser - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:17 --- INFO: Lexus RX 350 2013 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:00:18 --- INFO: Toyota Highlander - found: 13, pass primary filters: 2, did not pass the filter by colors: 1, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 14:00:19 --- INFO: Lexus RX 350 - found: 9, pass primary filters: 8, did not pass the filter by colors: 3, did not pass the filter by options: 5, added: 0, new vincodes: 0
+18-11-2013 14:00:20 --- INFO: Toyota 4RUNNER Limited V6 - found: 13, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 14:00:20 --- INFO: finish: 18-11-2013 14:00:20
+18-11-2013 14:00:20 --- INFO: elapsed time: ~18.58 sec., memory usage: ~1.99 Mb.
+18-11-2013 14:30:01 --- INFO: start: 18-11-2013 14:30:01
+18-11-2013 14:30:01 --- INFO: ----------Source_ExpOfCars (cli)
+18-11-2013 14:30:04 --- INFO: Lexus RX 330 - found: 44, pass primary filters: 33, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 33, new vincodes: 0
+18-11-2013 14:30:05 --- INFO: Lexus RX 400H - found: 14, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 14:30:06 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 14:30:09 --- INFO: Lexus GX 470 - found: 49, pass primary filters: 49, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 49, new vincodes: 0
+18-11-2013 14:30:12 --- INFO: Lexus LX 470 - found: 20, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 0
+18-11-2013 14:30:15 --- INFO: Toyota Sequoia - found: 31, pass primary filters: 31, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 31, new vincodes: 0
+18-11-2013 14:30:16 --- INFO: Toyota Land Cruiser - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 14:30:17 --- INFO: Lexus LX 570 - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 14:30:19 --- INFO: Toyota Venza - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 14:30:20 --- INFO: Toyota 4runner 2010 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 14:30:23 --- INFO: Toyota 4RUNNER 4WD V6 - found: 57, pass primary filters: 24, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 24, new vincodes: 0
+18-11-2013 14:30:43 --- INFO: Toyota RAV 4 - found: 591, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:30:48 --- INFO: Toyota Highlander 4WD - found: 90, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 14:30:51 --- INFO: Toyota Highlander - found: 90, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 0
+18-11-2013 14:30:56 --- INFO: Lexus RX 350 - found: 120, pass primary filters: 84, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 84, new vincodes: 0
+18-11-2013 14:30:58 --- INFO: Toyota 4RUNNER Limited V6 - found: 69, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 14:31:00 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 14:31:01 --- INFO: Lexus RX 350 - found: 11, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+18-11-2013 14:31:03 --- INFO: Toyota Highlander - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 14:31:04 --- INFO: Lexus GS300 - found: 11, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 14:31:04 --- INFO: finish: 18-11-2013 14:31:04
+18-11-2013 14:31:04 --- INFO: elapsed time: ~62.88 sec., memory usage: ~3.49 Mb.
+18-11-2013 14:45:01 --- INFO: start: 18-11-2013 14:45:01
+18-11-2013 14:45:01 --- INFO: ----------Source_Oodle (cli)
+18-11-2013 14:45:04 --- INFO: Toyota Highlander - found: 71, pass primary filters: 16, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 16, new vincodes: 0
+18-11-2013 14:45:20 --- INFO: Lexus RX 330 - found: 636, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 14:45:20 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:45:34 --- INFO: Lexus GX 470 - found: 48, pass primary filters: 42, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 42, new vincodes: 1
+18-11-2013 14:45:55 --- INFO: Lexus GX 470 - found: 624, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+18-11-2013 14:46:01 --- INFO: Lexus LX 470 - found: 198, pass primary filters: 32, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 32, new vincodes: 0
+18-11-2013 14:46:11 --- INFO: Toyota Sequoia - found: 238, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 14:46:11 --- INFO: Toyota Land Cruiser - found: 22, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 14:46:12 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:46:12 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:46:13 --- INFO: Toyota 4runner 2010 - found: 8, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 14:46:40 --- INFO: Toyota 4RUNNER 4WD V6 - found: 1243, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:50:12 --- INFO: Toyota RAV 4 - found: 10236, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:50:36 --- INFO: Toyota Highlander 4WD - found: 1206, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:51:01 --- INFO: Toyota Highlander - found: 1206, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:51:48 --- INFO: Lexus RX 350 - found: 1969, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:52:19 --- INFO: Toyota 4RUNNER Limited V6 - found: 1478, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:52:19 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:52:22 --- INFO: Lexus RX 350 - found: 61, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 0
+18-11-2013 14:52:29 --- INFO: Lexus GS300 - found: 255, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 14:52:34 --- INFO: Toyota FJ cruiser - found: 222, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:52:43 --- INFO: Lexus RX 350 2013 - found: 360, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 14:52:43 --- INFO: finish: 18-11-2013 14:52:43
+18-11-2013 14:52:43 --- INFO: elapsed time: ~461.68 sec., memory usage: ~14.01 Mb.
+18-11-2013 15:00:02 --- INFO: start: 18-11-2013 15:00:02
+18-11-2013 15:00:02 --- INFO: ----------Source_AutoSalon (cli)
+18-11-2013 15:00:10 --- INFO: Lexus RX 330 - found: 44, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:00:13 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:00:16 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 15:00:34 --- INFO: Lexus GX 470 - found: 50, pass primary filters: 23, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 23, new vincodes: 0
+18-11-2013 15:00:43 --- INFO: Lexus LX 470 - found: 20, pass primary filters: 17, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 17, new vincodes: 0
+18-11-2013 15:00:46 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:00:48 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:00:54 --- INFO: Lexus LX 570 - found: 14, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 15:00:57 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:00 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:02 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:05 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:07 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:09 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:32 --- INFO: Lexus RX 350 - found: 119, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 15:01:35 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:01:40 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 15:01:44 --- INFO: Lexus RX 350 - found: 11, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 0
+18-11-2013 15:01:50 --- INFO: Toyota Highlander - found: 14, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 15:01:56 --- INFO: Lexus GS300 - found: 12, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 15:02:07 --- INFO: Toyota FJ cruiser - found: 19, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 15:02:15 --- INFO: Lexus RX 350 2013 - found: 32, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 15:02:15 --- INFO: finish: 18-11-2013 15:02:15
+18-11-2013 15:02:15 --- INFO: elapsed time: ~133.18 sec., memory usage: ~2.49 Mb.
+18-11-2013 18:00:01 --- INFO: start: 18-11-2013 18:00:01
+18-11-2013 18:00:01 --- INFO: ----------Source_Adesa (cli)
+18-11-2013 18:00:02 --- INFO: Authorized request
+18-11-2013 18:00:03 --- INFO: Lexus RX 330 - found: 6, pass primary filters: 3, did not pass the filter by colors: 3, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:03 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 18:00:06 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:07 --- INFO: Lexus GX 470 - found: 3, pass primary filters: 3, did not pass the filter by colors: 2, did not pass the filter by options: 1, added: 0, new vincodes: 0
+18-11-2013 18:00:07 --- INFO: Lexus LX 470 - found: 2, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: , added: 0, new vincodes: 0
+18-11-2013 18:00:08 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:09 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:09 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:10 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:11 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:11 --- INFO: Toyota 4RUNNER 4WD V6 - found: 12, pass primary filters: 6, did not pass the filter by colors: 1, did not pass the filter by options: , added: 5, new vincodes: 0
+18-11-2013 18:00:12 --- INFO: Toyota FJ cruiser - found: 2, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:12 --- INFO: Lexus RX 350 2013 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:00:13 --- INFO: Toyota Highlander - found: 13, pass primary filters: 2, did not pass the filter by colors: 1, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 18:00:14 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 8, did not pass the filter by colors: 3, did not pass the filter by options: 5, added: 0, new vincodes: 0
+18-11-2013 18:00:14 --- INFO: Toyota 4RUNNER Limited V6 - found: 13, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 18:00:14 --- INFO: finish: 18-11-2013 18:00:14
+18-11-2013 18:00:14 --- INFO: elapsed time: ~13.81 sec., memory usage: ~1.99 Mb.
+18-11-2013 18:30:02 --- INFO: start: 18-11-2013 18:30:02
+18-11-2013 18:30:02 --- INFO: ----------Source_ExpOfCars (cli)
+18-11-2013 18:30:09 --- INFO: Lexus RX 330 - found: 47, pass primary filters: 34, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 34, new vincodes: 0
+18-11-2013 18:35:11 --- INFO: Lexus RX 400H - found: 14, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 18:35:12 --- INFO: Lexus GX 470 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 18:35:15 --- INFO: Lexus GX 470 - found: 32, pass primary filters: 32, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 32, new vincodes: 0
+18-11-2013 18:35:22 --- INFO: Lexus LX 470 - found: 20, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 0
+18-11-2013 18:35:24 --- INFO: Toyota Sequoia - found: 31, pass primary filters: 31, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 31, new vincodes: 0
+18-11-2013 18:35:25 --- INFO: Toyota Land Cruiser - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 18:35:27 --- INFO: Lexus LX 570 - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 18:35:29 --- INFO: Toyota Venza - found: 13, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 18:35:29 --- INFO: Toyota 4runner 2010 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 18:35:34 --- INFO: Toyota 4RUNNER 4WD V6 - found: 66, pass primary filters: 27, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 27, new vincodes: 0
+18-11-2013 18:35:53 --- INFO: Toyota RAV 4 - found: 598, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:35:56 --- INFO: Toyota Highlander 4WD - found: 94, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 18:36:01 --- INFO: Toyota Highlander - found: 94, pass primary filters: 19, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 19, new vincodes: 0
+18-11-2013 18:36:16 --- INFO: Lexus RX 350 - found: 118, pass primary filters: 84, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 84, new vincodes: 1
+18-11-2013 18:36:19 --- INFO: Toyota 4RUNNER Limited V6 - found: 78, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 18:36:20 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 18:36:21 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 18:36:27 --- INFO: Toyota Highlander - found: 15, pass primary filters: 15, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 15, new vincodes: 0
+18-11-2013 18:36:28 --- INFO: Lexus GS300 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:36:28 --- INFO: finish: 18-11-2013 18:36:28
+18-11-2013 18:36:28 --- INFO: elapsed time: ~386 sec., memory usage: ~3.57 Mb.
+18-11-2013 18:45:01 --- INFO: start: 18-11-2013 18:45:01
+18-11-2013 18:45:02 --- INFO: ----------Source_Oodle (cli)
+18-11-2013 18:45:04 --- INFO: Toyota Highlander - found: 71, pass primary filters: 16, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 16, new vincodes: 0
+18-11-2013 18:45:19 --- INFO: Lexus RX 330 - found: 625, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 18:45:20 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:45:21 --- INFO: Lexus GX 470 - found: 45, pass primary filters: 39, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 39, new vincodes: 0
+18-11-2013 18:46:17 --- INFO: Lexus GX 470 - found: 611, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 18:46:23 --- INFO: Lexus LX 470 - found: 193, pass primary filters: 28, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 28, new vincodes: 0
+18-11-2013 18:46:29 --- INFO: Toyota Sequoia - found: 228, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 0
+18-11-2013 18:46:30 --- INFO: Toyota Land Cruiser - found: 22, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 18:46:30 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:46:31 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:46:32 --- INFO: Toyota 4runner 2010 - found: 8, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 18:46:58 --- INFO: Toyota 4RUNNER 4WD V6 - found: 1230, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:50:23 --- INFO: Toyota RAV 4 - found: 10077, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:50:52 --- INFO: Toyota Highlander 4WD - found: 1195, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:51:16 --- INFO: Toyota Highlander - found: 1195, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:52:03 --- INFO: Lexus RX 350 - found: 1940, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 18:52:33 --- INFO: Toyota 4RUNNER Limited V6 - found: 1462, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:52:33 --- INFO: Lexus GX 460 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:52:35 --- INFO: Lexus RX 350 - found: 61, pass primary filters: 8, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 8, new vincodes: 0
+18-11-2013 18:52:41 --- INFO: Lexus GS300 - found: 253, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:52:46 --- INFO: Toyota FJ cruiser - found: 220, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:52:56 --- INFO: Lexus RX 350 2013 - found: 351, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 18:52:56 --- INFO: finish: 18-11-2013 18:52:56
+18-11-2013 18:52:56 --- INFO: elapsed time: ~474.04 sec., memory usage: ~13.92 Mb.
+18-11-2013 19:00:01 --- INFO: start: 18-11-2013 19:00:01
+18-11-2013 19:00:01 --- INFO: ----------Source_AutoSalon (cli)
+18-11-2013 19:00:10 --- INFO: Lexus RX 330 - found: 44, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:00:13 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:00:19 --- INFO: Lexus GX 470 - found: 6, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 19:00:38 --- INFO: Lexus GX 470 - found: 51, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 19:00:46 --- INFO: Lexus LX 470 - found: 21, pass primary filters: 18, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 18, new vincodes: 0
+18-11-2013 19:00:49 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:00:52 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:00:56 --- INFO: Lexus LX 570 - found: 14, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 19:00:58 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:01 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:04 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:06 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:09 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:11 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:35 --- INFO: Lexus RX 350 - found: 120, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 19:01:37 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:01:41 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 19:01:44 --- INFO: Lexus RX 350 - found: 11, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 0
+18-11-2013 19:01:50 --- INFO: Toyota Highlander - found: 14, pass primary filters: 7, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 7, new vincodes: 0
+18-11-2013 19:01:53 --- INFO: Lexus GS300 - found: 12, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 19:02:03 --- INFO: Toyota FJ cruiser - found: 20, pass primary filters: 11, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 11, new vincodes: 0
+18-11-2013 19:02:12 --- INFO: Lexus RX 350 2013 - found: 32, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 19:02:12 --- INFO: finish: 18-11-2013 19:02:12
+18-11-2013 19:02:12 --- INFO: elapsed time: ~130.77 sec., memory usage: ~2.5 Mb.
+18-11-2013 22:00:01 --- INFO: start: 18-11-2013 22:00:01
+18-11-2013 22:00:01 --- INFO: ----------Source_Adesa (cli)
+18-11-2013 22:00:02 --- INFO: Authorized request
+18-11-2013 22:00:03 --- INFO: Lexus RX 330 - found: 6, pass primary filters: 3, did not pass the filter by colors: 3, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:03 --- INFO: Lexus RX 400H - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 22:00:04 --- INFO: Lexus GX 470 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:11 --- INFO: Lexus GX 470 - found: 4, pass primary filters: 4, did not pass the filter by colors: 2, did not pass the filter by options: 1, added: 1, new vincodes: 1
+18-11-2013 22:00:11 --- INFO: Lexus LX 470 - found: 2, pass primary filters: 2, did not pass the filter by colors: 2, did not pass the filter by options: , added: 0, new vincodes: 0
+18-11-2013 22:00:12 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:12 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:13 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:14 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:14 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:17 --- INFO: Toyota 4RUNNER 4WD V6 - found: 12, pass primary filters: 7, did not pass the filter by colors: 2, did not pass the filter by options: , added: 5, new vincodes: 0
+18-11-2013 22:00:18 --- INFO: Toyota FJ cruiser - found: 3, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:18 --- INFO: Lexus RX 350 2013 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:00:19 --- INFO: Toyota Highlander - found: 16, pass primary filters: 2, did not pass the filter by colors: 1, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 22:00:20 --- INFO: Lexus RX 350 - found: 12, pass primary filters: 9, did not pass the filter by colors: 4, did not pass the filter by options: 5, added: 0, new vincodes: 0
+18-11-2013 22:00:20 --- INFO: Toyota 4RUNNER Limited V6 - found: 13, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: , added: 1, new vincodes: 0
+18-11-2013 22:00:20 --- INFO: finish: 18-11-2013 22:00:20
+18-11-2013 22:00:20 --- INFO: elapsed time: ~19.36 sec., memory usage: ~2.05 Mb.
+18-11-2013 22:30:01 --- INFO: start: 18-11-2013 22:30:01
+18-11-2013 22:30:01 --- INFO: ----------Source_ExpOfCars (cli)
+18-11-2013 22:30:04 --- INFO: Lexus RX 330 - found: 40, pass primary filters: 31, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 31, new vincodes: 0
+18-11-2013 22:30:06 --- INFO: Lexus RX 400H - found: 14, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 22:30:07 --- INFO: Lexus GX 470 - found: 3, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 22:30:10 --- INFO: Lexus GX 470 - found: 28, pass primary filters: 28, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 28, new vincodes: 0
+18-11-2013 22:30:11 --- INFO: Lexus LX 470 - found: 20, pass primary filters: 20, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 20, new vincodes: 0
+18-11-2013 22:30:14 --- INFO: Toyota Sequoia - found: 29, pass primary filters: 29, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 29, new vincodes: 0
+18-11-2013 22:30:15 --- INFO: Toyota Land Cruiser - found: 4, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 22:30:17 --- INFO: Lexus LX 570 - found: 14, pass primary filters: 14, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 14, new vincodes: 0
+18-11-2013 22:30:18 --- INFO: Toyota Venza - found: 13, pass primary filters: 13, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 13, new vincodes: 0
+18-11-2013 22:30:20 --- INFO: Toyota 4runner 2010 - found: 2, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 22:30:23 --- INFO: Toyota 4RUNNER 4WD V6 - found: 60, pass primary filters: 24, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 24, new vincodes: 0
+18-11-2013 22:30:44 --- INFO: Toyota RAV 4 - found: 582, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:30:47 --- INFO: Toyota Highlander 4WD - found: 86, pass primary filters: 3, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 3, new vincodes: 0
+18-11-2013 22:30:52 --- INFO: Toyota Highlander - found: 86, pass primary filters: 17, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 17, new vincodes: 0
+18-11-2013 22:30:58 --- INFO: Lexus RX 350 - found: 108, pass primary filters: 77, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 77, new vincodes: 0
+18-11-2013 22:31:00 --- INFO: Toyota 4RUNNER Limited V6 - found: 72, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 22:31:01 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 2, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 2, new vincodes: 0
+18-11-2013 22:31:03 --- INFO: Lexus RX 350 - found: 10, pass primary filters: 10, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 10, new vincodes: 0
+18-11-2013 22:31:04 --- INFO: Toyota Highlander - found: 12, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 22:31:05 --- INFO: Lexus GS300 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:31:05 --- INFO: finish: 18-11-2013 22:31:05
+18-11-2013 22:31:05 --- INFO: elapsed time: ~63.95 sec., memory usage: ~3.34 Mb.
+18-11-2013 22:45:02 --- INFO: start: 18-11-2013 22:45:02
+18-11-2013 22:45:02 --- INFO: ----------Source_Oodle (cli)
+18-11-2013 22:45:04 --- INFO: Toyota Highlander - found: 72, pass primary filters: 17, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 17, new vincodes: 0
+18-11-2013 22:45:18 --- INFO: Lexus RX 330 - found: 631, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 22:45:19 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:45:20 --- INFO: Lexus GX 470 - found: 46, pass primary filters: 39, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 39, new vincodes: 0
+18-11-2013 22:45:45 --- INFO: Lexus GX 470 - found: 609, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 22:46:25 --- INFO: Lexus LX 470 - found: 189, pass primary filters: 23, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 23, new vincodes: 0
+18-11-2013 22:46:31 --- INFO: Toyota Sequoia - found: 232, pass primary filters: 9, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 9, new vincodes: 0
+18-11-2013 22:46:31 --- INFO: Toyota Land Cruiser - found: 21, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 22:46:32 --- INFO: Lexus LX 570 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:46:32 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:46:33 --- INFO: Toyota 4runner 2010 - found: 8, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 22:46:59 --- INFO: Toyota 4RUNNER 4WD V6 - found: 1228, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:50:28 --- INFO: Toyota RAV 4 - found: 10038, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:51:05 --- INFO: Toyota Highlander 4WD - found: 1194, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:51:41 --- INFO: Toyota Highlander - found: 1194, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 22:52:24 --- ERROR: Database_Exception [ 0 ]: [1062] Duplicate entry '75085' for key 'PRIMARY' ( INSERT INTO `ccl_grabber_cars` (`id`, `source_id`, `target_id`, `search_id`, `date_added`, `date_auction`, `name`, `vincode`, `vincode_date_added`, `mileage`, `price`, `options`, `interior_code`, `exterior_code`, `interior`, `exterior`, `date_made`, `url`, `picture`, `state`) VALUES ('75085', '13', '19', '13019', '2013-11-18 22:52:24', '', '2007 Lexus rx 350 Blue, 126K miles', '2T2HK31UX7C026830', '2013-11-09 04:04:36', '126058', '13847', '', 'LA00', '8R6', '', 'Blue', '200608', 'http://cars.oodle.com/r_a2xx_/3513669832-2p456,485-712580A5D01E/www.cars.com___f80UIMUlHIhWlwoFEQdiixaZBaT1j-jYgyAnl__DHV2d6qTpZxGgUMx49n2xGZKr6-dOcMn-VrMv_WQ-OwCJVnNciBRmSPDsJIDWO7kWHUdQb44cdKArew,,', '1', NULL) ) ~ MODPATH/database/classes/kohana/database/mysql.php [ 181 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(225): Kohana_Database_MySQL->query(2, 'INSERT INTO `cc...', false, Array)
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/model/core.php(474): Jelly_Builder_Core->execute()
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/model/cars.php(89): Jelly_Model_Core->save()
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source/oodle.php(181): Model_Cars->color_filter(13019, Array)
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(48): Source_Oodle->execute()
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(36): Source->run()
+#7 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#8 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#11 {main}
+18-11-2013 23:00:01 --- INFO: start: 18-11-2013 23:00:01
+18-11-2013 23:00:01 --- INFO: ----------Source_AutoSalon (cli)
+18-11-2013 23:00:14 --- INFO: Lexus RX 330 - found: 52, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:00:16 --- INFO: Lexus RX 400H - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:00:24 --- INFO: Lexus GX 470 - found: 7, pass primary filters: 5, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 5, new vincodes: 0
+18-11-2013 23:01:07 --- INFO: Lexus GX 470 - found: 59, pass primary filters: 9, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 9, new vincodes: 1
+18-11-2013 23:02:20 --- INFO: Lexus LX 470 - found: 22, pass primary filters: 19, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 19, new vincodes: 1
+18-11-2013 23:02:23 --- INFO: Toyota Sequoia - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:25 --- INFO: Toyota Land Cruiser - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:35 --- INFO: Lexus LX 570 - found: 16, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 23:02:38 --- INFO: Toyota Venza - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:40 --- INFO: Toyota 4runner 2010 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:43 --- INFO: Toyota 4RUNNER 4WD V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:45 --- INFO: Toyota RAV 4 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:48 --- INFO: Toyota Highlander 4WD - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:02:50 --- INFO: Toyota Highlander - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:03:33 --- INFO: Lexus RX 350 - found: 146, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 0
+18-11-2013 23:03:35 --- INFO: Toyota 4RUNNER Limited V6 - found: 0, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:03:38 --- INFO: Lexus GX 460 - found: 2, pass primary filters: 1, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 1, new vincodes: 0
+18-11-2013 23:03:42 --- INFO: Lexus RX 350 - found: 12, pass primary filters: 6, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 6, new vincodes: 0
+18-11-2013 23:03:54 --- INFO: Toyota Highlander - found: 19, pass primary filters: 9, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 9, new vincodes: 0
+18-11-2013 23:03:58 --- INFO: Lexus GS300 - found: 12, pass primary filters: 4, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 4, new vincodes: 0
+18-11-2013 23:04:05 --- INFO: Toyota FJ cruiser - found: 23, pass primary filters: 12, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 12, new vincodes: 1
+18-11-2013 23:04:16 --- INFO: Lexus RX 350 2013 - found: 34, pass primary filters: 0, did not pass the filter by colors: 0, did not pass the filter by options: 0, added: 0, new vincodes: 0
+18-11-2013 23:04:16 --- INFO: finish: 18-11-2013 23:04:16
+18-11-2013 23:04:16 --- INFO: elapsed time: ~255.11 sec., memory usage: ~2.77 Mb.

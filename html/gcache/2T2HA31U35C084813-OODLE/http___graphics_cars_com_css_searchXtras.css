@@ -1,0 +1,266 @@
+/* Formerly searchSummary.css */
+
+
+
+
+#mainContent { 
+	width: auto;  
+	max-width: 980px;
+	min-width: 940px;  
+}
+* html #mainContent {
+   width:expression(document.documentElement.clientWidth > 981 ? '980px' : (document.documentElement.clientWidth < 940 ? '939px' : 'auto'));
+}
+
+#cpoOverviewBox {
+   margin: 10px 0px 10px 0px;
+   padding: 10px 0px 0px 0px;
+}
+
+#cpoOverviewBox .dottedrule {
+   width: 100%;
+   margin: 0px 0px 10px 0px;
+}
+
+#cpoOverviewBox h3 {
+   display: inline;
+}
+
+
+#cpoOverviewBox .cpologo {
+	float: right;
+   	margin: 10px 15px 10px 0px;
+}   
+#configuratorBox {
+   margin: 30px 0px 30px 0px;
+}
+#vehicleDescriptionBox .label {
+   font-size: 10px;
+}
+
+.adpay{
+text-align: left !important;
+float: left !important;
+padding-top: 10px;
+}
+
+
+/**********************************************************************/
+/* Mercedes-Benz Pointroll/Peelback Ad */
+/**********************************************************************/
+
+
+#cpoOverviewBox ul{
+	padding-bottom:0px;
+}
+
+#cpoRollHold {
+	height: 100px;
+	width: 100px;
+	float: right;
+	display:none;
+}
+
+#prRollAd {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+#cpoLinkHold{
+ 	margin-bottom: 25px;
+ 	padding: 0px;
+	display:none;
+}
+
+#prLinkLoad ul{
+	padding: 0px;
+}
+
+/* Featured equipment module */
+.featuredArrow{
+	text-align:right;
+	size:10px;
+	margin: 10px 0px 0px 0px;
+}
+#featuredEquipment {
+	background-color: #F7F7F7;
+	border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    height: 65px;
+	margin: 0px 0px 0px 0px;
+}
+
+.featuredEquipmentLogo {
+	
+	background-color:#F7F7F7;
+	height: 30px;
+	border: 0px;
+	float: left;
+	margin: 7px 0px 20px 20px;
+}
+
+
+.carfax {
+display:inline;
+background-image:url(/search/images/reskin/carfaxAggResults.gif);
+background-repeat: no-repeat;
+background-position: 0 2px;
+padding-left: 16px;
+margin-left: 0px;
+padding-bottom: 3px;
+}
+
+a.divLink{
+text-decoration: none !important;
+}
+
+.fauxLink{
+text-decoration: underline;
+}
+a:hover .fauxLink {
+text-decoration: none;
+}
+
+
+#configuratorBoxPlusPhone{
+margin-top: 10px;
+}
+
+.configPlusHeader{
+background-image:url(/images/icon_pushpin.gif);
+background-repeat: no-repeat;
+font-weight: bold;
+padding-left: 20px;
+margin-bottom: 3px;
+}
+
+/**********************************************************************/
+/* BV summary in Details */
+/**********************************************************************/
+
+div#bvAvgRating {
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+div#bvStarWrapper {
+	margin-right: 5px;
+	display: inline;
+	line-height: 14px;
+	vertical-align: text-bottom;
+}
+ 
+div#bvStarWrapper img {
+	vertical-align: middle;
+}
+ 
+ 
+
+/**********************************************************************/
+/* New Vehicle Inventory (NVI) CSS */
+/**********************************************************************/
+
+ #nviModule {
+width: 100%
+margin:10px 0px;
+padding:10px 0px 0px;
+}
+
+#nviModule h3 {
+margin-top: 10px;
+}
+
+#nviModule .nviLogoBox {
+float:right;
+margin:12px 15px 10px 0px;
+text-align:left;
+width:120px;
+}
+
+.nviLogo {
+border:1px solid #9A9A9A;
+}
+
+#nviModule ul {
+padding-bottom:0px;
+}
+
+#nviModule ul li {
+line-height:100%;
+background:transparent url(/images/bullet_square.gif) no-repeat scroll 0px 6px;
+}
+
+.nviDetails {
+margin-left:10px;
+}
+
+.nviDownloadLink {
+margin:10px 0px 15px;
+}
+
+.nviDownloadLink a {
+background:transparent url(http://www.cars.com/finance/images/download.gif) no-repeat scroll left center;
+padding:0pt 0pt 5pt 20px;
+}
+
+#phoneplaceholder{
+width: 125px;
+}
+
+#feat_wrapper table{
+width: 500px;
+}
+#mainContent #feat_wrapper table{
+width: 450px;
+}
+#feat_wrapper td, #feat_wrapper ul{
+width: 200px !important;
+}
+
+
+
+#page .fexp-wrapper {
+    padding-left: 15px;
+    width: auto;
+}
+
+
+#page .vdp-features ul li {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 11px;
+    list-style: none outside none;
+    padding: 0 0 5px;
+}
+
+
+#page #feat_wrapper td, #page #feat_wrapper th {
+    padding: 5px 0;
+}
+
+#page #feat_wrapper .container-a {
+    width: 170px;
+}
+
+
+#page .fexp-wrapper{
+border-color: #E1E1E1;
+border-style: solid solid none;
+border-width: 1px 1px 0;
+
+}
+
+
+#page .fexp-expand-content{
+overflow-x: hidden;
+}
+
+#page #vehicleFeaturesBox strong {
+
+color: #333333;
+
+font: bold 13px Arial,Helvetica,sans-serif;
+
+}
+
+

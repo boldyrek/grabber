@@ -1,0 +1,16 @@
+/* widgets.css - Cars.com reusable widget styles
+    - part of cars global.css lib */
+
+.consumer-rating { margin: 10px 0; }
+  .consumer-rating h4 { margin: 0; }
+  .consumer-rating img { vertical-align: top; }
+  .consumer-rating .rating-value { color: #777; }
+    .numeric a { text-decoration: none; color: #999; }
+  .consumer-rating .actions { white-space: nowrap; }
+  .consumer-rating .vehicle-name { font-weight: normal; white-space: nowrap; color: #777; font-size: 12px; }
+
+/* all widgets default to horizontal */
+.vertical { }
+  /* consumer rating */
+  .vertical .rating-value { display: block; }
+  .vertical .actions { display: block; }

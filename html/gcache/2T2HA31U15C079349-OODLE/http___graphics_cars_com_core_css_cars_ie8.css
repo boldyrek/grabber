@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+.main-header .logo {
+	/*margin: 2px 0 0 0;*/
+}
+
+input[type=text] {
+	background: url(/images/core/form-elements-bg.png) repeat-x left top #fff;
+}
+
+.promo .details {
+	background: url(/images/core/promo-detail-bg.png) repeat left top transparent;
+}
+
+.simple-pagination .right, .simple-pagination .left, .pagination .right, .pagination .left {
+	background: url(/images/core/scroll-left-small.png) no-repeat center center #EEF1F3;
+}
+
+.simple-pagination .right, .pagination .right {
+	background-image: url(/images/core/scroll-right-small.png);
+}
+
+.tooltip .tooltip-content{
+	border: 1px solid #e1e1e1;
+}
+
+.overlay {
+	border: 3px solid #e1e1e1;
+	}
+
+.select {
+	background-position: right 0px;
+	padding: 6px 5px 6px 5px;
+}
+
+/* Global Menu */
+.primary-navbar ul.navbar-list li a, .primary-navbar ul.navbar-list li a:visited, .primary-navbar ul.navbar-list li:hover a {
+    height: 39px;
+}
+
+.primary-navbar li a, .primary-navbar li a:visited {
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.primary-navbar li:hover a {
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.primary-navbar ul.navbar-list li ul.navbar-dropdown li a{
+    border: 0px;
+}
+
+.primary-navbar ul.navbar-list li.active a, .primary-navbar ul.navbar-list li a:hover, .primary-navbar ul.navbar-list li a:visited:hover {
+    color: #7f3082;
+    background: #fff;
+}
+
+.navbar-dropdown {
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.primary-navbar li .right-align {
+    left: auto!important;
+    right: 0!important;
+}
+
+/* Dealer Profile Page */
+#dealer-latest-offers .gallery .items img {
+display:block;
+}
+
+.email-dealer-form input[type="submit"].small {
+width:124px;
+}
+/* /end Dealer Profile Page */
+
+#crp .col9 {
+	width: 143px;
+	overflow: hidden;
+}

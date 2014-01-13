@@ -1,0 +1,451 @@
+
+01-12-2013 02:00:01 --- INFO: start: 01-12-2013 02:00:01
+01-12-2013 02:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(2)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(2)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 02:15:01 --- INFO: start: 01-12-2013 02:15:01
+01-12-2013 02:15:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(7)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(7)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 02:30:01 --- INFO: start: 01-12-2013 02:30:01
+01-12-2013 02:30:02 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(12)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(12)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('12', 'home/execute/12', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 02:45:01 --- INFO: start: 01-12-2013 02:45:01
+01-12-2013 02:45:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(13)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(13)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 03:00:01 --- INFO: start: 01-12-2013 03:00:01
+01-12-2013 03:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(14)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(14)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('14', 'home/execute/14', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 06:00:01 --- INFO: start: 01-12-2013 06:00:01
+01-12-2013 06:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(2)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(2)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 06:15:01 --- INFO: start: 01-12-2013 06:15:01
+01-12-2013 06:15:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(7)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(7)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 06:30:01 --- INFO: start: 01-12-2013 06:30:01
+01-12-2013 06:30:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(12)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(12)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('12', 'home/execute/12', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 06:45:01 --- INFO: start: 01-12-2013 06:45:01
+01-12-2013 06:45:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(13)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(13)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 07:00:01 --- INFO: start: 01-12-2013 07:00:01
+01-12-2013 07:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(14)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(14)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('14', 'home/execute/14', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 10:00:01 --- INFO: start: 01-12-2013 10:00:01
+01-12-2013 10:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(2)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(2)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 10:15:01 --- INFO: start: 01-12-2013 10:15:01
+01-12-2013 10:15:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(7)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(7)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 10:30:01 --- INFO: start: 01-12-2013 10:30:01
+01-12-2013 10:30:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(12)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(12)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('12', 'home/execute/12', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 10:45:01 --- INFO: start: 01-12-2013 10:45:01
+01-12-2013 10:45:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(13)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(13)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 11:00:01 --- INFO: start: 01-12-2013 11:00:01
+01-12-2013 11:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(14)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(14)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('14', 'home/execute/14', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 14:00:01 --- INFO: start: 01-12-2013 14:00:01
+01-12-2013 14:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(2)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(2)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 14:15:01 --- INFO: start: 01-12-2013 14:15:01
+01-12-2013 14:15:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(7)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(7)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 14:30:01 --- INFO: start: 01-12-2013 14:30:01
+01-12-2013 14:30:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(12)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(12)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('12', 'home/execute/12', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 14:45:01 --- INFO: start: 01-12-2013 14:45:01
+01-12-2013 14:45:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(13)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(13)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 15:00:01 --- INFO: start: 01-12-2013 15:00:01
+01-12-2013 15:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(14)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(14)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('14', 'home/execute/14', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 18:00:01 --- INFO: start: 01-12-2013 18:00:01
+01-12-2013 18:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(2)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(2)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 18:15:01 --- INFO: start: 01-12-2013 18:15:01
+01-12-2013 18:15:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(7)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(7)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 18:30:01 --- INFO: start: 01-12-2013 18:30:01
+01-12-2013 18:30:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(12)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(12)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('12', 'home/execute/12', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 18:45:01 --- INFO: start: 01-12-2013 18:45:01
+01-12-2013 18:45:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(13)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(13)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 19:00:01 --- INFO: start: 01-12-2013 19:00:01
+01-12-2013 19:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(14)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(14)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('14', 'home/execute/14', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 22:00:01 --- INFO: start: 01-12-2013 22:00:01
+01-12-2013 22:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(2)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(2)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('2', 'home/execute/2', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 22:15:01 --- INFO: start: 01-12-2013 22:15:01
+01-12-2013 22:15:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(7)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(7)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('7', 'home/execute/7', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 22:30:01 --- INFO: start: 01-12-2013 22:30:01
+01-12-2013 22:30:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(12)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(12)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('12', 'home/execute/12', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 22:45:01 --- INFO: start: 01-12-2013 22:45:01
+01-12-2013 22:45:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(13)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(13)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('13', 'home/execute/13', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}
+01-12-2013 23:00:01 --- INFO: start: 01-12-2013 23:00:01
+01-12-2013 23:00:01 --- ERROR: Database_Exception [ 0 ]: [1045] Access denied for user 'root'@'localhost' (using password: YES) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+#0 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/mysql.php(420): Kohana_Database_MySQL->connect()
+#1 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/database.php(7): Kohana_Database_MySQL->escape(14)
+#2 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder.php(116): Database->quote(14)
+#3 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query/builder/delete.php(61): Kohana_Database_Query_Builder->_compile_conditions(Object(Database_MySQL), Array)
+#4 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/database/classes/kohana/database/query.php(210): Kohana_Database_Query_Builder_Delete->compile(Object(Database_MySQL))
+#5 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/modules/jelly/classes/jelly/builder/core.php(108): Kohana_Database_Query->execute('default')
+#6 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/source.php(55): Jelly_Builder_Core->execute()
+#7 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/application/1.1.0/classes/controller/home.php(35): Source->reset()
+#8 [internal function]: Controller_Home->action_execute('14', 'home/execute/14', Object(Route))
+#9 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request/client/internal.php(132): ReflectionMethod->invokeArgs(Object(Controller_Home), Array)
+#10 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/system/classes/kohana/request.php(964): Kohana_Request_Client_Internal->execute(Object(Request))
+#11 /home/clients/boldyrek_ftp0/domains/grabber.makmalauto.com/html/cron/grabber/index.php(110): Kohana_Request->execute()
+#12 {main}

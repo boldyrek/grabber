@@ -1,0 +1,108 @@
+/* Total width of ads is controlled by the container */
+.wrapper1 {width:430px;}
+.wrapper2 {width:315px;}
+
+/* General shared styles for each of the advertbox variants */
+.advertbox, .advertboxSmall {width: 100%;color:#164F72;background-color:#F2FAFF;font-size:10px;font-family: verdana, arial, helvetica, sans-serif;border:1px solid #6B9FBF;margin-bottom: 30px;}
+#sectionPage table.advertbox {width: 300px;}
+#storyPage .advertbox {width: 430px;}
+.advertbox td {padding: 10px 10px 10px 10px; vertical-align: top;}
+.advertboxSmall td {padding: 5px;}
+
+/* Zero out unnecessary inherited list spacing */
+.advertbox ul, .advertboxSmall ul {margin: 0;padding:0;}
+.advertbox li, .advertboxSmall li {margin:0;list-style-image:none;}
+.advertbox th, .advertboxSmall th {background-color: transparent;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; border-color: #6B9FBF; color: #164F72;}
+.advertbox .hdr{color:#164F72; border-bottom :1px solid #6B9FBF;font-size:12px; font-weight:bold; padding-left:10px; padding-top:4px; padding-bottom:4px; background-color:#F2FAFF;}
+
+/* Fix the width of the logo tile container cell and center the image */
+.advertboxSmall td.colLogo {width: 100px;vertical-align: middle;text-align: center;}
+
+/* Tighten the vertical spacing between the list items in the Small version and move the bullet accordingly */
+.advertboxSmall li {padding-top: 1px;background-position: 0 6px;}
+
+/* custom span to control the space betwwen line on Homepage Sponsorlinks box */
+span.advertboxSpace {margin-bottom: 10px;display: block;}
+
+/* Industry Brains modifications for the Homepage, Research Index and Buy Index */
+#homepagebrains {width: 390px;}
+#indexpagebrains {width: 320px;}
+#homepagebrains .advertboxSpace {margin-bottom: 14px;margin-top: 0px;}
+.advertbox .ftr{border-top : 1px solid #6B9FBF;    padding-left:10px;    padding-top:4px;    padding-bottom:4px;}
+.brainsTitle {font-weight: bold;}
+.friendlyUrl {color: #996633;}
+
+/*#textAds{width:760px;}
+.textAd1{width:240px;float:left;margin:5px;}
+.textAd2{width:240px;float:left;margin:5px;}
+.textAd3{width:240px;float:left;margin:5px;}
+*/
+
+#textAdsWrapper{width:760px}
+div.textAds {
+	background-color: #f7f7f7;
+	border-color: #CCCCCC;
+	border-bottom: 1px solid #E1E1E1;
+	border-top: 1px solid #E1E1E1;
+	overflow: hidden;
+	padding: 10px 0;
+	}
+div.textAds .textAd1, div.textAds .textAd2, div.textAds .textAd3 {
+	float: left;
+	width: 222px;
+	padding: 0 15px 0 15px;
+	}
+div.textAds .textAd2 {
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	}
+	
+div.textAds .adHead {
+	font-weight: bold;
+	line-height: 120%;
+	}
+div.textAds .adBody {
+	margin-bottom: 5px;
+	}
+	
+div.textAds .adLink{
+	font-size: 90%;
+	}
+/* override for the modules included in Insurance Advice section */	
+div.textAdsAdvice {
+/*	background-color: #f7f7f7;
+	border-color: #CCCCCC;
+	border-bottom: 1px solid #E1E1E1;
+	border-top: 1px solid #E1E1E1;
+*/	
+	overflow: hidden;
+	padding: 10px 0;
+	}
+div.textAdsAdvice .textAd1, div.textAdsAdvice .textAd2, div.textAdsAdvice .textAd3 {
+	float: left;
+	width: 222px;
+	padding: 0 15px 0 15px;
+	}
+div.textAdsAdvice .textAd2 {
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	}
+	
+div.textAdsAdvice .adHead {
+	font-weight: bold;
+	line-height: 120%;
+	}
+div.textAdsAdvice .adBody {
+	padding: 0px 10px 0px 0px;
+	margin-bottom: 5px;
+	}
+	
+div.textAdsAdvice .adLink{
+	font-size: 90%;
+	}
+
+.advertLabel {
+	color: #999999;
+	font-size: 9px;
+	text-align: right;
+	}
